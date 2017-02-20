@@ -1,0 +1,2 @@
+/usr/bin/ar cq lib/librcssgz.a  CMakeFiles/rcssgz.dir/rcssbase/gzip/gzfstream.cpp.o CMakeFiles/rcssgz.dir/rcssbase/gzip/gzstream.cpp.o
+/usr/bin/ranlib lib/librcssgz.a

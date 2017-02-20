@@ -1,0 +1,35 @@
+[2016-09-14_14:03:21] STARTING AGENT 0_1
+=====================================
+=====================================
+New agent called
+***** Loading agent implementation
+***** Connecting to HFO server on port 12345
+******************************************************************
+ librcsc 4.1.0
+ Copyright 2000 - 2007. Hidehisa Akiyama.
+ Copyright 2007 - 2011. Hidehisa Akiyama and Hiroki Shimora
+ All rights reserved.
+******************************************************************
+base_left 7: [0, 5]  see synch.
+Feature 1 Violated Feature Bounds: -21 Expected min/max: [-5.25, 57.75]
+Feature 7 Violated Feature Bounds: 82.2876 Expected min/max: [0, 62.548]
+Feature 10 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 13 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 14 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 23 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 1 Violated Feature Bounds: -21 Expected min/max: [-5.25, 57.75]
+Feature 7 Violated Feature Bounds: 82.2876 Expected min/max: [0, 62.548]
+Feature 10 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 13 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 14 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 23 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+***** Problems while connecting? None
+***** 7: Agent uses CMAC(20,0.3,0.1)
+***** 7: Agent online --> Agent: 7, Type: AdHoc, Training steps: 0, Q-Table size: 0
+***** 7: Setting up train log files
+***** 7: Setting up eval log files
+***** 7: Start training
+Feature 17 Violated Feature Bounds: 62.8294 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.8294 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.8294 Expected min/max: [0, 62.548]
+***** 7: Agent --> Agent: 7, Type: AdHoc, Training steps: 36394, Q-Table size: 247

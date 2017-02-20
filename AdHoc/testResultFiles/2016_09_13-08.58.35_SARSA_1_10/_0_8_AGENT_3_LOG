@@ -1,0 +1,32 @@
+[2016-09-13_10:25:59] STARTING AGENT 0_3
+=====================================
+=====================================
+New agent called
+***** Loading agent implementation
+***** Connecting to HFO server on port 12345
+******************************************************************
+ librcsc 4.1.0
+ Copyright 2000 - 2007. Hidehisa Akiyama.
+ Copyright 2007 - 2011. Hidehisa Akiyama and Hiroki Shimora
+ All rights reserved.
+******************************************************************
+base_left 11: [0, 5]  see synch.
+Feature 1 Violated Feature Bounds: -33 Expected min/max: [-5.25, 57.75]
+Feature 7 Violated Feature Bounds: 93.1625 Expected min/max: [0, 62.548]
+Feature 10 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 13 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 14 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 23 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 1 Violated Feature Bounds: -33 Expected min/max: [-5.25, 57.75]
+Feature 7 Violated Feature Bounds: 93.1625 Expected min/max: [0, 62.548]
+Feature 10 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 13 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 14 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 23 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+***** Problems while connecting? None
+***** 11: Agent uses CMAC(20,0.3,0.1)
+***** 11: Agent online --> Agent: 11, Type: SARSA, Training steps: 0, Q-Table size: 0
+***** 11: Setting up train log files
+***** 11: Setting up eval log files
+***** 11: Start training
+***** 11: Agent --> Agent: 11, Type: SARSA, Training steps: 40871, Q-Table size: 208

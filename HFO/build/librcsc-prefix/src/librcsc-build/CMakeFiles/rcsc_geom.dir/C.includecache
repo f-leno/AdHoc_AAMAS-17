@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/leno/HFO/build/librcsc-prefix/src/librcsc/rcsc/geom/triangle/triangle.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+math.h
+-
+sys/time.h
+-
+float.h
+-
+fpu_control.h
+-
+triangle.h
+/home/leno/HFO/build/librcsc-prefix/src/librcsc/rcsc/geom/triangle/triangle.h
+
+/home/leno/HFO/build/librcsc-prefix/src/librcsc/rcsc/geom/triangle/triangle.h
+

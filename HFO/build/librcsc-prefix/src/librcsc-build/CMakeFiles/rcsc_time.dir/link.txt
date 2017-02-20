@@ -1,0 +1,2 @@
+/usr/bin/ar cq lib/librcsc_time.a  CMakeFiles/rcsc_time.dir/rcsc/time/timer.cpp.o
+/usr/bin/ranlib lib/librcsc_time.a

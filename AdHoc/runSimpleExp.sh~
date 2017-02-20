@@ -1,0 +1,2 @@
+python runSimpleExp "AdHocVisit"
+python runSimpleExp "AdHocTD"

@@ -1,0 +1,13 @@
+# Target labels
+ soccerwindow2
+# Source files and their labels
+/home/leno/HFO/build/CMakeFiles/soccerwindow2
+/home/leno/HFO/build/CMakeFiles/soccerwindow2.rule
+/home/leno/HFO/build/CMakeFiles/soccerwindow2-complete.rule
+/home/leno/HFO/build/soccerwindow2-prefix/src/soccerwindow2-stamp/soccerwindow2-install.rule
+/home/leno/HFO/build/soccerwindow2-prefix/src/soccerwindow2-stamp/soccerwindow2-mkdir.rule
+/home/leno/HFO/build/soccerwindow2-prefix/src/soccerwindow2-stamp/soccerwindow2-download.rule
+/home/leno/HFO/build/soccerwindow2-prefix/src/soccerwindow2-stamp/soccerwindow2-update.rule
+/home/leno/HFO/build/soccerwindow2-prefix/src/soccerwindow2-stamp/soccerwindow2-patch.rule
+/home/leno/HFO/build/soccerwindow2-prefix/src/soccerwindow2-stamp/soccerwindow2-configure.rule
+/home/leno/HFO/build/soccerwindow2-prefix/src/soccerwindow2-stamp/soccerwindow2-build.rule

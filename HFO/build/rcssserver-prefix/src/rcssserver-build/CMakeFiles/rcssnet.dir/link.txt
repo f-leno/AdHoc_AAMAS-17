@@ -1,0 +1,2 @@
+/usr/bin/ar cq lib/librcssnet.a  CMakeFiles/rcssnet.dir/rcssbase/net/tcpsocket.cpp.o CMakeFiles/rcssnet.dir/rcssbase/net/addr.cpp.o CMakeFiles/rcssnet.dir/rcssbase/net/socketstreambuf.cpp.o CMakeFiles/rcssnet.dir/rcssbase/net/socket.cpp.o CMakeFiles/rcssnet.dir/rcssbase/net/udpsocket.cpp.o
+/usr/bin/ranlib lib/librcssnet.a

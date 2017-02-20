@@ -1,0 +1,2 @@
+/usr/bin/ar cq lib/librcsc_gz.a  CMakeFiles/rcsc_gz.dir/rcsc/gz/gzfstream.cpp.o CMakeFiles/rcsc_gz.dir/rcsc/gz/gzcompressor.cpp.o CMakeFiles/rcsc_gz.dir/rcsc/gz/gzfilterstream.cpp.o
+/usr/bin/ranlib lib/librcsc_gz.a

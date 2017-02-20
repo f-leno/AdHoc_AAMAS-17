@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../src/HFO.hpp
+string
+-
+vector
+-
+common.hpp
+../src/common.hpp
+
+../src/common.hpp
+assert.h
+-
+stdlib.h
+-
+iostream
+-
+sstream
+-
+
+/home/leno/HFO/example/hfo_example_agent.cpp
+iostream
+-
+vector
+-
+HFO.hpp
+-
+cstdlib
+-
+

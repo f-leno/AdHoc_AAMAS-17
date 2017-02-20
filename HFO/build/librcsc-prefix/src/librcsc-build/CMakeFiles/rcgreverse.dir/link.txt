@@ -1,0 +1,1 @@
+/usr/bin/c++    -std=c++11 -fPIC -O3 -DNDEBUG   CMakeFiles/rcgreverse.dir/src/rcgreverse.cpp.o  -o bin/rcgreverse -rdynamic lib/librcsc_gz.a lib/librcsc_rcg.a -lz 

@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/leno/HFO/build/rcssserver-prefix/src/rcssserver/config.h
+
+/home/leno/HFO/build/rcssserver-prefix/src/rcssserver/rcssbase/gzip/gzfstream.cpp
+config.h
+-
+gzfstream.hpp
+/home/leno/HFO/build/rcssserver-prefix/src/rcssserver/rcssbase/gzip/gzfstream.hpp
+string
+-
+cstdio
+-
+zlib.h
+-
+
+/home/leno/HFO/build/rcssserver-prefix/src/rcssserver/rcssbase/gzip/gzfstream.hpp
+iostream
+-
+string
+-
+boost/scoped_ptr.hpp
+-
+
+/home/leno/HFO/build/rcssserver-prefix/src/rcssserver/rcssbase/gzip/gzstream.cpp
+gzstream.hpp
+/home/leno/HFO/build/rcssserver-prefix/src/rcssserver/rcssbase/gzip/gzstream.hpp
+config.h
+/home/leno/HFO/build/rcssserver-prefix/src/rcssserver/rcssbase/gzip/config.h
+zlib.h
+-
+
+/home/leno/HFO/build/rcssserver-prefix/src/rcssserver/rcssbase/gzip/gzstream.hpp
+boost/shared_ptr.hpp
+-
+iostream
+-
+

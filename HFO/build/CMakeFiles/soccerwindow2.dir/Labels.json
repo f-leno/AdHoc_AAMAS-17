@@ -1,0 +1,51 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "/home/leno/HFO/build/CMakeFiles/soccerwindow2"
+		},
+		
+		{
+			"file" : "/home/leno/HFO/build/CMakeFiles/soccerwindow2.rule"
+		},
+		
+		{
+			"file" : "/home/leno/HFO/build/CMakeFiles/soccerwindow2-complete.rule"
+		},
+		
+		{
+			"file" : "/home/leno/HFO/build/soccerwindow2-prefix/src/soccerwindow2-stamp/soccerwindow2-install.rule"
+		},
+		
+		{
+			"file" : "/home/leno/HFO/build/soccerwindow2-prefix/src/soccerwindow2-stamp/soccerwindow2-mkdir.rule"
+		},
+		
+		{
+			"file" : "/home/leno/HFO/build/soccerwindow2-prefix/src/soccerwindow2-stamp/soccerwindow2-download.rule"
+		},
+		
+		{
+			"file" : "/home/leno/HFO/build/soccerwindow2-prefix/src/soccerwindow2-stamp/soccerwindow2-update.rule"
+		},
+		
+		{
+			"file" : "/home/leno/HFO/build/soccerwindow2-prefix/src/soccerwindow2-stamp/soccerwindow2-patch.rule"
+		},
+		
+		{
+			"file" : "/home/leno/HFO/build/soccerwindow2-prefix/src/soccerwindow2-stamp/soccerwindow2-configure.rule"
+		},
+		
+		{
+			"file" : "/home/leno/HFO/build/soccerwindow2-prefix/src/soccerwindow2-stamp/soccerwindow2-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "soccerwindow2" ],
+		"name" : "soccerwindow2"
+	}
+}

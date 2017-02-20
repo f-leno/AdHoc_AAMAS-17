@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/leno/HFO/build/librcsc-prefix/src/librcsc/src/tableprinter.cpp
+iostream
+-
+fstream
+-
+iomanip
+-
+string
+-
+list
+-
+map
+-
+cstdio
+-
+cstring
+-
+

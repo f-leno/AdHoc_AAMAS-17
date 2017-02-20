@@ -1,0 +1,52 @@
+Run experiments:
+
+./experiments/run.sh -o=2 -d=1 -t=10 -f=100 -r=1 -a=Dummy -i=5 -e=5
+
+-i is the number of learning trials before each evaluation
+-e is the number of trials executed in each evaluation
+
+Then the experiment will run with the Dummy agent. It automatically
+calculates the total trials and the evaluation trials and calls the
+server accordingly. It saves all to ./experiments/LOGS/ directory with
+a file for every agent in every run and the server info in incomplete_?.hfo.
+
+
+Start experiment for debugger:
+./bin/HFO --offense-agents 2 --defense-npcs 1 --trials 20 --frames-per-trial 100 --fullstate
+python experiment.py -a Dummy  -i 5 -d 5 -t 10 -l /home/leno/HFO/HFO-master/log/Dummy
+
+
+IMPORTANT:
+- These are the files we work with:
+     run.sh
+     experiment.py
+     statespace_util.py
+     agents/agent.py
+     agents/dummy.py
+     agents/dummycom.py
+     agents/sarsa.py
+
+
+List of TODOs as in 07/09:
+
+- Make SARSA work:
+  -- Implement executionAction method in experiment.py - **Done [Leno]
+  -- Implement localFeatures method in experiment.py - **Done [Leno]
+  -- Check if the CMAC is working for state space approximation
+  -- Check if the Q-function is working with the CMAC based features
+- Implement our proposal:
+  -- Modify the communication implemented in the DummyCom agent to the
+     sarsa-based one - **Done - tests pending [Leno]
+  -- Change the exploration strategy to work with advising
+  -- Implement a method to translate one agent's state to another (maybe
+     transferring the CMAC state in a message is enough)
+  -- Implement the importance-based advising with our metrics
+  -- Check if the PASS actions are being advised correctly
+  -- Include in the output files the average of budget use
+- Check Environment
+  -- Is there a golie in the environment? YES
+  -- Are the agent starting the trials in random positions? YES
+- Implement Torrey and Taylor proposal
+   -- Modify our proposal to work with theirs importance metric
+- Implement graph output methods (only if we have enough-time, a hand-tailored
+  MATLAB graph can also be used)

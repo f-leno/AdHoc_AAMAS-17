@@ -1,0 +1,128 @@
+[2016-09-13_08:58:35] START EXPERIMENT
+=====================================
+./experiments/run.sh    --runs=10 --trials=500    --max-frames-per-trial=200    --max_untouched=200    --agent=SARSA    --offense-agents=3    --defense-agents=1    --mode=--headless    --evaluation_interval=10    --evaluation_duration=100    --seed=12345    --port=12345    --parallel_server=1
+=====================================
+[2016-09-13_08:58:35] GET BASE DIRECTORY: /home/ruben/playground/HFO/experiments
+[2016-09-13_08:58:35] MAKE LOG DIRECTORY: /home/ruben/playground/HFO/experiments/EVAL/2016_09_13-08.58.35_SARSA_1_10/
+[2016-09-13_08:58:37] STARTING RUN 1 ==================
+[2016-09-13_08:58:39] STARTING HFO SERVER
+[2016-09-13_08:58:39] HFO SERVER PID: 16719
+[2016-09-13_08:58:49] STARTING AGENT 0_1
+/home/ruben/playground/HFO/experiments/experiment.py -p 12345 -a SARSA -i 10 -d      100 -t 500 -l /home/ruben/playground/HFO/experiments/EVAL/2016_09_13-08.58.35_SARSA_1_10/_0_1_AGENT_1_RESULTS -s 12345      >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_13-08.58.35_SARSA_1_10/_0_1_AGENT_1_LOG & >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_13-08.58.35_SARSA_1_10/_0_1_AGENT_1_LOG
+[2016-09-13_08:58:54] STARTING AGENT 0_2
+/home/ruben/playground/HFO/experiments/experiment.py -p 12345 -a SARSA -i 10 -d      100 -t 500 -l /home/ruben/playground/HFO/experiments/EVAL/2016_09_13-08.58.35_SARSA_1_10/_0_1_AGENT_2_RESULTS -s 12345      >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_13-08.58.35_SARSA_1_10/_0_1_AGENT_2_LOG & >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_13-08.58.35_SARSA_1_10/_0_1_AGENT_2_LOG
+[2016-09-13_08:58:59] STARTING AGENT 0_3
+/home/ruben/playground/HFO/experiments/experiment.py -p 12345 -a SARSA -i 10 -d      100 -t 500 -l /home/ruben/playground/HFO/experiments/EVAL/2016_09_13-08.58.35_SARSA_1_10/_0_1_AGENT_3_RESULTS -s 12345      >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_13-08.58.35_SARSA_1_10/_0_1_AGENT_3_LOG & >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_13-08.58.35_SARSA_1_10/_0_1_AGENT_3_LOG
+[2016-09-13_09:10:14] SHUTTING DOWN SERVER 0 AND CLEANING UP
+‘/home/ruben/playground/HFO/experiments/EVAL/2016_09_13-08.58.35_SARSA_1_10/incomplete.hfo’ -> ‘/home/ruben/playground/HFO/experiments/EVAL/2016_09_13-08.58.35_SARSA_1_10/incomplete_1.hfo’
+[2016-09-13_09:10:14] END EXPERIMENT [DURATION=699s]
+[2016-09-13_09:11:14] STARTING RUN 2 ==================
+[2016-09-13_09:11:16] STARTING HFO SERVER
+[2016-09-13_09:11:16] HFO SERVER PID: 22175
+[2016-09-13_09:11:26] STARTING AGENT 0_1
+/home/ruben/playground/HFO/experiments/experiment.py -p 12345 -a SARSA -i 10 -d      100 -t 500 -l /home/ruben/playground/HFO/experiments/EVAL/2016_09_13-08.58.35_SARSA_1_10/_0_2_AGENT_1_RESULTS -s 12345      >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_13-08.58.35_SARSA_1_10/_0_2_AGENT_1_LOG & >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_13-08.58.35_SARSA_1_10/_0_2_AGENT_1_LOG
+[2016-09-13_09:11:31] STARTING AGENT 0_2
+/home/ruben/playground/HFO/experiments/experiment.py -p 12345 -a SARSA -i 10 -d      100 -t 500 -l /home/ruben/playground/HFO/experiments/EVAL/2016_09_13-08.58.35_SARSA_1_10/_0_2_AGENT_2_RESULTS -s 12345      >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_13-08.58.35_SARSA_1_10/_0_2_AGENT_2_LOG & >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_13-08.58.35_SARSA_1_10/_0_2_AGENT_2_LOG
+[2016-09-13_09:11:36] STARTING AGENT 0_3
+/home/ruben/playground/HFO/experiments/experiment.py -p 12345 -a SARSA -i 10 -d      100 -t 500 -l /home/ruben/playground/HFO/experiments/EVAL/2016_09_13-08.58.35_SARSA_1_10/_0_2_AGENT_3_RESULTS -s 12345      >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_13-08.58.35_SARSA_1_10/_0_2_AGENT_3_LOG & >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_13-08.58.35_SARSA_1_10/_0_2_AGENT_3_LOG
+[2016-09-13_09:22:11] SHUTTING DOWN SERVER 0 AND CLEANING UP
+‘/home/ruben/playground/HFO/experiments/EVAL/2016_09_13-08.58.35_SARSA_1_10/incomplete.hfo’ -> ‘/home/ruben/playground/HFO/experiments/EVAL/2016_09_13-08.58.35_SARSA_1_10/incomplete_2.hfo’
+[2016-09-13_09:22:11] END EXPERIMENT [DURATION=1416s]
+[2016-09-13_09:23:11] STARTING RUN 3 ==================
+[2016-09-13_09:23:13] STARTING HFO SERVER
+[2016-09-13_09:23:13] HFO SERVER PID: 27230
+[2016-09-13_09:23:23] STARTING AGENT 0_1
+/home/ruben/playground/HFO/experiments/experiment.py -p 12345 -a SARSA -i 10 -d      100 -t 500 -l /home/ruben/playground/HFO/experiments/EVAL/2016_09_13-08.58.35_SARSA_1_10/_0_3_AGENT_1_RESULTS -s 12345      >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_13-08.58.35_SARSA_1_10/_0_3_AGENT_1_LOG & >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_13-08.58.35_SARSA_1_10/_0_3_AGENT_1_LOG
+[2016-09-13_09:23:28] STARTING AGENT 0_2
+/home/ruben/playground/HFO/experiments/experiment.py -p 12345 -a SARSA -i 10 -d      100 -t 500 -l /home/ruben/playground/HFO/experiments/EVAL/2016_09_13-08.58.35_SARSA_1_10/_0_3_AGENT_2_RESULTS -s 12345      >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_13-08.58.35_SARSA_1_10/_0_3_AGENT_2_LOG & >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_13-08.58.35_SARSA_1_10/_0_3_AGENT_2_LOG
+[2016-09-13_09:23:33] STARTING AGENT 0_3
+/home/ruben/playground/HFO/experiments/experiment.py -p 12345 -a SARSA -i 10 -d      100 -t 500 -l /home/ruben/playground/HFO/experiments/EVAL/2016_09_13-08.58.35_SARSA_1_10/_0_3_AGENT_3_RESULTS -s 12345      >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_13-08.58.35_SARSA_1_10/_0_3_AGENT_3_LOG & >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_13-08.58.35_SARSA_1_10/_0_3_AGENT_3_LOG
+[2016-09-13_09:34:44] SHUTTING DOWN SERVER 0 AND CLEANING UP
+‘/home/ruben/playground/HFO/experiments/EVAL/2016_09_13-08.58.35_SARSA_1_10/incomplete.hfo’ -> ‘/home/ruben/playground/HFO/experiments/EVAL/2016_09_13-08.58.35_SARSA_1_10/incomplete_3.hfo’
+[2016-09-13_09:34:44] END EXPERIMENT [DURATION=2169s]
+[2016-09-13_09:35:44] STARTING RUN 4 ==================
+[2016-09-13_09:35:46] STARTING HFO SERVER
+[2016-09-13_09:35:46] HFO SERVER PID: 32533
+[2016-09-13_09:35:56] STARTING AGENT 0_1
+/home/ruben/playground/HFO/experiments/experiment.py -p 12345 -a SARSA -i 10 -d      100 -t 500 -l /home/ruben/playground/HFO/experiments/EVAL/2016_09_13-08.58.35_SARSA_1_10/_0_4_AGENT_1_RESULTS -s 12345      >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_13-08.58.35_SARSA_1_10/_0_4_AGENT_1_LOG & >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_13-08.58.35_SARSA_1_10/_0_4_AGENT_1_LOG
+[2016-09-13_09:36:01] STARTING AGENT 0_2
+/home/ruben/playground/HFO/experiments/experiment.py -p 12345 -a SARSA -i 10 -d      100 -t 500 -l /home/ruben/playground/HFO/experiments/EVAL/2016_09_13-08.58.35_SARSA_1_10/_0_4_AGENT_2_RESULTS -s 12345      >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_13-08.58.35_SARSA_1_10/_0_4_AGENT_2_LOG & >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_13-08.58.35_SARSA_1_10/_0_4_AGENT_2_LOG
+[2016-09-13_09:36:06] STARTING AGENT 0_3
+/home/ruben/playground/HFO/experiments/experiment.py -p 12345 -a SARSA -i 10 -d      100 -t 500 -l /home/ruben/playground/HFO/experiments/EVAL/2016_09_13-08.58.35_SARSA_1_10/_0_4_AGENT_3_RESULTS -s 12345      >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_13-08.58.35_SARSA_1_10/_0_4_AGENT_3_LOG & >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_13-08.58.35_SARSA_1_10/_0_4_AGENT_3_LOG
+[2016-09-13_09:46:43] SHUTTING DOWN SERVER 0 AND CLEANING UP
+‘/home/ruben/playground/HFO/experiments/EVAL/2016_09_13-08.58.35_SARSA_1_10/incomplete.hfo’ -> ‘/home/ruben/playground/HFO/experiments/EVAL/2016_09_13-08.58.35_SARSA_1_10/incomplete_4.hfo’
+[2016-09-13_09:46:43] END EXPERIMENT [DURATION=2888s]
+[2016-09-13_09:47:43] STARTING RUN 5 ==================
+[2016-09-13_09:47:45] STARTING HFO SERVER
+[2016-09-13_09:47:45] HFO SERVER PID: 5542
+[2016-09-13_09:47:55] STARTING AGENT 0_1
+/home/ruben/playground/HFO/experiments/experiment.py -p 12345 -a SARSA -i 10 -d      100 -t 500 -l /home/ruben/playground/HFO/experiments/EVAL/2016_09_13-08.58.35_SARSA_1_10/_0_5_AGENT_1_RESULTS -s 12345      >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_13-08.58.35_SARSA_1_10/_0_5_AGENT_1_LOG & >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_13-08.58.35_SARSA_1_10/_0_5_AGENT_1_LOG
+[2016-09-13_09:48:00] STARTING AGENT 0_2
+/home/ruben/playground/HFO/experiments/experiment.py -p 12345 -a SARSA -i 10 -d      100 -t 500 -l /home/ruben/playground/HFO/experiments/EVAL/2016_09_13-08.58.35_SARSA_1_10/_0_5_AGENT_2_RESULTS -s 12345      >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_13-08.58.35_SARSA_1_10/_0_5_AGENT_2_LOG & >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_13-08.58.35_SARSA_1_10/_0_5_AGENT_2_LOG
+[2016-09-13_09:48:05] STARTING AGENT 0_3
+/home/ruben/playground/HFO/experiments/experiment.py -p 12345 -a SARSA -i 10 -d      100 -t 500 -l /home/ruben/playground/HFO/experiments/EVAL/2016_09_13-08.58.35_SARSA_1_10/_0_5_AGENT_3_RESULTS -s 12345      >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_13-08.58.35_SARSA_1_10/_0_5_AGENT_3_LOG & >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_13-08.58.35_SARSA_1_10/_0_5_AGENT_3_LOG
+[2016-09-13_09:59:45] SHUTTING DOWN SERVER 0 AND CLEANING UP
+‘/home/ruben/playground/HFO/experiments/EVAL/2016_09_13-08.58.35_SARSA_1_10/incomplete.hfo’ -> ‘/home/ruben/playground/HFO/experiments/EVAL/2016_09_13-08.58.35_SARSA_1_10/incomplete_5.hfo’
+[2016-09-13_09:59:45] END EXPERIMENT [DURATION=3670s]
+[2016-09-13_10:00:45] STARTING RUN 6 ==================
+[2016-09-13_10:00:47] STARTING HFO SERVER
+[2016-09-13_10:00:47] HFO SERVER PID: 11051
+[2016-09-13_10:00:57] STARTING AGENT 0_1
+/home/ruben/playground/HFO/experiments/experiment.py -p 12345 -a SARSA -i 10 -d      100 -t 500 -l /home/ruben/playground/HFO/experiments/EVAL/2016_09_13-08.58.35_SARSA_1_10/_0_6_AGENT_1_RESULTS -s 12345      >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_13-08.58.35_SARSA_1_10/_0_6_AGENT_1_LOG & >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_13-08.58.35_SARSA_1_10/_0_6_AGENT_1_LOG
+[2016-09-13_10:01:02] STARTING AGENT 0_2
+/home/ruben/playground/HFO/experiments/experiment.py -p 12345 -a SARSA -i 10 -d      100 -t 500 -l /home/ruben/playground/HFO/experiments/EVAL/2016_09_13-08.58.35_SARSA_1_10/_0_6_AGENT_2_RESULTS -s 12345      >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_13-08.58.35_SARSA_1_10/_0_6_AGENT_2_LOG & >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_13-08.58.35_SARSA_1_10/_0_6_AGENT_2_LOG
+[2016-09-13_10:01:07] STARTING AGENT 0_3
+/home/ruben/playground/HFO/experiments/experiment.py -p 12345 -a SARSA -i 10 -d      100 -t 500 -l /home/ruben/playground/HFO/experiments/EVAL/2016_09_13-08.58.35_SARSA_1_10/_0_6_AGENT_3_RESULTS -s 12345      >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_13-08.58.35_SARSA_1_10/_0_6_AGENT_3_LOG & >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_13-08.58.35_SARSA_1_10/_0_6_AGENT_3_LOG
+[2016-09-13_10:12:16] SHUTTING DOWN SERVER 0 AND CLEANING UP
+‘/home/ruben/playground/HFO/experiments/EVAL/2016_09_13-08.58.35_SARSA_1_10/incomplete.hfo’ -> ‘/home/ruben/playground/HFO/experiments/EVAL/2016_09_13-08.58.35_SARSA_1_10/incomplete_6.hfo’
+[2016-09-13_10:12:16] END EXPERIMENT [DURATION=4421s]
+[2016-09-13_10:13:16] STARTING RUN 7 ==================
+[2016-09-13_10:13:18] STARTING HFO SERVER
+[2016-09-13_10:13:18] HFO SERVER PID: 16384
+[2016-09-13_10:13:28] STARTING AGENT 0_1
+/home/ruben/playground/HFO/experiments/experiment.py -p 12345 -a SARSA -i 10 -d      100 -t 500 -l /home/ruben/playground/HFO/experiments/EVAL/2016_09_13-08.58.35_SARSA_1_10/_0_7_AGENT_1_RESULTS -s 12345      >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_13-08.58.35_SARSA_1_10/_0_7_AGENT_1_LOG & >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_13-08.58.35_SARSA_1_10/_0_7_AGENT_1_LOG
+[2016-09-13_10:13:33] STARTING AGENT 0_2
+/home/ruben/playground/HFO/experiments/experiment.py -p 12345 -a SARSA -i 10 -d      100 -t 500 -l /home/ruben/playground/HFO/experiments/EVAL/2016_09_13-08.58.35_SARSA_1_10/_0_7_AGENT_2_RESULTS -s 12345      >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_13-08.58.35_SARSA_1_10/_0_7_AGENT_2_LOG & >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_13-08.58.35_SARSA_1_10/_0_7_AGENT_2_LOG
+[2016-09-13_10:13:38] STARTING AGENT 0_3
+/home/ruben/playground/HFO/experiments/experiment.py -p 12345 -a SARSA -i 10 -d      100 -t 500 -l /home/ruben/playground/HFO/experiments/EVAL/2016_09_13-08.58.35_SARSA_1_10/_0_7_AGENT_3_RESULTS -s 12345      >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_13-08.58.35_SARSA_1_10/_0_7_AGENT_3_LOG & >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_13-08.58.35_SARSA_1_10/_0_7_AGENT_3_LOG
+[2016-09-13_10:24:37] SHUTTING DOWN SERVER 0 AND CLEANING UP
+‘/home/ruben/playground/HFO/experiments/EVAL/2016_09_13-08.58.35_SARSA_1_10/incomplete.hfo’ -> ‘/home/ruben/playground/HFO/experiments/EVAL/2016_09_13-08.58.35_SARSA_1_10/incomplete_7.hfo’
+[2016-09-13_10:24:37] END EXPERIMENT [DURATION=5162s]
+[2016-09-13_10:25:37] STARTING RUN 8 ==================
+[2016-09-13_10:25:39] STARTING HFO SERVER
+[2016-09-13_10:25:39] HFO SERVER PID: 21630
+[2016-09-13_10:25:49] STARTING AGENT 0_1
+/home/ruben/playground/HFO/experiments/experiment.py -p 12345 -a SARSA -i 10 -d      100 -t 500 -l /home/ruben/playground/HFO/experiments/EVAL/2016_09_13-08.58.35_SARSA_1_10/_0_8_AGENT_1_RESULTS -s 12345      >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_13-08.58.35_SARSA_1_10/_0_8_AGENT_1_LOG & >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_13-08.58.35_SARSA_1_10/_0_8_AGENT_1_LOG
+[2016-09-13_10:25:54] STARTING AGENT 0_2
+/home/ruben/playground/HFO/experiments/experiment.py -p 12345 -a SARSA -i 10 -d      100 -t 500 -l /home/ruben/playground/HFO/experiments/EVAL/2016_09_13-08.58.35_SARSA_1_10/_0_8_AGENT_2_RESULTS -s 12345      >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_13-08.58.35_SARSA_1_10/_0_8_AGENT_2_LOG & >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_13-08.58.35_SARSA_1_10/_0_8_AGENT_2_LOG
+[2016-09-13_10:25:59] STARTING AGENT 0_3
+/home/ruben/playground/HFO/experiments/experiment.py -p 12345 -a SARSA -i 10 -d      100 -t 500 -l /home/ruben/playground/HFO/experiments/EVAL/2016_09_13-08.58.35_SARSA_1_10/_0_8_AGENT_3_RESULTS -s 12345      >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_13-08.58.35_SARSA_1_10/_0_8_AGENT_3_LOG & >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_13-08.58.35_SARSA_1_10/_0_8_AGENT_3_LOG
+[2016-09-13_10:37:16] SHUTTING DOWN SERVER 0 AND CLEANING UP
+‘/home/ruben/playground/HFO/experiments/EVAL/2016_09_13-08.58.35_SARSA_1_10/incomplete.hfo’ -> ‘/home/ruben/playground/HFO/experiments/EVAL/2016_09_13-08.58.35_SARSA_1_10/incomplete_8.hfo’
+[2016-09-13_10:37:16] END EXPERIMENT [DURATION=5921s]
+[2016-09-13_10:38:16] STARTING RUN 9 ==================
+[2016-09-13_10:38:18] STARTING HFO SERVER
+[2016-09-13_10:38:18] HFO SERVER PID: 26970
+[2016-09-13_10:38:28] STARTING AGENT 0_1
+/home/ruben/playground/HFO/experiments/experiment.py -p 12345 -a SARSA -i 10 -d      100 -t 500 -l /home/ruben/playground/HFO/experiments/EVAL/2016_09_13-08.58.35_SARSA_1_10/_0_9_AGENT_1_RESULTS -s 12345      >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_13-08.58.35_SARSA_1_10/_0_9_AGENT_1_LOG & >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_13-08.58.35_SARSA_1_10/_0_9_AGENT_1_LOG
+[2016-09-13_10:38:33] STARTING AGENT 0_2
+/home/ruben/playground/HFO/experiments/experiment.py -p 12345 -a SARSA -i 10 -d      100 -t 500 -l /home/ruben/playground/HFO/experiments/EVAL/2016_09_13-08.58.35_SARSA_1_10/_0_9_AGENT_2_RESULTS -s 12345      >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_13-08.58.35_SARSA_1_10/_0_9_AGENT_2_LOG & >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_13-08.58.35_SARSA_1_10/_0_9_AGENT_2_LOG
+[2016-09-13_10:38:38] STARTING AGENT 0_3
+/home/ruben/playground/HFO/experiments/experiment.py -p 12345 -a SARSA -i 10 -d      100 -t 500 -l /home/ruben/playground/HFO/experiments/EVAL/2016_09_13-08.58.35_SARSA_1_10/_0_9_AGENT_3_RESULTS -s 12345      >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_13-08.58.35_SARSA_1_10/_0_9_AGENT_3_LOG & >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_13-08.58.35_SARSA_1_10/_0_9_AGENT_3_LOG
+[2016-09-13_10:49:11] SHUTTING DOWN SERVER 0 AND CLEANING UP
+‘/home/ruben/playground/HFO/experiments/EVAL/2016_09_13-08.58.35_SARSA_1_10/incomplete.hfo’ -> ‘/home/ruben/playground/HFO/experiments/EVAL/2016_09_13-08.58.35_SARSA_1_10/incomplete_9.hfo’
+[2016-09-13_10:49:11] END EXPERIMENT [DURATION=6636s]
+[2016-09-13_10:50:11] STARTING RUN 10 ==================
+[2016-09-13_10:50:13] STARTING HFO SERVER
+[2016-09-13_10:50:13] HFO SERVER PID: 31995
+[2016-09-13_10:50:23] STARTING AGENT 0_1
+/home/ruben/playground/HFO/experiments/experiment.py -p 12345 -a SARSA -i 10 -d      100 -t 500 -l /home/ruben/playground/HFO/experiments/EVAL/2016_09_13-08.58.35_SARSA_1_10/_0_10_AGENT_1_RESULTS -s 12345      >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_13-08.58.35_SARSA_1_10/_0_10_AGENT_1_LOG & >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_13-08.58.35_SARSA_1_10/_0_10_AGENT_1_LOG
+[2016-09-13_10:50:28] STARTING AGENT 0_2
+/home/ruben/playground/HFO/experiments/experiment.py -p 12345 -a SARSA -i 10 -d      100 -t 500 -l /home/ruben/playground/HFO/experiments/EVAL/2016_09_13-08.58.35_SARSA_1_10/_0_10_AGENT_2_RESULTS -s 12345      >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_13-08.58.35_SARSA_1_10/_0_10_AGENT_2_LOG & >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_13-08.58.35_SARSA_1_10/_0_10_AGENT_2_LOG
+[2016-09-13_10:50:33] STARTING AGENT 0_3
+/home/ruben/playground/HFO/experiments/experiment.py -p 12345 -a SARSA -i 10 -d      100 -t 500 -l /home/ruben/playground/HFO/experiments/EVAL/2016_09_13-08.58.35_SARSA_1_10/_0_10_AGENT_3_RESULTS -s 12345      >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_13-08.58.35_SARSA_1_10/_0_10_AGENT_3_LOG & >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_13-08.58.35_SARSA_1_10/_0_10_AGENT_3_LOG
+[2016-09-13_11:02:09] SHUTTING DOWN SERVER 0 AND CLEANING UP
+‘/home/ruben/playground/HFO/experiments/EVAL/2016_09_13-08.58.35_SARSA_1_10/incomplete.hfo’ -> ‘/home/ruben/playground/HFO/experiments/EVAL/2016_09_13-08.58.35_SARSA_1_10/incomplete_10.hfo’
+[2016-09-13_11:02:09] END EXPERIMENT [DURATION=7414s]
+/home/ruben/playground/HFO/experiments/EVAL/2016_09_13-08.58.35_SARSA_1_10/__EVAL_goalpercentages
+/home/ruben/playground/HFO/experiments/EVAL/2016_09_13-08.58.35_SARSA_1_10/__EVAL_goaltimes

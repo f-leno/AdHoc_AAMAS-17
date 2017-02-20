@@ -1,0 +1,11 @@
+prefix=/home/helios/local
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: librcsc
+Description: a base library of the soccer agent and/or the tool
+program for the RoboCup soccer 2D simulation.
+Version: rc2013-round1
+Libs: -L${libdir} -lrcsc_agent -lrcsc_clang -lrcsc_ann -lrcsc_net -lrcsc_color -lrcsc_time -lrcsc_param -lrcsc_rcg -lrcsc_gz -lrcsc_geom -lz -lm
+Cflags: -I${includedir}

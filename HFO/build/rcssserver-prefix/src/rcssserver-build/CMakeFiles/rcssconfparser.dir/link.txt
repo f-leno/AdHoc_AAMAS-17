@@ -1,0 +1,2 @@
+/usr/bin/ar cq lib/librcssconfparser.a  CMakeFiles/rcssconfparser.dir/rcssbase/conf/statushandler.cpp.o CMakeFiles/rcssconfparser.dir/rcssbase/conf/parser.cpp.o CMakeFiles/rcssconfparser.dir/rcssbase/conf/streamstatushandler.cpp.o CMakeFiles/rcssconfparser.dir/rcssbase/conf/builder.cpp.o
+/usr/bin/ranlib lib/librcssconfparser.a

@@ -1,0 +1,3 @@
+repository='https://github.com/mhauskn/hfo-teams.git'
+module=''
+tag=''

@@ -1,0 +1,12 @@
+#!/bin/sh
+
+player="helios_player"
+coach="helios_coach"
+
+killall -TERM ${player}
+killall -TERM ${coach}
+
+sleep 2
+
+killall -KILL ${player}
+killall -KILL ${coach}

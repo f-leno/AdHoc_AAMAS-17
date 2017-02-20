@@ -1,0 +1,1 @@
+/usr/bin/c++    -std=c++11 -fPIC -O3 -DNDEBUG   CMakeFiles/rcgversion.dir/src/rcgversion.cpp.o  -o bin/rcgversion -rdynamic lib/librcsc_gz.a -lz 

@@ -1,0 +1,130 @@
+pkill -f  sh\ ru* 
+pkill -f python\ exp*
+pkill -f python\ /home/leno/HFO*
+killall -9 rcssserver
+
+sh runTestTileServer.sh 43945 10 > serverSARSA.log &
+sleep 5
+sh runTestTileAgent.sh 43945 SARSATile 1 10 > logSARSA.log &
+
+
+sh runTestTileServer.sh 44945 10 > serverSARSA.log &
+sleep 5
+sh runTestTileAgent.sh 44945 SARSATile 11 20 > logSARSA.log &
+
+sh runTestTileServer.sh 45945 10 > serverSARSA.log &
+sleep 5
+sh runTestTileAgent.sh 45945 SARSATile 21 30 > logSARSA.log &
+
+sh runTestTileServer.sh 46945 10 > serverSARSA.log &
+sleep 5
+sh runTestTileAgent.sh 46945 SARSATile 31 40 > logSARSA.log &
+
+
+sh runTestTileServer.sh 47945 10 > serverSARSA.log &
+sleep 5
+sh runTestTileAgent.sh 47945 SARSATile 41 50 > logSARSA.log &
+
+
+
+
+#sh runTestTileServer.sh 43945 5 > serverEpisodeSharing.log &
+#sleep 5
+#sh runTestTileAgent.sh 43945 EpisodeSharing 1 5 > logEpisodeSharing.log &
+
+#sh runTestTileServer.sh 44945 5 > serverEpisodeSharing.log &
+#sleep 5
+#sh runTestTileAgent.sh 44945 EpisodeSharing 6 10 > logEpisodeSharing.log &
+
+#sh runTestTileServer.sh 45945 5 > serverEpisodeSharing.log &
+#sleep 5
+#sh runTestTileAgent.sh 45945 EpisodeSharing 11 15 > logEpisodeSharing.log &
+
+#sh runTestTileServer.sh 46945 5 > serverEpisodeSharing.log &
+#sleep 5
+#sh runTestTileAgent.sh 46945 EpisodeSharing 16 20 > logEpisodeSharing.log &
+
+#sh runTestTileServer.sh 47945 5 > serverEpisodeSharing.log &
+#sleep 5
+#sh runTestTileAgent.sh 47945 EpisodeSharing 21 25 > logEpisodeSharing.log &
+
+#sh runTestTileServer.sh 46985 5 > serverEpisodeSharing.log &
+#sleep 5
+#sh runTestTileAgent.sh 46985 EpisodeSharing 26 30 > logEpisodeSharing.log &
+
+#sh runTestTileServer.sh 47045 5 > serverEpisodeSharing.log &
+#sleep 5
+#sh runTestTileAgent.sh 47045 EpisodeSharing 31 35 > logEpisodeSharing.log &
+
+#sh runTestTileServer.sh 49945 5 > serverEpisodeSharing.log &
+#sleep 5
+#sh runTestTileAgent.sh 49945 EpisodeSharing 36 40 > logEpisodeSharing.log &
+
+#sh runTestTileServer.sh 46925 5 > serverEpisodeSharing.log &
+#sleep 5
+#sh runTestTileAgent.sh 46925 EpisodeSharing 41 45 > logEpisodeSharing.log &
+
+#sh runTestTileServer.sh 47245 5 > serverEpisodeSharing.log &
+#sleep 5
+#sh runTestTileAgent.sh 47245 EpisodeSharing 46 50 > logEpisodeSharing.log &
+
+
+#sh runTestTileServer.sh 13445 3 > serverAdHocVisit.log &
+#sleep 5
+#sh runTestTileAgent.sh 13445 AdHocVisit 8 10 > logTestMetric.log &
+
+#sh runTestTileServer.sh 14445 3 > serverAdHocVisit.log &
+#sleep 5
+#sh runTestTileAgent.sh 14445 AdHocVisit 18 20 > logTestMetric.log &
+
+#sh runTestTileServer.sh 15445 3 > serverAdHocVisit.log &
+#sleep 5
+#sh runTestTileAgent.sh 15445 AdHocVisit 28 30 > logTestMetric.log &
+
+#sh runTestTileServer.sh 16445 3 > serverAdHocVisit.log &
+#sleep 5
+#sh runTestTileAgent.sh 16445 AdHocVisit 38 40 > logTestMetric.log &
+
+#sh runTestTileServer.sh 17445 3 > serverAdHocVisit.log &
+#sleep 5
+#sh runTestTileAgent.sh 17445 AdHocVisit 48 50 > logTestMetric.log &
+# --
+#sh runTestTileServer.sh 13945 5 > serverAdHocTD.log &
+#sleep 5
+#sh runTestTileAgent.sh 13945 AdHocTD 1 5 > logTestMetric2.log &
+
+#sh runTestTileServer.sh 14945 5 > serverAdHocTD.log &
+#sleep 5
+#sh runTestTileAgent.sh 14945 AdHocTD 6 10 > logTestMetric2.log &
+
+#sh runTestTileServer.sh 15945 5 > serverAdHocTD.log &
+#sleep 5
+#sh runTestTileAgent.sh 15945 AdHocTD 11 15 > logTestMetric2.log &
+
+#sh runTestTileServer.sh 16945 5 > serverAdHocTD.log &
+#sleep 5
+#sh runTestTileAgent.sh 16945 AdHocTD 16 20 > logTestMetric2.log &
+
+#sh runTestTileServer.sh 17945 5 > serverAdHocTD.log &
+#sleep 5
+#sh runTestTileAgent.sh 17945 AdHocTD 21 25 > logTestMetric2.log &
+
+#sh runTestTileServer.sh 23945 5 > serverAdHocTD.log &
+#sleep 5
+#sh runTestTileAgent.sh 23945 AdHocTD 26 30 > logTestMetric2.log &
+
+#sh runTestTileServer.sh 24945 5 > serverAdHocTD.log &
+#sleep 5
+#sh runTestTileAgent.sh 24945 AdHocTD 31 35 > logTestMetric2.log &
+
+#sh runTestTileServer.sh 25945 5 > serverAdHocTD.log &
+#sleep 5
+#sh runTestTileAgent.sh 25945 AdHocTD 36 40 > logTestMetric2.log &
+
+#sh runTestTileServer.sh 26945 5 > serverAdHocTD.log &
+#sleep 5
+#sh runTestTileAgent.sh 26945 AdHocTD 41 45 > logTestMetric2.log &
+
+#sh runTestTileServer.sh 27945 5 > serverAdHocTD.log &
+#sleep 5
+#sh runTestTileAgent.sh 27945 AdHocTD 46 50 > logTestMetric2.log &

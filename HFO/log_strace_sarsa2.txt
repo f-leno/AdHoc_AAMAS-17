@@ -1,0 +1,1473 @@
+11:15:34.435160 execve("./experiments/run.sh", ["./experiments/run.sh", "-r=1", "-o=3", "-d=1", "-t=2", "-f=10", "-a=SARSA", "-i=1", "-e=1", "-x=1"], [/* 80 vars */]) = 0 <0.000382>
+11:15:34.435917 brk(0)                  = 0x253f000 <0.000073>
+11:15:34.436088 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory) <0.000071>
+11:15:34.436239 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f01f5ab4000 <0.000024>
+11:15:34.436349 access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory) <0.000021>
+11:15:34.436427 open("/home/ruben/deepatari_stuff/Arcade-Learning-Environment/tls/x86_64/libtinfo.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000023>
+11:15:34.436502 stat("/home/ruben/deepatari_stuff/Arcade-Learning-Environment/tls/x86_64", 0x7ffeb05e52d0) = -1 ENOENT (No such file or directory) <0.000022>
+11:15:34.436578 open("/home/ruben/deepatari_stuff/Arcade-Learning-Environment/tls/libtinfo.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000031>
+11:15:34.436682 stat("/home/ruben/deepatari_stuff/Arcade-Learning-Environment/tls", 0x7ffeb05e52d0) = -1 ENOENT (No such file or directory) <0.000023>
+11:15:34.436756 open("/home/ruben/deepatari_stuff/Arcade-Learning-Environment/x86_64/libtinfo.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000020>
+11:15:34.436822 stat("/home/ruben/deepatari_stuff/Arcade-Learning-Environment/x86_64", 0x7ffeb05e52d0) = -1 ENOENT (No such file or directory) <0.000019>
+11:15:34.436885 open("/home/ruben/deepatari_stuff/Arcade-Learning-Environment/libtinfo.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000019>
+11:15:34.436949 stat("/home/ruben/deepatari_stuff/Arcade-Learning-Environment", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0 <0.000021>
+11:15:34.437023 open("/usr/local/cuda/lib64/tls/x86_64/libtinfo.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000024>
+11:15:34.437092 stat("/usr/local/cuda/lib64/tls/x86_64", 0x7ffeb05e52d0) = -1 ENOENT (No such file or directory) <0.000019>
+11:15:34.437155 open("/usr/local/cuda/lib64/tls/libtinfo.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000021>
+11:15:34.437220 stat("/usr/local/cuda/lib64/tls", 0x7ffeb05e52d0) = -1 ENOENT (No such file or directory) <0.000019>
+11:15:34.437282 open("/usr/local/cuda/lib64/x86_64/libtinfo.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000020>
+11:15:34.437346 stat("/usr/local/cuda/lib64/x86_64", 0x7ffeb05e52d0) = -1 ENOENT (No such file or directory) <0.000019>
+11:15:34.437408 open("/usr/local/cuda/lib64/libtinfo.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000020>
+11:15:34.437473 stat("/usr/local/cuda/lib64", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0 <0.000020>
+11:15:34.437540 open("tls/x86_64/libtinfo.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000019>
+11:15:34.437602 open("tls/libtinfo.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000018>
+11:15:34.437664 open("x86_64/libtinfo.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000018>
+11:15:34.437727 open("libtinfo.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000019>
+11:15:34.437790 open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3 <0.000027>
+11:15:34.437863 fstat(3, {st_mode=S_IFREG|0644, st_size=132634, ...}) = 0 <0.000017>
+11:15:34.437924 mmap(NULL, 132634, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f01f5a93000 <0.000021>
+11:15:34.437987 close(3)                = 0 <0.000016>
+11:15:34.438050 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory) <0.000020>
+11:15:34.438120 open("/lib/x86_64-linux-gnu/libtinfo.so.5", O_RDONLY|O_CLOEXEC) = 3 <0.000023>
+11:15:34.438186 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\303\0\0\0\0\0\0"..., 832) = 832 <0.000019>
+11:15:34.438251 fstat(3, {st_mode=S_IFREG|0644, st_size=167096, ...}) = 0 <0.000016>
+11:15:34.438313 mmap(NULL, 2264288, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f01f566b000 <0.000022>
+11:15:34.438388 mprotect(0x7f01f5690000, 2093056, PROT_NONE) = 0 <0.000027>
+11:15:34.438455 mmap(0x7f01f588f000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x24000) = 0x7f01f588f000 <0.000026>
+11:15:34.438539 close(3)                = 0 <0.000016>
+11:15:34.438603 open("/home/ruben/deepatari_stuff/Arcade-Learning-Environment/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000022>
+11:15:34.438671 open("/usr/local/cuda/lib64/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000021>
+11:15:34.438737 open("tls/x86_64/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000018>
+11:15:34.438799 open("tls/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000018>
+11:15:34.438860 open("x86_64/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000018>
+11:15:34.438921 open("libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000017>
+11:15:34.438984 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory) <0.000018>
+11:15:34.439048 open("/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3 <0.000021>
+11:15:34.439111 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\16\0\0\0\0\0\0"..., 832) = 832 <0.000018>
+11:15:34.439174 fstat(3, {st_mode=S_IFREG|0644, st_size=14664, ...}) = 0 <0.000017>
+11:15:34.439255 mmap(NULL, 2109744, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f01f5467000 <0.000021>
+11:15:34.439342 mprotect(0x7f01f546a000, 2093056, PROT_NONE) = 0 <0.000024>
+11:15:34.439404 mmap(0x7f01f5669000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7f01f5669000 <0.000024>
+11:15:34.439482 close(3)                = 0 <0.000015>
+11:15:34.439540 open("/home/ruben/deepatari_stuff/Arcade-Learning-Environment/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000021>
+11:15:34.439606 open("/usr/local/cuda/lib64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000020>
+11:15:34.439670 open("tls/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000018>
+11:15:34.439731 open("tls/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000017>
+11:15:34.439792 open("x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000018>
+11:15:34.439853 open("libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000018>
+11:15:34.439915 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory) <0.000018>
+11:15:34.439981 open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3 <0.000022>
+11:15:34.440044 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P \2\0\0\0\0\0"..., 832) = 832 <0.000017>
+11:15:34.440104 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f01f5a92000 <0.000020>
+11:15:34.440169 fstat(3, {st_mode=S_IFREG|0755, st_size=1840928, ...}) = 0 <0.000016>
+11:15:34.440234 mmap(NULL, 3949248, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f01f50a2000 <0.000020>
+11:15:34.440294 mprotect(0x7f01f525c000, 2097152, PROT_NONE) = 0 <0.000025>
+11:15:34.440356 mmap(0x7f01f545c000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1ba000) = 0x7f01f545c000 <0.000024>
+11:15:34.440429 mmap(0x7f01f5462000, 17088, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f01f5462000 <0.000023>
+11:15:34.440514 close(3)                = 0 <0.000018>
+11:15:34.440616 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f01f5a90000 <0.000024>
+11:15:34.440711 arch_prctl(ARCH_SET_FS, 0x7f01f5a90740) = 0 <0.000018>
+11:15:34.440887 mprotect(0x7f01f545c000, 16384, PROT_READ) = 0 <0.000024>
+11:15:34.440959 mprotect(0x7f01f5669000, 4096, PROT_READ) = 0 <0.000021>
+11:15:34.441053 mprotect(0x7f01f588f000, 16384, PROT_READ) = 0 <0.000021>
+11:15:34.441124 mprotect(0x6ef000, 4096, PROT_READ) = 0 <0.000021>
+11:15:34.441188 mprotect(0x7f01f5ab6000, 4096, PROT_READ) = 0 <0.000021>
+11:15:34.441259 munmap(0x7f01f5a93000, 132634) = 0 <0.000039>
+11:15:34.441399 open("/dev/tty", O_RDWR|O_NONBLOCK) = 3 <0.000030>
+11:15:34.441476 close(3)                = 0 <0.000019>
+11:15:34.441571 brk(0)                  = 0x253f000 <0.000016>
+11:15:34.441628 brk(0x2540000)          = 0x2540000 <0.000019>
+11:15:34.441693 open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3 <0.000022>
+11:15:34.441764 fstat(3, {st_mode=S_IFREG|0644, st_size=7224752, ...}) = 0 <0.000016>
+11:15:34.441824 mmap(NULL, 7224752, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f01f49be000 <0.000023>
+11:15:34.441896 close(3)                = 0 <0.000019>
+11:15:34.441966 brk(0x2541000)          = 0x2541000 <0.000018>
+11:15:34.442037 brk(0x2542000)          = 0x2542000 <0.000017>
+11:15:34.442165 getuid()                = 1000 <0.000016>
+11:15:34.442220 getgid()                = 1000 <0.000016>
+11:15:34.442272 geteuid()               = 1000 <0.000013>
+11:15:34.442334 getegid()               = 1000 <0.000015>
+11:15:34.442413 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0 <0.000015>
+11:15:34.442495 brk(0x2543000)          = 0x2543000 <0.000018>
+11:15:34.442569 open("/proc/meminfo", O_RDONLY|O_CLOEXEC) = 3 <0.000032>
+11:15:34.442650 fstat(3, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0 <0.000016>
+11:15:34.442711 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f01f5ab3000 <0.000019>
+11:15:34.442772 read(3, "MemTotal:       32918736 kB\nMemF"..., 1024) = 1024 <0.000081>
+11:15:34.442908 close(3)                = 0 <0.000023>
+11:15:34.442969 munmap(0x7f01f5ab3000, 4096) = 0 <0.000026>
+11:15:34.443034 brk(0x2544000)          = 0x2544000 <0.000017>
+11:15:34.443138 rt_sigaction(SIGCHLD, {SIG_DFL, [], SA_RESTORER|SA_RESTART, 0x7f01f50d8cb0}, {SIG_DFL, [], 0}, 8) = 0 <0.000018>
+11:15:34.443208 rt_sigaction(SIGCHLD, {SIG_DFL, [], SA_RESTORER|SA_RESTART, 0x7f01f50d8cb0}, {SIG_DFL, [], SA_RESTORER|SA_RESTART, 0x7f01f50d8cb0}, 8) = 0 <0.000020>
+11:15:34.443320 rt_sigaction(SIGINT, {SIG_DFL, [], SA_RESTORER, 0x7f01f50d8cb0}, {SIG_DFL, [], 0}, 8) = 0 <0.000016>
+11:15:34.443400 rt_sigaction(SIGINT, {SIG_DFL, [], SA_RESTORER, 0x7f01f50d8cb0}, {SIG_DFL, [], SA_RESTORER, 0x7f01f50d8cb0}, 8) = 0 <0.000029>
+11:15:34.443490 rt_sigaction(SIGQUIT, {SIG_DFL, [], SA_RESTORER, 0x7f01f50d8cb0}, {SIG_DFL, [], 0}, 8) = 0 <0.000016>
+11:15:34.443556 rt_sigaction(SIGQUIT, {SIG_DFL, [], SA_RESTORER, 0x7f01f50d8cb0}, {SIG_DFL, [], SA_RESTORER, 0x7f01f50d8cb0}, 8) = 0 <0.000015>
+11:15:34.443623 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0 <0.000016>
+11:15:34.443683 rt_sigaction(SIGQUIT, {SIG_IGN, [], SA_RESTORER, 0x7f01f50d8cb0}, {SIG_DFL, [], SA_RESTORER, 0x7f01f50d8cb0}, 8) = 0 <0.000015>
+11:15:34.443750 uname({sys="Linux", node="titan", ...}) = 0 <0.000017>
+11:15:34.443834 brk(0x2545000)          = 0x2545000 <0.000019>
+11:15:34.443924 brk(0x2546000)          = 0x2546000 <0.000018>
+11:15:34.444001 brk(0x2547000)          = 0x2547000 <0.000017>
+11:15:34.444075 brk(0x2548000)          = 0x2548000 <0.000017>
+11:15:34.444154 brk(0x2549000)          = 0x2549000 <0.000017>
+11:15:34.444232 brk(0x254a000)          = 0x254a000 <0.000017>
+11:15:34.444294 stat("/home/ruben/playground/HFO", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0 <0.000022>
+11:15:34.444365 stat(".", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0 <0.000019>
+11:15:34.444434 getpid()                = 10798 <0.000018>
+11:15:34.444516 open("/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache", O_RDONLY) = 3 <0.000023>
+11:15:34.444601 fstat(3, {st_mode=S_IFREG|0644, st_size=26258, ...}) = 0 <0.000017>
+11:15:34.444678 mmap(NULL, 26258, PROT_READ, MAP_SHARED, 3, 0) = 0x7f01f5aad000 <0.000023>
+11:15:34.444741 close(3)                = 0 <0.000017>
+11:15:34.444803 brk(0x254b000)          = 0x254b000 <0.000018>
+11:15:34.444879 getppid()               = 10795 <0.000017>
+11:15:34.444981 brk(0x254c000)          = 0x254c000 <0.000019>
+11:15:34.445047 getpgrp()               = 10795 <0.000016>
+11:15:34.445103 rt_sigaction(SIGCHLD, {0x4464c0, [], SA_RESTORER|SA_RESTART, 0x7f01f50d8cb0}, {SIG_DFL, [], SA_RESTORER|SA_RESTART, 0x7f01f50d8cb0}, 8) = 0 <0.000017>
+11:15:34.445185 getrlimit(RLIMIT_NPROC, {rlim_cur=128502, rlim_max=128502}) = 0 <0.000019>
+11:15:34.445296 brk(0x254d000)          = 0x254d000 <0.000019>
+11:15:34.445396 brk(0x254e000)          = 0x254e000 <0.000018>
+11:15:34.445458 brk(0x254f000)          = 0x254f000 <0.000017>
+11:15:34.445635 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0 <0.000017>
+11:15:34.445708 open("./experiments/run.sh", O_RDONLY) = 3 <0.000024>
+11:15:34.445780 ioctl(3, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, 0x7ffeb05e5990) = -1 ENOTTY (Inappropriate ioctl for device) <0.000016>
+11:15:34.445850 lseek(3, 0, SEEK_CUR)   = 0 <0.000017>
+11:15:34.445907 read(3, "#!/bin/bash\n\necho \"[$(date +\"%Y-"..., 80) = 80 <0.000020>
+11:15:34.445970 lseek(3, 0, SEEK_SET)   = 0 <0.000016>
+11:15:34.446027 getrlimit(RLIMIT_NOFILE, {rlim_cur=1024, rlim_max=4*1024}) = 0 <0.000017>
+11:15:34.446089 fcntl(255, F_GETFD)     = -1 EBADF (Bad file descriptor) <0.000016>
+11:15:34.446149 dup2(3, 255)            = 255 <0.000018>
+11:15:34.446205 close(3)                = 0 <0.000016>
+11:15:34.446259 fcntl(255, F_SETFD, FD_CLOEXEC) = 0 <0.000017>
+11:15:34.446315 fcntl(255, F_GETFL)     = 0x8000 (flags O_RDONLY|O_LARGEFILE) <0.000016>
+11:15:34.446372 fstat(255, {st_mode=S_IFREG|0775, st_size=6664, ...}) = 0 <0.000017>
+11:15:34.446433 lseek(255, 0, SEEK_CUR) = 0 <0.000016>
+11:15:34.446489 brk(0x2551000)          = 0x2551000 <0.000019>
+11:15:34.446554 brk(0x2552000)          = 0x2552000 <0.000017>
+11:15:34.446630 read(255, "#!/bin/bash\n\necho \"[$(date +\"%Y-"..., 6664) = 6664 <0.000020>
+11:15:34.446756 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0 <0.000015>
+11:15:34.446841 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0 <0.000016>
+11:15:34.446944 brk(0x2553000)          = 0x2553000 <0.000018>
+11:15:34.447032 pipe([3, 4])            = 0 <0.000023>
+11:15:34.447099 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000017>
+11:15:34.447163 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000015>
+11:15:34.447234 rt_sigprocmask(SIG_BLOCK, [INT CHLD], [], 8) = 0 <0.000017>
+11:15:34.447310 lseek(255, -6590, SEEK_CUR) = 74 <0.000015>
+11:15:34.447363 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f01f5a90a10) = 10799 <0.000101>
+11:15:34.447533 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000015>
+11:15:34.447586 rt_sigaction(SIGCHLD, {0x4464c0, [], SA_RESTORER|SA_RESTART, 0x7f01f50d8cb0}, {0x4464c0, [], SA_RESTORER|SA_RESTART, 0x7f01f50d8cb0}, 8) = 0 <0.000015>
+11:15:34.447647 close(4)                = 0 <0.000016>
+11:15:34.447698 read(3, "2016-09-11_11:15:34\n", 128) = 20 <0.001083>
+11:15:34.448846 read(3, "", 128)        = 0 <0.000017>
+11:15:34.448924 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=10799, si_status=0, si_utime=0, si_stime=0} ---
+11:15:34.448972 wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], WNOHANG, NULL) = 10799 <0.000023>
+11:15:34.449040 wait4(-1, 0x7ffeb05e4d18, WNOHANG, NULL) = -1 ECHILD (No child processes) <0.000014>
+11:15:34.449093 rt_sigreturn()          = 0 <0.000018>
+11:15:34.449146 close(3)                = 0 <0.000021>
+11:15:34.449203 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000015>
+11:15:34.449262 rt_sigaction(SIGINT, {0x4438a0, [], SA_RESTORER, 0x7f01f50d8cb0}, {SIG_DFL, [], SA_RESTORER, 0x7f01f50d8cb0}, 8) = 0 <0.000014>
+11:15:34.449324 rt_sigaction(SIGINT, {SIG_DFL, [], SA_RESTORER, 0x7f01f50d8cb0}, {0x4438a0, [], SA_RESTORER, 0x7f01f50d8cb0}, 8) = 0 <0.000015>
+11:15:34.449384 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000014>
+11:15:34.449472 write(1, "[2016-09-11_11:15:34] RUNNING HF"..., 45[2016-09-11_11:15:34] RUNNING HFO EXPERIMENT
+) = 45 <0.000033>
+11:15:34.449568 read(255, "echo \"[$(date +\"%Y-%m-%d_%H:%M:%"..., 6664) = 6590 <0.000021>
+11:15:34.449664 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0 <0.000016>
+11:15:34.449747 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0 <0.000015>
+11:15:34.449861 pipe([3, 4])            = 0 <0.000021>
+11:15:34.449920 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000015>
+11:15:34.449987 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000014>
+11:15:34.450042 rt_sigprocmask(SIG_BLOCK, [INT CHLD], [], 8) = 0 <0.000015>
+11:15:34.450100 lseek(255, -6534, SEEK_CUR) = 130 <0.000015>
+11:15:34.450151 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f01f5a90a10) = 10800 <0.000085>
+11:15:34.450305 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000016>
+11:15:34.450361 rt_sigaction(SIGCHLD, {0x4464c0, [], SA_RESTORER|SA_RESTART, 0x7f01f50d8cb0}, {0x4464c0, [], SA_RESTORER|SA_RESTART, 0x7f01f50d8cb0}, 8) = 0 <0.000016>
+11:15:34.450424 close(4)                = 0 <0.000015>
+11:15:34.450474 read(3, "2016-09-11_11:15:34\n", 128) = 20 <0.001111>
+11:15:34.451629 read(3, "", 128)        = 0 <0.000016>
+11:15:34.451680 close(3)                = 0 <0.000022>
+11:15:34.451738 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=10800, si_status=0, si_utime=0, si_stime=0} ---
+11:15:34.451771 wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], WNOHANG, NULL) = 10800 <0.000022>
+11:15:34.451832 wait4(-1, 0x7ffeb05e4d58, WNOHANG, NULL) = -1 ECHILD (No child processes) <0.000015>
+11:15:34.451886 rt_sigreturn()          = 0 <0.000016>
+11:15:34.451936 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000014>
+11:15:34.451993 rt_sigaction(SIGINT, {0x4438a0, [], SA_RESTORER, 0x7f01f50d8cb0}, {SIG_DFL, [], SA_RESTORER, 0x7f01f50d8cb0}, 8) = 0 <0.000016>
+11:15:34.452054 rt_sigaction(SIGINT, {SIG_DFL, [], SA_RESTORER, 0x7f01f50d8cb0}, {0x4438a0, [], SA_RESTORER, 0x7f01f50d8cb0}, 8) = 0 <0.000015>
+11:15:34.452115 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000016>
+11:15:34.452197 write(1, "[2016-09-11_11:15:34] PARSING AR"..., 40[2016-09-11_11:15:34] PARSING ARGUMENTS
+) = 40 <0.000029>
+11:15:34.452278 read(255, "\nfor i in \"$@\"\ndo\n  case $i in\n "..., 6664) = 6534 <0.000021>
+11:15:34.452523 brk(0x2554000)          = 0x2554000 <0.000018>
+11:15:34.452651 brk(0x2555000)          = 0x2555000 <0.000017>
+11:15:34.453705 brk(0x2556000)          = 0x2556000 <0.000021>
+11:15:34.453774 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0 <0.000014>
+11:15:34.453863 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0 <0.000015>
+11:15:34.453943 pipe([3, 4])            = 0 <0.000021>
+11:15:34.454002 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000015>
+11:15:34.454061 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000014>
+11:15:34.454115 rt_sigprocmask(SIG_BLOCK, [INT CHLD], [], 8) = 0 <0.000014>
+11:15:34.454171 lseek(255, -4748, SEEK_CUR) = 1916 <0.000016>
+11:15:34.454223 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f01f5a90a10) = 10801 <0.000085>
+11:15:34.454377 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000015>
+11:15:34.454435 rt_sigaction(SIGCHLD, {0x4464c0, [], SA_RESTORER|SA_RESTART, 0x7f01f50d8cb0}, {0x4464c0, [], SA_RESTORER|SA_RESTART, 0x7f01f50d8cb0}, 8) = 0 <0.000016>
+11:15:34.454499 close(4)                = 0 <0.000016>
+11:15:34.454550 read(3, "/home/ruben/playground/HFO/exper"..., 128) = 39 <0.002320>
+11:15:34.456922 read(3, "", 128)        = 0 <0.000119>
+11:15:34.457083 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=10801, si_status=0, si_utime=0, si_stime=0} ---
+11:15:34.457117 wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], WNOHANG, NULL) = 10801 <0.000021>
+11:15:34.457179 wait4(-1, 0x7ffeb05e4c18, WNOHANG, NULL) = -1 ECHILD (No child processes) <0.000015>
+11:15:34.457234 rt_sigreturn()          = 0 <0.000016>
+11:15:34.457285 close(3)                = 0 <0.000022>
+11:15:34.457342 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000015>
+11:15:34.457401 rt_sigaction(SIGINT, {0x4438a0, [], SA_RESTORER, 0x7f01f50d8cb0}, {SIG_DFL, [], SA_RESTORER, 0x7f01f50d8cb0}, 8) = 0 <0.000016>
+11:15:34.457464 rt_sigaction(SIGINT, {SIG_DFL, [], SA_RESTORER, 0x7f01f50d8cb0}, {0x4438a0, [], SA_RESTORER, 0x7f01f50d8cb0}, 8) = 0 <0.000014>
+11:15:34.457523 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000015>
+11:15:34.457607 read(255, "\nfor ((server=0; server<${PARALL"..., 6664) = 4748 <0.000021>
+11:15:34.457975 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0 <0.000016>
+11:15:34.458061 pipe([3, 4])            = 0 <0.000020>
+11:15:34.458121 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000014>
+11:15:34.458177 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000016>
+11:15:34.458233 rt_sigprocmask(SIG_BLOCK, [INT CHLD], [], 8) = 0 <0.000014>
+11:15:34.458289 lseek(255, -3558, SEEK_CUR) = 3106 <0.000015>
+11:15:34.458340 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f01f5a90a10) = 10804 <0.000085>
+11:15:34.458491 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000014>
+11:15:34.458544 rt_sigaction(SIGCHLD, {0x4464c0, [], SA_RESTORER|SA_RESTART, 0x7f01f50d8cb0}, {0x4464c0, [], SA_RESTORER|SA_RESTART, 0x7f01f50d8cb0}, 8) = 0 <0.000014>
+11:15:34.458606 close(4)                = 0 <0.000016>
+11:15:34.458657 read(3, "2016_09_11-11.15.34\n", 128) = 20 <0.001084>
+11:15:34.459788 read(3, "", 128)        = 0 <0.000029>
+11:15:34.459918 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=10804, si_status=0, si_utime=0, si_stime=0} ---
+11:15:34.459960 wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], WNOHANG, NULL) = 10804 <0.000031>
+11:15:34.460039 wait4(-1, 0x7ffeb05e4158, WNOHANG, NULL) = -1 ECHILD (No child processes) <0.000022>
+11:15:34.460098 rt_sigreturn()          = 0 <0.000014>
+11:15:34.460146 close(3)                = 0 <0.000023>
+11:15:34.460201 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000013>
+11:15:34.460255 rt_sigaction(SIGINT, {0x4438a0, [], SA_RESTORER, 0x7f01f50d8cb0}, {SIG_DFL, [], SA_RESTORER, 0x7f01f50d8cb0}, 8) = 0 <0.000014>
+11:15:34.460313 rt_sigaction(SIGINT, {SIG_DFL, [], SA_RESTORER, 0x7f01f50d8cb0}, {0x4438a0, [], SA_RESTORER, 0x7f01f50d8cb0}, 8) = 0 <0.000014>
+11:15:34.460368 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000013>
+11:15:34.460530 stat(".", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0 <0.000019>
+11:15:34.460594 stat("/home/ruben/anaconda2/envs/deepatariEnv/bin/mkdir", 0x7ffeb05e4b90) = -1 ENOENT (No such file or directory) <0.000019>
+11:15:34.460652 stat("/usr/local/cuda/bin/mkdir", 0x7ffeb05e4b90) = -1 ENOENT (No such file or directory) <0.000017>
+11:15:34.460708 stat("/home/ruben/anaconda2/bin/mkdir", 0x7ffeb05e4b90) = -1 ENOENT (No such file or directory) <0.000015>
+11:15:34.460761 stat("/usr/local/sbin/mkdir", 0x7ffeb05e4b90) = -1 ENOENT (No such file or directory) <0.000015>
+11:15:34.460814 stat("/usr/local/bin/mkdir", 0x7ffeb05e4b90) = -1 ENOENT (No such file or directory) <0.000015>
+11:15:34.460867 stat("/usr/sbin/mkdir", 0x7ffeb05e4b90) = -1 ENOENT (No such file or directory) <0.000015>
+11:15:34.460920 stat("/usr/bin/mkdir", 0x7ffeb05e4b90) = -1 ENOENT (No such file or directory) <0.000015>
+11:15:34.460973 stat("/sbin/mkdir", 0x7ffeb05e4b90) = -1 ENOENT (No such file or directory) <0.000014>
+11:15:34.461025 stat("/bin/mkdir", {st_mode=S_IFREG|0755, st_size=51936, ...}) = 0 <0.000016>
+11:15:34.461087 stat("/bin/mkdir", {st_mode=S_IFREG|0755, st_size=51936, ...}) = 0 <0.000015>
+11:15:34.461141 geteuid()               = 1000 <0.000013>
+11:15:34.461187 getegid()               = 1000 <0.000013>
+11:15:34.461230 getuid()                = 1000 <0.000014>
+11:15:34.461276 getgid()                = 1000 <0.000013>
+11:15:34.461319 access("/bin/mkdir", X_OK) = 0 <0.000017>
+11:15:34.461372 stat("/bin/mkdir", {st_mode=S_IFREG|0755, st_size=51936, ...}) = 0 <0.000016>
+11:15:34.461425 geteuid()               = 1000 <0.000013>
+11:15:34.461467 getegid()               = 1000 <0.000013>
+11:15:34.461510 getuid()                = 1000 <0.000012>
+11:15:34.461554 getgid()                = 1000 <0.000013>
+11:15:34.461597 access("/bin/mkdir", R_OK) = 0 <0.000016>
+11:15:34.461648 stat("/bin/mkdir", {st_mode=S_IFREG|0755, st_size=51936, ...}) = 0 <0.000015>
+11:15:34.461703 stat("/bin/mkdir", {st_mode=S_IFREG|0755, st_size=51936, ...}) = 0 <0.000015>
+11:15:34.461756 geteuid()               = 1000 <0.000013>
+11:15:34.461799 getegid()               = 1000 <0.000013>
+11:15:34.461843 getuid()                = 1000 <0.000013>
+11:15:34.461887 getgid()                = 1000 <0.000013>
+11:15:34.461939 access("/bin/mkdir", X_OK) = 0 <0.000016>
+11:15:34.461990 stat("/bin/mkdir", {st_mode=S_IFREG|0755, st_size=51936, ...}) = 0 <0.000015>
+11:15:34.462044 geteuid()               = 1000 <0.000013>
+11:15:34.462088 getegid()               = 1000 <0.000012>
+11:15:34.462131 getuid()                = 1000 <0.000013>
+11:15:34.462174 getgid()                = 1000 <0.000013>
+11:15:34.462217 access("/bin/mkdir", R_OK) = 0 <0.000015>
+11:15:34.462269 brk(0x2557000)          = 0x2557000 <0.000018>
+11:15:34.462330 rt_sigprocmask(SIG_BLOCK, [INT CHLD], [], 8) = 0 <0.000015>
+11:15:34.462384 rt_sigprocmask(SIG_BLOCK, [CHLD], [INT CHLD], 8) = 0 <0.000014>
+11:15:34.462437 rt_sigprocmask(SIG_SETMASK, [INT CHLD], NULL, 8) = 0 <0.000014>
+11:15:34.462488 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f01f5a90a10) = 10805 <0.000089>
+11:15:34.462640 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000013>
+11:15:34.462724 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000015>
+11:15:34.462780 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000015>
+11:15:34.462829 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000013>
+11:15:34.462881 rt_sigaction(SIGINT, {0x4438a0, [], SA_RESTORER, 0x7f01f50d8cb0}, {SIG_DFL, [], SA_RESTORER, 0x7f01f50d8cb0}, 8) = 0 <0.000013>
+11:15:34.462937 wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 10805 <0.001114>
+11:15:34.464089 rt_sigaction(SIGINT, {SIG_DFL, [], SA_RESTORER, 0x7f01f50d8cb0}, {0x4438a0, [], SA_RESTORER, 0x7f01f50d8cb0}, 8) = 0 <0.000012>
+11:15:34.464145 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000012>
+11:15:34.464191 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=10805, si_status=0, si_utime=0, si_stime=0} ---
+11:15:34.464218 wait4(-1, 0x7ffeb05e46d8, WNOHANG, NULL) = -1 ECHILD (No child processes) <0.000013>
+11:15:34.464262 rt_sigreturn()          = 0 <0.000013>
+11:15:34.464378 stat(".", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0 <0.000016>
+11:15:34.464433 stat("/home/ruben/anaconda2/envs/deepatariEnv/bin/touch", 0x7ffeb05e4d90) = -1 ENOENT (No such file or directory) <0.000015>
+11:15:34.464485 stat("/usr/local/cuda/bin/touch", 0x7ffeb05e4d90) = -1 ENOENT (No such file or directory) <0.000015>
+11:15:34.464535 stat("/home/ruben/anaconda2/bin/touch", 0x7ffeb05e4d90) = -1 ENOENT (No such file or directory) <0.000014>
+11:15:34.464584 stat("/usr/local/sbin/touch", 0x7ffeb05e4d90) = -1 ENOENT (No such file or directory) <0.000014>
+11:15:34.464634 stat("/usr/local/bin/touch", 0x7ffeb05e4d90) = -1 ENOENT (No such file or directory) <0.000013>
+11:15:34.464682 stat("/usr/sbin/touch", 0x7ffeb05e4d90) = -1 ENOENT (No such file or directory) <0.000014>
+11:15:34.464731 stat("/usr/bin/touch", {st_mode=S_IFREG|0755, st_size=60224, ...}) = 0 <0.000016>
+11:15:34.464784 stat("/usr/bin/touch", {st_mode=S_IFREG|0755, st_size=60224, ...}) = 0 <0.000015>
+11:15:34.464834 geteuid()               = 1000 <0.000012>
+11:15:34.464874 getegid()               = 1000 <0.000012>
+11:15:34.464912 getuid()                = 1000 <0.000011>
+11:15:34.464950 getgid()                = 1000 <0.000011>
+11:15:34.464988 access("/usr/bin/touch", X_OK) = 0 <0.000016>
+11:15:34.465035 stat("/usr/bin/touch", {st_mode=S_IFREG|0755, st_size=60224, ...}) = 0 <0.000014>
+11:15:34.465086 geteuid()               = 1000 <0.000011>
+11:15:34.465125 getegid()               = 1000 <0.000011>
+11:15:34.465164 getuid()                = 1000 <0.000011>
+11:15:34.465202 getgid()                = 1000 <0.000012>
+11:15:34.465240 access("/usr/bin/touch", R_OK) = 0 <0.000015>
+11:15:34.465288 stat("/usr/bin/touch", {st_mode=S_IFREG|0755, st_size=60224, ...}) = 0 <0.000015>
+11:15:34.465337 stat("/usr/bin/touch", {st_mode=S_IFREG|0755, st_size=60224, ...}) = 0 <0.000014>
+11:15:34.465386 geteuid()               = 1000 <0.000012>
+11:15:34.465425 getegid()               = 1000 <0.000011>
+11:15:34.465464 getuid()                = 1000 <0.000011>
+11:15:34.465502 getgid()                = 1000 <0.000011>
+11:15:34.465540 access("/usr/bin/touch", X_OK) = 0 <0.000015>
+11:15:34.465586 stat("/usr/bin/touch", {st_mode=S_IFREG|0755, st_size=60224, ...}) = 0 <0.000013>
+11:15:34.465642 geteuid()               = 1000 <0.000012>
+11:15:34.465682 getegid()               = 1000 <0.000011>
+11:15:34.465720 getuid()                = 1000 <0.000012>
+11:15:34.465758 getgid()                = 1000 <0.000012>
+11:15:34.465796 access("/usr/bin/touch", R_OK) = 0 <0.000015>
+11:15:34.465848 rt_sigprocmask(SIG_BLOCK, [INT CHLD], [], 8) = 0 <0.000012>
+11:15:34.465897 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f01f5a90a10) = 10806 <0.000077>
+11:15:34.466034 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000012>
+11:15:34.466110 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000012>
+11:15:34.466162 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000012>
+11:15:34.466205 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000012>
+11:15:34.466252 rt_sigaction(SIGINT, {0x4438a0, [], SA_RESTORER, 0x7f01f50d8cb0}, {SIG_DFL, [], SA_RESTORER, 0x7f01f50d8cb0}, 8) = 0 <0.000012>
+11:15:34.466303 wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 10806 <0.000644>
+11:15:34.466981 rt_sigaction(SIGINT, {SIG_DFL, [], SA_RESTORER, 0x7f01f50d8cb0}, {0x4438a0, [], SA_RESTORER, 0x7f01f50d8cb0}, 8) = 0 <0.000012>
+11:15:34.467037 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000012>
+11:15:34.467083 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=10806, si_status=0, si_utime=0, si_stime=0} ---
+11:15:34.467110 wait4(-1, 0x7ffeb05e48d8, WNOHANG, NULL) = -1 ECHILD (No child processes) <0.000011>
+11:15:34.467153 rt_sigreturn()          = 0 <0.000013>
+11:15:34.467212 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0 <0.000015>
+11:15:34.467311 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0 <0.000012>
+11:15:34.467370 pipe([3, 4])            = 0 <0.000017>
+11:15:34.467420 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000012>
+11:15:34.467467 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000013>
+11:15:34.467513 rt_sigprocmask(SIG_BLOCK, [INT CHLD], [], 8) = 0 <0.000012>
+11:15:34.467561 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f01f5a90a10) = 10807 <0.000071>
+11:15:34.467691 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000012>
+11:15:34.467736 rt_sigaction(SIGCHLD, {0x4464c0, [], SA_RESTORER|SA_RESTART, 0x7f01f50d8cb0}, {0x4464c0, [], SA_RESTORER|SA_RESTART, 0x7f01f50d8cb0}, 8) = 0 <0.000012>
+11:15:34.467788 close(4)                = 0 <0.000013>
+11:15:34.467832 read(3, "2016-09-11_11:15:34\n", 128) = 20 <0.000911>
+11:15:34.468800 read(3, "", 128)        = 0 <0.000015>
+11:15:34.468875 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=10807, si_status=0, si_utime=0, si_stime=0} ---
+11:15:34.468911 wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], WNOHANG, NULL) = 10807 <0.000018>
+11:15:34.468967 wait4(-1, 0x7ffeb05e4518, WNOHANG, NULL) = -1 ECHILD (No child processes) <0.000012>
+11:15:34.469013 rt_sigreturn()          = 0 <0.000013>
+11:15:34.469054 close(3)                = 0 <0.000020>
+11:15:34.469103 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000012>
+11:15:34.469153 rt_sigaction(SIGINT, {0x4438a0, [], SA_RESTORER, 0x7f01f50d8cb0}, {SIG_DFL, [], SA_RESTORER, 0x7f01f50d8cb0}, 8) = 0 <0.000012>
+11:15:34.469206 rt_sigaction(SIGINT, {SIG_DFL, [], SA_RESTORER, 0x7f01f50d8cb0}, {0x4438a0, [], SA_RESTORER, 0x7f01f50d8cb0}, 8) = 0 <0.000012>
+11:15:34.469256 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000012>
+11:15:34.469364 open("/home/ruben/playground/HFO/experiments/LOGS/2016_09_11-11.15.34_SARSA/EXPERIMENT_LOG", O_WRONLY|O_CREAT|O_APPEND, 0666) = 3 <0.000025>
+11:15:34.469427 fcntl(1, F_GETFD)       = 0 <0.000013>
+11:15:34.469472 fcntl(1, F_DUPFD, 10)   = 10 <0.000011>
+11:15:34.469513 fcntl(1, F_GETFD)       = 0 <0.000012>
+11:15:34.469556 fcntl(10, F_SETFD, FD_CLOEXEC) = 0 <0.000012>
+11:15:34.469602 dup2(3, 1)              = 1 <0.000013>
+11:15:34.469645 close(3)                = 0 <0.000011>
+11:15:34.469693 write(1, "[2016-09-11_11:15:34] START EXPE"..., 39) = 39 <0.000039>
+11:15:34.469768 dup2(10, 1)             = 1 <0.000015>
+11:15:34.469822 fcntl(10, F_GETFD)      = 0x1 (flags FD_CLOEXEC) <0.000012>
+11:15:34.469867 close(10)               = 0 <0.000013>
+11:15:34.469964 open("/home/ruben/playground/HFO/experiments/LOGS/2016_09_11-11.15.34_SARSA/EXPERIMENT_LOG", O_WRONLY|O_CREAT|O_APPEND, 0666) = 3 <0.000021>
+11:15:34.470021 fcntl(1, F_GETFD)       = 0 <0.000011>
+11:15:34.470062 fcntl(1, F_DUPFD, 10)   = 10 <0.000013>
+11:15:34.470104 fcntl(1, F_GETFD)       = 0 <0.000012>
+11:15:34.470144 fcntl(10, F_SETFD, FD_CLOEXEC) = 0 <0.000012>
+11:15:34.470186 dup2(3, 1)              = 1 <0.000011>
+11:15:34.470226 close(3)                = 0 <0.000012>
+11:15:34.470270 write(1, "================================"..., 38) = 38 <0.000021>
+11:15:34.470326 dup2(10, 1)             = 1 <0.000013>
+11:15:34.470370 fcntl(10, F_GETFD)      = 0x1 (flags FD_CLOEXEC) <0.000012>
+11:15:34.470412 close(10)               = 0 <0.000013>
+11:15:34.470516 brk(0x2558000)          = 0x2558000 <0.000017>
+11:15:34.470626 open("/home/ruben/playground/HFO/experiments/LOGS/2016_09_11-11.15.34_SARSA/EXPERIMENT_LOG", O_WRONLY|O_CREAT|O_APPEND, 0666) = 3 <0.000021>
+11:15:34.470682 fcntl(1, F_GETFD)       = 0 <0.000013>
+11:15:34.470725 fcntl(1, F_DUPFD, 10)   = 10 <0.000011>
+11:15:34.470764 fcntl(1, F_GETFD)       = 0 <0.000012>
+11:15:34.470806 fcntl(10, F_SETFD, FD_CLOEXEC) = 0 <0.000013>
+11:15:34.470849 dup2(3, 1)              = 1 <0.000013>
+11:15:34.470892 close(3)                = 0 <0.000011>
+11:15:34.471002 write(1, "./experiments/run.sh    --runs=1"..., 264) = 264 <0.000042>
+11:15:34.471101 dup2(10, 1)             = 1 <0.000028>
+11:15:34.471177 fcntl(10, F_GETFD)      = 0x1 (flags FD_CLOEXEC) <0.000037>
+11:15:34.471265 close(10)               = 0 <0.000013>
+11:15:34.471379 open("/home/ruben/playground/HFO/experiments/LOGS/2016_09_11-11.15.34_SARSA/EXPERIMENT_LOG", O_WRONLY|O_CREAT|O_APPEND, 0666) = 3 <0.000027>
+11:15:34.471443 fcntl(1, F_GETFD)       = 0 <0.000013>
+11:15:34.471484 fcntl(1, F_DUPFD, 10)   = 10 <0.000013>
+11:15:34.471525 fcntl(1, F_GETFD)       = 0 <0.000011>
+11:15:34.471565 fcntl(10, F_SETFD, FD_CLOEXEC) = 0 <0.000011>
+11:15:34.471606 dup2(3, 1)              = 1 <0.000013>
+11:15:34.471647 close(3)                = 0 <0.000012>
+11:15:34.471690 write(1, "================================"..., 38) = 38 <0.000021>
+11:15:34.471744 dup2(10, 1)             = 1 <0.000014>
+11:15:34.471786 fcntl(10, F_GETFD)      = 0x1 (flags FD_CLOEXEC) <0.000011>
+11:15:34.471826 close(10)               = 0 <0.000012>
+11:15:34.471885 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0 <0.000013>
+11:15:34.471973 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0 <0.000012>
+11:15:34.472036 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0 <0.000012>
+11:15:34.472095 pipe([3, 4])            = 0 <0.000020>
+11:15:34.472146 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000013>
+11:15:34.472194 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000013>
+11:15:34.472238 rt_sigprocmask(SIG_BLOCK, [INT CHLD], [], 8) = 0 <0.000012>
+11:15:34.472287 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f01f5a90a10) = 10808 <0.000099>
+11:15:34.472442 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000012>
+11:15:34.472488 rt_sigaction(SIGCHLD, {0x4464c0, [], SA_RESTORER|SA_RESTART, 0x7f01f50d8cb0}, {0x4464c0, [], SA_RESTORER|SA_RESTART, 0x7f01f50d8cb0}, 8) = 0 <0.000012>
+11:15:34.472539 close(4)                = 0 <0.000012>
+11:15:34.472580 read(3, "2016-09-11_11:15:34\n", 128) = 20 <0.001023>
+11:15:34.473663 read(3, "", 128)        = 0 <0.000017>
+11:15:34.473732 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=10808, si_status=0, si_utime=0, si_stime=0} ---
+11:15:34.473766 wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], WNOHANG, NULL) = 10808 <0.000023>
+11:15:34.473825 wait4(-1, 0x7ffeb05e4918, WNOHANG, NULL) = -1 ECHILD (No child processes) <0.000011>
+11:15:34.473871 rt_sigreturn()          = 0 <0.000014>
+11:15:34.473914 close(3)                = 0 <0.000021>
+11:15:34.473963 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000013>
+11:15:34.474012 rt_sigaction(SIGINT, {0x4438a0, [], SA_RESTORER, 0x7f01f50d8cb0}, {SIG_DFL, [], SA_RESTORER, 0x7f01f50d8cb0}, 8) = 0 <0.000012>
+11:15:34.474078 rt_sigaction(SIGINT, {SIG_DFL, [], SA_RESTORER, 0x7f01f50d8cb0}, {0x4438a0, [], SA_RESTORER, 0x7f01f50d8cb0}, 8) = 0 <0.000012>
+11:15:34.474128 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000011>
+11:15:34.474254 open("/home/ruben/playground/HFO/experiments/LOGS/2016_09_11-11.15.34_SARSA/EXPERIMENT_LOG", O_WRONLY|O_CREAT|O_APPEND, 0666) = 3 <0.000024>
+11:15:34.474316 fcntl(1, F_GETFD)       = 0 <0.000013>
+11:15:34.474359 fcntl(1, F_DUPFD, 10)   = 10 <0.000012>
+11:15:34.474400 fcntl(1, F_GETFD)       = 0 <0.000012>
+11:15:34.474440 fcntl(10, F_SETFD, FD_CLOEXEC) = 0 <0.000012>
+11:15:34.474483 dup2(3, 1)              = 1 <0.000012>
+11:15:34.474524 close(3)                = 0 <0.000012>
+11:15:34.474570 write(1, "[2016-09-11_11:15:34] GET BASE D"..., 81) = 81 <0.000020>
+11:15:34.474625 dup2(10, 1)             = 1 <0.000014>
+11:15:34.474667 fcntl(10, F_GETFD)      = 0x1 (flags FD_CLOEXEC) <0.000013>
+11:15:34.474710 close(10)               = 0 <0.000012>
+11:15:34.474774 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0 <0.000013>
+11:15:34.474853 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0 <0.000012>
+11:15:34.474916 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0 <0.000012>
+11:15:34.474977 pipe([3, 4])            = 0 <0.000017>
+11:15:34.475025 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000012>
+11:15:34.475071 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000012>
+11:15:34.475114 rt_sigprocmask(SIG_BLOCK, [INT CHLD], [], 8) = 0 <0.000012>
+11:15:34.475163 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f01f5a90a10) = 10809 <0.000123>
+11:15:34.475346 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000012>
+11:15:34.475414 rt_sigaction(SIGCHLD, {0x4464c0, [], SA_RESTORER|SA_RESTART, 0x7f01f50d8cb0}, {0x4464c0, [], SA_RESTORER|SA_RESTART, 0x7f01f50d8cb0}, 8) = 0 <0.000036>
+11:15:34.475528 close(4)                = 0 <0.000016>
+11:15:34.475579 read(3, "2016-09-11_11:15:34\n", 128) = 20 <0.000980>
+11:15:34.476602 read(3, "", 128)        = 0 <0.000016>
+11:15:34.476653 close(3)                = 0 <0.000935>
+11:15:34.477629 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=10809, si_status=0, si_utime=0, si_stime=0} ---
+11:15:34.477664 wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], WNOHANG, NULL) = 10809 <0.000022>
+11:15:34.477722 wait4(-1, 0x7ffeb05e4a58, WNOHANG, NULL) = -1 ECHILD (No child processes) <0.000011>
+11:15:34.477766 rt_sigreturn()          = 0 <0.000013>
+11:15:34.477806 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000014>
+11:15:34.477862 rt_sigaction(SIGINT, {0x4438a0, [], SA_RESTORER, 0x7f01f50d8cb0}, {SIG_DFL, [], SA_RESTORER, 0x7f01f50d8cb0}, 8) = 0 <0.000011>
+11:15:34.477914 rt_sigaction(SIGINT, {SIG_DFL, [], SA_RESTORER, 0x7f01f50d8cb0}, {0x4438a0, [], SA_RESTORER, 0x7f01f50d8cb0}, 8) = 0 <0.000011>
+11:15:34.477961 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000011>
+11:15:34.478091 open("/home/ruben/playground/HFO/experiments/LOGS/2016_09_11-11.15.34_SARSA/EXPERIMENT_LOG", O_WRONLY|O_CREAT|O_APPEND, 0666) = 3 <0.000024>
+11:15:34.478151 fcntl(1, F_GETFD)       = 0 <0.000012>
+11:15:34.478192 fcntl(1, F_DUPFD, 10)   = 10 <0.000012>
+11:15:34.478230 fcntl(1, F_GETFD)       = 0 <0.000011>
+11:15:34.478268 fcntl(10, F_SETFD, FD_CLOEXEC) = 0 <0.000010>
+11:15:34.478310 dup2(3, 1)              = 1 <0.000012>
+11:15:34.478349 close(3)                = 0 <0.000011>
+11:15:34.478393 write(1, "[2016-09-11_11:15:34] MAKE LOG D"..., 113) = 113 <0.000025>
+11:15:34.478451 dup2(10, 1)             = 1 <0.000013>
+11:15:34.478491 fcntl(10, F_GETFD)      = 0x1 (flags FD_CLOEXEC) <0.000012>
+11:15:34.478532 close(10)               = 0 <0.000011>
+11:15:34.478593 stat(".", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0 <0.000015>
+11:15:34.478646 stat("/home/ruben/anaconda2/envs/deepatariEnv/bin/sleep", 0x7ffeb05e5490) = -1 ENOENT (No such file or directory) <0.000015>
+11:15:34.478696 stat("/usr/local/cuda/bin/sleep", 0x7ffeb05e5490) = -1 ENOENT (No such file or directory) <0.000015>
+11:15:34.478744 stat("/home/ruben/anaconda2/bin/sleep", 0x7ffeb05e5490) = -1 ENOENT (No such file or directory) <0.000013>
+11:15:34.478802 stat("/usr/local/sbin/sleep", 0x7ffeb05e5490) = -1 ENOENT (No such file or directory) <0.000013>
+11:15:34.478849 stat("/usr/local/bin/sleep", 0x7ffeb05e5490) = -1 ENOENT (No such file or directory) <0.000013>
+11:15:34.478894 stat("/usr/sbin/sleep", 0x7ffeb05e5490) = -1 ENOENT (No such file or directory) <0.000012>
+11:15:34.478938 stat("/usr/bin/sleep", 0x7ffeb05e5490) = -1 ENOENT (No such file or directory) <0.000012>
+11:15:34.478982 stat("/sbin/sleep", 0x7ffeb05e5490) = -1 ENOENT (No such file or directory) <0.000013>
+11:15:34.479026 stat("/bin/sleep", {st_mode=S_IFREG|0755, st_size=31296, ...}) = 0 <0.000013>
+11:15:34.479074 stat("/bin/sleep", {st_mode=S_IFREG|0755, st_size=31296, ...}) = 0 <0.000012>
+11:15:34.479120 geteuid()               = 1000 <0.000011>
+11:15:34.479157 getegid()               = 1000 <0.000011>
+11:15:34.479195 getuid()                = 1000 <0.000023>
+11:15:34.479247 getgid()                = 1000 <0.000047>
+11:15:34.479343 access("/bin/sleep", X_OK) = 0 <0.000016>
+11:15:34.479404 stat("/bin/sleep", {st_mode=S_IFREG|0755, st_size=31296, ...}) = 0 <0.000014>
+11:15:34.479452 geteuid()               = 1000 <0.000011>
+11:15:34.479488 getegid()               = 1000 <0.000009>
+11:15:34.479520 getuid()                = 1000 <0.000009>
+11:15:34.479552 getgid()                = 1000 <0.000009>
+11:15:34.479584 access("/bin/sleep", R_OK) = 0 <0.000011>
+11:15:34.479622 stat("/bin/sleep", {st_mode=S_IFREG|0755, st_size=31296, ...}) = 0 <0.000011>
+11:15:34.479661 stat("/bin/sleep", {st_mode=S_IFREG|0755, st_size=31296, ...}) = 0 <0.000010>
+11:15:34.479701 geteuid()               = 1000 <0.000010>
+11:15:34.479733 getegid()               = 1000 <0.000010>
+11:15:34.479765 getuid()                = 1000 <0.000009>
+11:15:34.479797 getgid()                = 1000 <0.000009>
+11:15:34.479829 access("/bin/sleep", X_OK) = 0 <0.000011>
+11:15:34.479865 stat("/bin/sleep", {st_mode=S_IFREG|0755, st_size=31296, ...}) = 0 <0.000011>
+11:15:34.479904 geteuid()               = 1000 <0.000009>
+11:15:34.479937 getegid()               = 1000 <0.000010>
+11:15:34.479968 getuid()                = 1000 <0.000010>
+11:15:34.480001 getgid()                = 1000 <0.000010>
+11:15:34.480033 access("/bin/sleep", R_OK) = 0 <0.000012>
+11:15:34.480074 rt_sigprocmask(SIG_BLOCK, [INT CHLD], [], 8) = 0 <0.000010>
+11:15:34.480115 rt_sigprocmask(SIG_BLOCK, [CHLD], [INT CHLD], 8) = 0 <0.000010>
+11:15:34.480153 rt_sigprocmask(SIG_SETMASK, [INT CHLD], NULL, 8) = 0 <0.000010>
+11:15:34.480192 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f01f5a90a10) = 10810 <0.000083>
+11:15:34.480329 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000012>
+11:15:34.480403 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000011>
+11:15:34.480461 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000011>
+11:15:34.480508 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000009>
+11:15:34.480547 rt_sigaction(SIGINT, {0x4438a0, [], SA_RESTORER, 0x7f01f50d8cb0}, {SIG_DFL, [], SA_RESTORER, 0x7f01f50d8cb0}, 8) = 0 <0.000010>
+11:15:34.480590 wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 10810 <2.000774>
+11:15:36.481466 rt_sigaction(SIGINT, {SIG_DFL, [], SA_RESTORER, 0x7f01f50d8cb0}, {0x4438a0, [], SA_RESTORER, 0x7f01f50d8cb0}, 8) = 0 <0.000012>
+11:15:36.481582 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000066>
+11:15:36.481753 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=10810, si_status=0, si_utime=0, si_stime=0} ---
+11:15:36.481848 wait4(-1, 0x7ffeb05e4fd8, WNOHANG, NULL) = -1 ECHILD (No child processes) <0.000069>
+11:15:36.482022 rt_sigreturn()          = 0 <0.000028>
+11:15:36.482123 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000007>
+11:15:36.482158 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000007>
+11:15:36.482200 read(255, "\n\n\n\nfor ((run=1; run<=${RUNS}; r"..., 6664) = 3558 <0.000014>
+11:15:36.482589 brk(0x2559000)          = 0x2559000 <0.000011>
+11:15:36.482738 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000041>
+11:15:36.482821 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000048>
+11:15:36.482904 brk(0x255a000)          = 0x255a000 <0.000016>
+11:15:36.482966 stat(".", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0 <0.000011>
+11:15:36.483006 stat("/home/ruben/anaconda2/envs/deepatariEnv/bin/killall", 0x7ffeb05e5070) = -1 ENOENT (No such file or directory) <0.000012>
+11:15:36.483043 stat("/usr/local/cuda/bin/killall", 0x7ffeb05e5070) = -1 ENOENT (No such file or directory) <0.000011>
+11:15:36.483076 stat("/home/ruben/anaconda2/bin/killall", 0x7ffeb05e5070) = -1 ENOENT (No such file or directory) <0.000009>
+11:15:36.483107 stat("/usr/local/sbin/killall", 0x7ffeb05e5070) = -1 ENOENT (No such file or directory) <0.000009>
+11:15:36.483137 stat("/usr/local/bin/killall", 0x7ffeb05e5070) = -1 ENOENT (No such file or directory) <0.000009>
+11:15:36.483168 stat("/usr/sbin/killall", 0x7ffeb05e5070) = -1 ENOENT (No such file or directory) <0.000015>
+11:15:36.483226 stat("/usr/bin/killall", {st_mode=S_IFREG|0755, st_size=23672, ...}) = 0 <0.000041>
+11:15:36.483299 stat("/usr/bin/killall", {st_mode=S_IFREG|0755, st_size=23672, ...}) = 0 <0.000009>
+11:15:36.483331 geteuid()               = 1000 <0.000008>
+11:15:36.483355 getegid()               = 1000 <0.000009>
+11:15:36.483383 getuid()                = 1000 <0.000009>
+11:15:36.483413 getgid()                = 1000 <0.000011>
+11:15:36.483447 access("/usr/bin/killall", X_OK) = 0 <0.000011>
+11:15:36.483481 stat("/usr/bin/killall", {st_mode=S_IFREG|0755, st_size=23672, ...}) = 0 <0.000009>
+11:15:36.483513 geteuid()               = 1000 <0.000007>
+11:15:36.483537 getegid()               = 1000 <0.000010>
+11:15:36.483564 getuid()                = 1000 <0.000007>
+11:15:36.483588 getgid()                = 1000 <0.000008>
+11:15:36.483614 access("/usr/bin/killall", R_OK) = 0 <0.000011>
+11:15:36.483646 stat("/usr/bin/killall", {st_mode=S_IFREG|0755, st_size=23672, ...}) = 0 <0.000009>
+11:15:36.483677 stat("/usr/bin/killall", {st_mode=S_IFREG|0755, st_size=23672, ...}) = 0 <0.000009>
+11:15:36.483708 geteuid()               = 1000 <0.000007>
+11:15:36.483733 getegid()               = 1000 <0.000006>
+11:15:36.483757 getuid()                = 1000 <0.000006>
+11:15:36.483781 getgid()                = 1000 <0.000007>
+11:15:36.483805 access("/usr/bin/killall", X_OK) = 0 <0.000009>
+11:15:36.483833 stat("/usr/bin/killall", {st_mode=S_IFREG|0755, st_size=23672, ...}) = 0 <0.000009>
+11:15:36.483864 geteuid()               = 1000 <0.000007>
+11:15:36.483890 getegid()               = 1000 <0.000007>
+11:15:36.483914 getuid()                = 1000 <0.000008>
+11:15:36.483939 getgid()                = 1000 <0.000008>
+11:15:36.483964 access("/usr/bin/killall", R_OK) = 0 <0.000009>
+11:15:36.483997 rt_sigprocmask(SIG_BLOCK, [INT CHLD], [], 8) = 0 <0.000008>
+11:15:36.484029 lseek(255, -148, SEEK_CUR) = 6516 <0.000009>
+11:15:36.484057 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f01f5a90a10) = 10820 <0.000071>
+11:15:36.484168 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000008>
+11:15:36.484213 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000008>
+11:15:36.484250 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000007>
+11:15:36.484277 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000007>
+11:15:36.484307 rt_sigaction(SIGINT, {0x4438a0, [], SA_RESTORER, 0x7f01f50d8cb0}, {SIG_DFL, [], SA_RESTORER, 0x7f01f50d8cb0}, 8) = 0 <0.000008>
+11:15:36.484340 wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 10820 <0.005933>
+11:15:36.490302 rt_sigaction(SIGINT, {SIG_DFL, [], SA_RESTORER, 0x7f01f50d8cb0}, {0x4438a0, [], SA_RESTORER, 0x7f01f50d8cb0}, 8) = 0 <0.000009>
+11:15:36.490344 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000008>
+11:15:36.490374 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=10820, si_status=0, si_utime=0, si_stime=0} ---
+11:15:36.490392 wait4(-1, 0x7ffeb05e4b98, WNOHANG, NULL) = -1 ECHILD (No child processes) <0.000007>
+11:15:36.490420 rt_sigreturn()          = 0 <0.000008>
+11:15:36.490466 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000008>
+11:15:36.490503 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000007>
+11:15:36.490541 brk(0x255b000)          = 0x255b000 <0.000010>
+11:15:36.490572 brk(0x255c000)          = 0x255c000 <0.000008>
+11:15:36.490603 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0 <0.000008>
+11:15:36.490655 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0 <0.000008>
+11:15:36.490698 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0 <0.000007>
+11:15:36.490735 pipe([3, 4])            = 0 <0.000013>
+11:15:36.490768 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000008>
+11:15:36.490797 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000007>
+11:15:36.490825 rt_sigprocmask(SIG_BLOCK, [INT CHLD], [], 8) = 0 <0.000008>
+11:15:36.490854 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f01f5a90a10) = 10821 <0.000046>
+11:15:36.490938 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000007>
+11:15:36.490965 rt_sigaction(SIGCHLD, {0x4464c0, [], SA_RESTORER|SA_RESTART, 0x7f01f50d8cb0}, {0x4464c0, [], SA_RESTORER|SA_RESTART, 0x7f01f50d8cb0}, 8) = 0 <0.000007>
+11:15:36.490997 close(4)                = 0 <0.000008>
+11:15:36.491024 read(3, "2016-09-11_11:15:36\n", 128) = 20 <0.000943>
+11:15:36.492007 read(3, "", 128)        = 0 <0.000015>
+11:15:36.492064 close(3)                = 0 <0.000023>
+11:15:36.492123 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=10821, si_status=0, si_utime=0, si_stime=0} ---
+11:15:36.492155 wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], WNOHANG, NULL) = 10821 <0.000021>
+11:15:36.492217 wait4(-1, 0x7ffeb05e3958, WNOHANG, NULL) = -1 ECHILD (No child processes) <0.000014>
+11:15:36.492269 rt_sigreturn()          = 0 <0.000015>
+11:15:36.492320 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000015>
+11:15:36.492377 rt_sigaction(SIGINT, {0x4438a0, [], SA_RESTORER, 0x7f01f50d8cb0}, {SIG_DFL, [], SA_RESTORER, 0x7f01f50d8cb0}, 8) = 0 <0.000014>
+11:15:36.492437 rt_sigaction(SIGINT, {SIG_DFL, [], SA_RESTORER, 0x7f01f50d8cb0}, {0x4438a0, [], SA_RESTORER, 0x7f01f50d8cb0}, 8) = 0 <0.000015>
+11:15:36.492496 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000014>
+11:15:36.492631 open("/home/ruben/playground/HFO/experiments/LOGS/2016_09_11-11.15.34_SARSA/EXPERIMENT_LOG", O_WRONLY|O_CREAT|O_APPEND, 0666) = 3 <0.000029>
+11:15:36.492704 fcntl(1, F_GETFD)       = 0 <0.000015>
+11:15:36.492756 fcntl(1, F_DUPFD, 10)   = 10 <0.000016>
+11:15:36.492806 fcntl(1, F_GETFD)       = 0 <0.000014>
+11:15:36.492854 fcntl(10, F_SETFD, FD_CLOEXEC) = 0 <0.000013>
+11:15:36.492907 dup2(3, 1)              = 1 <0.000015>
+11:15:36.492957 close(3)                = 0 <0.000014>
+11:15:36.493014 write(1, "[2016-09-11_11:15:36] STARTING R"..., 56) = 56 <0.000032>
+11:15:36.493088 dup2(10, 1)             = 1 <0.000017>
+11:15:36.493141 fcntl(10, F_GETFD)      = 0x1 (flags FD_CLOEXEC) <0.000013>
+11:15:36.493191 close(10)               = 0 <0.000030>
+11:15:36.493259 rt_sigprocmask(SIG_BLOCK, [INT CHLD], [], 8) = 0 <0.000009>
+11:15:36.493289 rt_sigprocmask(SIG_BLOCK, [CHLD], [INT CHLD], 8) = 0 <0.000014>
+11:15:36.493354 rt_sigprocmask(SIG_SETMASK, [INT CHLD], NULL, 8) = 0 <0.000014>
+11:15:36.493409 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f01f5a90a10) = 10822 <0.000085>
+11:15:36.493573 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000007>
+11:15:36.493620 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000008>
+11:15:36.493653 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000008>
+11:15:36.493681 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000022>
+11:15:36.493737 rt_sigaction(SIGINT, {0x4438a0, [], SA_RESTORER, 0x7f01f50d8cb0}, {SIG_DFL, [], SA_RESTORER, 0x7f01f50d8cb0}, 8) = 0 <0.000014>
+11:15:36.493797 wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 10822 <2.001137>
+11:15:38.495146 rt_sigaction(SIGINT, {SIG_DFL, [], SA_RESTORER, 0x7f01f50d8cb0}, {0x4438a0, [], SA_RESTORER, 0x7f01f50d8cb0}, 8) = 0 <0.000201>
+11:15:38.495515 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000017>
+11:15:38.495607 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=10822, si_status=0, si_utime=0, si_stime=0} ---
+11:15:38.495692 wait4(-1, 0x7ffeb05e3dd8, WNOHANG, NULL) = -1 ECHILD (No child processes) <0.000108>
+11:15:38.495977 rt_sigreturn()          = 0 <0.000112>
+11:15:38.496272 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0 <0.000022>
+11:15:38.496534 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0 <0.000110>
+11:15:38.496850 pipe([3, 4])            = 0 <0.000094>
+11:15:38.497062 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000064>
+11:15:38.497214 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000039>
+11:15:38.497301 rt_sigprocmask(SIG_BLOCK, [INT CHLD], [], 8) = 0 <0.000015>
+11:15:38.497364 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f01f5a90a10) = 10831 <0.000128>
+11:15:38.497574 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000016>
+11:15:38.497637 rt_sigaction(SIGCHLD, {0x4464c0, [], SA_RESTORER|SA_RESTART, 0x7f01f50d8cb0}, {0x4464c0, [], SA_RESTORER|SA_RESTART, 0x7f01f50d8cb0}, 8) = 0 <0.000015>
+11:15:38.497705 close(4)                = 0 <0.000016>
+11:15:38.497760 read(3, "2016-09-11_11:15:38\n", 128) = 20 <0.001326>
+11:15:38.499134 read(3, "", 128)        = 0 <0.000016>
+11:15:38.499188 close(3)                = 0 <0.000059>
+11:15:38.499287 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=10831, si_status=0, si_utime=0, si_stime=0} ---
+11:15:38.499321 wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], WNOHANG, NULL) = 10831 <0.000043>
+11:15:38.499407 wait4(-1, 0x7ffeb05e3a98, WNOHANG, NULL) = -1 ECHILD (No child processes) <0.000016>
+11:15:38.499468 rt_sigreturn()          = 0 <0.000017>
+11:15:38.499523 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000015>
+11:15:38.499584 rt_sigaction(SIGINT, {0x4438a0, [], SA_RESTORER, 0x7f01f50d8cb0}, {SIG_DFL, [], SA_RESTORER, 0x7f01f50d8cb0}, 8) = 0 <0.000015>
+11:15:38.499649 rt_sigaction(SIGINT, {SIG_DFL, [], SA_RESTORER, 0x7f01f50d8cb0}, {0x4438a0, [], SA_RESTORER, 0x7f01f50d8cb0}, 8) = 0 <0.000015>
+11:15:38.499713 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000015>
+11:15:38.499865 open("/home/ruben/playground/HFO/experiments/LOGS/2016_09_11-11.15.34_SARSA/EXPERIMENT_LOG", O_WRONLY|O_CREAT|O_APPEND, 0666) = 3 <0.000035>
+11:15:38.499949 fcntl(1, F_GETFD)       = 0 <0.000015>
+11:15:38.500003 fcntl(1, F_DUPFD, 10)   = 10 <0.000017>
+11:15:38.500057 fcntl(1, F_GETFD)       = 0 <0.000015>
+11:15:38.500110 fcntl(10, F_SETFD, FD_CLOEXEC) = 0 <0.000015>
+11:15:38.500168 dup2(3, 1)              = 1 <0.000017>
+11:15:38.500223 close(3)                = 0 <0.000015>
+11:15:38.500285 write(1, "[2016-09-11_11:15:38] STARTING H"..., 42) = 42 <0.000036>
+11:15:38.500366 dup2(10, 1)             = 1 <0.000018>
+11:15:38.500423 fcntl(10, F_GETFD)      = 0x1 (flags FD_CLOEXEC) <0.000017>
+11:15:38.500479 close(10)               = 0 <0.000017>
+11:15:38.500649 rt_sigprocmask(SIG_BLOCK, [INT CHLD], [], 8) = 0 <0.000017>
+11:15:38.500713 rt_sigprocmask(SIG_BLOCK, [CHLD], [INT CHLD], 8) = 0 <0.000016>
+11:15:38.500774 rt_sigprocmask(SIG_SETMASK, [INT CHLD], NULL, 8) = 0 <0.000016>
+11:15:38.500835 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f01f5a90a10) = 10832 <0.000095>
+11:15:38.501009 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000017>
+11:15:38.501093 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000016>
+11:15:38.501162 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000016>
+11:15:38.501219 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000016>
+11:15:38.501280 rt_sigaction(SIGINT, {0x4438a0, [], SA_RESTORER, 0x7f01f50d8cb0}, {SIG_DFL, [], SA_RESTORER, 0x7f01f50d8cb0}, 8) = 0 <0.000016>
+11:15:38.501345 wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 10832 <0.000971>
+11:15:38.502360 rt_sigaction(SIGINT, {SIG_DFL, [], SA_RESTORER, 0x7f01f50d8cb0}, {0x4438a0, [], SA_RESTORER, 0x7f01f50d8cb0}, 8) = 0 <0.000016>
+11:15:38.502432 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000016>
+11:15:38.502491 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=10832, si_status=0, si_utime=0, si_stime=0} ---
+11:15:38.502525 wait4(-1, 0x7ffeb05e41d8, WNOHANG, NULL) = -1 ECHILD (No child processes) <0.000029>
+11:15:38.502606 rt_sigreturn()          = 0 <0.000017>
+11:15:38.502696 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0 <0.000016>
+11:15:38.502794 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0 <0.000017>
+11:15:38.502873 pipe([3, 4])            = 0 <0.000022>
+11:15:38.502936 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000015>
+11:15:38.502996 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000015>
+11:15:38.503052 rt_sigprocmask(SIG_BLOCK, [INT CHLD], [], 8) = 0 <0.000014>
+11:15:38.503124 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f01f5a90a10) = 10833 <0.000093>
+11:15:38.503304 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000037>
+11:15:38.503425 rt_sigaction(SIGCHLD, {0x4464c0, [], SA_RESTORER|SA_RESTART, 0x7f01f50d8cb0}, {0x4464c0, [], SA_RESTORER|SA_RESTART, 0x7f01f50d8cb0}, 8) = 0 <0.000018>
+11:15:38.503522 close(4)                = 0 <0.000017>
+11:15:38.503582 read(3, "2016-09-11_11:15:38\n", 128) = 20 <0.001194>
+11:15:38.504845 read(3, "", 128)        = 0 <0.000020>
+11:15:38.504921 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=10833, si_status=0, si_utime=0, si_stime=0} ---
+11:15:38.504969 wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], WNOHANG, NULL) = 10833 <0.000027>
+11:15:38.505055 wait4(-1, 0x7ffeb05e3e58, WNOHANG, NULL) = -1 ECHILD (No child processes) <0.000017>
+11:15:38.505127 rt_sigreturn()          = 0 <0.000019>
+11:15:38.505190 close(3)                = 0 <0.000029>
+11:15:38.505265 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000018>
+11:15:38.505341 rt_sigaction(SIGINT, {0x4438a0, [], SA_RESTORER, 0x7f01f50d8cb0}, {SIG_DFL, [], SA_RESTORER, 0x7f01f50d8cb0}, 8) = 0 <0.000018>
+11:15:38.505421 rt_sigaction(SIGINT, {SIG_DFL, [], SA_RESTORER, 0x7f01f50d8cb0}, {0x4438a0, [], SA_RESTORER, 0x7f01f50d8cb0}, 8) = 0 <0.000018>
+11:15:38.505498 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000017>
+11:15:38.505633 open("/home/ruben/playground/HFO/experiments/LOGS/2016_09_11-11.15.34_SARSA/SERVER_LOG_1_0", O_WRONLY|O_CREAT|O_APPEND, 0666) = 3 <0.000042>
+11:15:38.505741 fcntl(1, F_GETFD)       = 0 <0.000018>
+11:15:38.505806 fcntl(1, F_DUPFD, 10)   = 10 <0.000018>
+11:15:38.505869 fcntl(1, F_GETFD)       = 0 <0.000018>
+11:15:38.505933 fcntl(10, F_SETFD, FD_CLOEXEC) = 0 <0.000017>
+11:15:38.506002 dup2(3, 1)              = 1 <0.000020>
+11:15:38.506066 close(3)                = 0 <0.000035>
+11:15:38.506152 write(1, "[2016-09-11_11:15:38] STARTING H"..., 42) = 42 <0.000058>
+11:15:38.506268 dup2(10, 1)             = 1 <0.000022>
+11:15:38.506337 fcntl(10, F_GETFD)      = 0x1 (flags FD_CLOEXEC) <0.000019>
+11:15:38.506406 close(10)               = 0 <0.000017>
+11:15:38.506536 open("/home/ruben/playground/HFO/experiments/LOGS/2016_09_11-11.15.34_SARSA/SERVER_LOG_1_0", O_WRONLY|O_CREAT|O_APPEND, 0666) = 3 <0.000034>
+11:15:38.506631 fcntl(1, F_GETFD)       = 0 <0.000018>
+11:15:38.506696 fcntl(1, F_DUPFD, 10)   = 10 <0.000018>
+11:15:38.506759 fcntl(1, F_GETFD)       = 0 <0.000018>
+11:15:38.506826 fcntl(10, F_SETFD, FD_CLOEXEC) = 0 <0.000017>
+11:15:38.506891 dup2(3, 1)              = 1 <0.000018>
+11:15:38.506954 close(3)                = 0 <0.000018>
+11:15:38.507021 write(1, "================================"..., 38) = 38 <0.000029>
+11:15:38.507105 dup2(10, 1)             = 1 <0.000022>
+11:15:38.507173 fcntl(10, F_GETFD)      = 0x1 (flags FD_CLOEXEC) <0.000017>
+11:15:38.507276 close(10)               = 0 <0.000017>
+11:15:38.507427 brk(0x255d000)          = 0x255d000 <0.000024>
+11:15:38.507568 open("/home/ruben/playground/HFO/experiments/LOGS/2016_09_11-11.15.34_SARSA/SERVER_LOG_1_0", O_WRONLY|O_CREAT|O_APPEND, 0666) = 3 <0.000031>
+11:15:38.507656 fcntl(1, F_GETFD)       = 0 <0.000016>
+11:15:38.507716 fcntl(1, F_DUPFD, 10)   = 10 <0.000018>
+11:15:38.507773 fcntl(1, F_GETFD)       = 0 <0.000018>
+11:15:38.507833 fcntl(10, F_SETFD, FD_CLOEXEC) = 0 <0.000016>
+11:15:38.507892 dup2(3, 1)              = 1 <0.000019>
+11:15:38.507953 close(3)                = 0 <0.000017>
+11:15:38.508017 write(1, "./bin/HFO    --port 12345    --l"..., 326) = 326 <0.000030>
+11:15:38.508111 dup2(10, 1)             = 1 <0.000020>
+11:15:38.508175 fcntl(10, F_GETFD)      = 0x1 (flags FD_CLOEXEC) <0.000018>
+11:15:38.508237 close(10)               = 0 <0.000017>
+11:15:38.508348 open("/home/ruben/playground/HFO/experiments/LOGS/2016_09_11-11.15.34_SARSA/SERVER_LOG_1_0", O_WRONLY|O_CREAT|O_APPEND, 0666) = 3 <0.000028>
+11:15:38.508435 fcntl(1, F_GETFD)       = 0 <0.000016>
+11:15:38.508493 fcntl(1, F_DUPFD, 10)   = 10 <0.000017>
+11:15:38.508550 fcntl(1, F_GETFD)       = 0 <0.000016>
+11:15:38.508608 fcntl(10, F_SETFD, FD_CLOEXEC) = 0 <0.000017>
+11:15:38.508668 dup2(3, 1)              = 1 <0.000017>
+11:15:38.508726 close(3)                = 0 <0.000017>
+11:15:38.508788 write(1, "================================"..., 38) = 38 <0.000026>
+11:15:38.508865 dup2(10, 1)             = 1 <0.000020>
+11:15:38.508927 fcntl(10, F_GETFD)      = 0x1 (flags FD_CLOEXEC) <0.000016>
+11:15:38.508986 close(10)               = 0 <0.000017>
+11:15:38.509074 write(1, "XXXXXXXXXXXXXX SERVER CALL START"..., 33XXXXXXXXXXXXXX SERVER CALL START
+) = 33 <0.000031>
+11:15:38.509176 rt_sigprocmask(SIG_BLOCK, [INT CHLD], [], 8) = 0 <0.000017>
+11:15:38.509251 rt_sigprocmask(SIG_BLOCK, [CHLD], [INT CHLD], 8) = 0 <0.000018>
+11:15:38.509320 rt_sigprocmask(SIG_SETMASK, [INT CHLD], NULL, 8) = 0 <0.000018>
+11:15:38.509388 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f01f5a90a10) = 10834 <0.000093>
+11:15:38.509563 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000018>
+11:15:38.509656 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000017>
+11:15:38.509742 rt_sigprocmask(SIG_BLOCK, [CHLD], [CHLD], 8) = 0 <0.000017>
+11:15:38.509813 rt_sigprocmask(SIG_SETMASK, [CHLD], NULL, 8) = 0 <0.000016>
+11:15:38.509875 rt_sigprocmask(SIG_BLOCK, [CHLD], [CHLD], 8) = 0 <0.000016>
+11:15:38.509941 rt_sigprocmask(SIG_SETMASK, [CHLD], NULL, 8) = 0 <0.000017>
+11:15:38.510003 rt_sigprocmask(SIG_BLOCK, [CHLD], [CHLD], 8) = 0 <0.000018>
+11:15:38.510070 rt_sigprocmask(SIG_SETMASK, [CHLD], NULL, 8) = 0 <0.000016>
+11:15:38.510131 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000017>
+11:15:38.510229 write(1, "XXXXXXXXXXXXXX SERVER CALL END\n", 31XXXXXXXXXXXXXX SERVER CALL END
+) = 31 <0.000028>
+11:15:38.510362 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0 <0.000018>
+11:15:38.510484 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0 <0.000017>
+11:15:38.510591 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0 <0.000018>
+11:15:38.510685 pipe([3, 4])            = 0 <0.000024>
+11:15:38.510760 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000017>
+11:15:38.510829 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000017>
+11:15:38.510892 rt_sigprocmask(SIG_BLOCK, [INT CHLD], [], 8) = 0 <0.000015>
+11:15:38.510961 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f01f5a90a10) = 10835 <0.000095>
+11:15:38.511140 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000017>
+11:15:38.511211 rt_sigaction(SIGCHLD, {0x4464c0, [], SA_RESTORER|SA_RESTART, 0x7f01f50d8cb0}, {0x4464c0, [], SA_RESTORER|SA_RESTART, 0x7f01f50d8cb0}, 8) = 0 <0.000020>
+11:15:38.511305 close(4)                = 0 <0.000018>
+11:15:38.511365 read(3, "2016-09-11_11:15:38\n", 128) = 20 <0.001038>
+11:15:38.512455 read(3, "", 128)        = 0 <0.000018>
+11:15:38.512518 close(3)                = 0 <0.000025>
+11:15:38.512587 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=10835, si_status=0, si_utime=0, si_stime=0} ---
+11:15:38.512626 wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], WNOHANG, NULL) = 10835 <0.000025>
+11:15:38.512702 wait4(-1, 0x7ffeb05e4598, WNOHANG, NULL) = 0 <0.000018>
+11:15:38.512763 rt_sigreturn()          = 0 <0.000017>
+11:15:38.512821 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000016>
+11:15:38.512888 rt_sigaction(SIGINT, {0x4438a0, [], SA_RESTORER, 0x7f01f50d8cb0}, {SIG_DFL, [], SA_RESTORER, 0x7f01f50d8cb0}, 8) = 0 <0.000016>
+11:15:38.512961 rt_sigaction(SIGINT, {SIG_DFL, [], SA_RESTORER, 0x7f01f50d8cb0}, {0x4438a0, [], SA_RESTORER, 0x7f01f50d8cb0}, 8) = 0 <0.000016>
+11:15:38.513041 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000016>
+11:15:38.513191 open("/home/ruben/playground/HFO/experiments/LOGS/2016_09_11-11.15.34_SARSA/EXPERIMENT_LOG", O_WRONLY|O_CREAT|O_APPEND, 0666) = 3 <0.000031>
+11:15:38.513280 fcntl(1, F_GETFD)       = 0 <0.000016>
+11:15:38.513341 fcntl(1, F_DUPFD, 10)   = 10 <0.000017>
+11:15:38.513400 fcntl(1, F_GETFD)       = 0 <0.000015>
+11:15:38.513458 fcntl(10, F_SETFD, FD_CLOEXEC) = 0 <0.000017>
+11:15:38.513521 dup2(3, 1)              = 1 <0.000018>
+11:15:38.513581 close(3)                = 0 <0.000016>
+11:15:38.513644 write(1, "[2016-09-11_11:15:38] HFO SERVER"..., 44) = 44 <0.000027>
+11:15:38.513723 dup2(10, 1)             = 1 <0.000021>
+11:15:38.513786 fcntl(10, F_GETFD)      = 0x1 (flags FD_CLOEXEC) <0.000017>
+11:15:38.513847 close(10)               = 0 <0.000017>
+11:15:38.513947 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000018>
+11:15:38.514021 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000016>
+11:15:38.514102 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0 <0.000016>
+11:15:38.514214 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0 <0.000017>
+11:15:38.514318 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0 <0.000016>
+11:15:38.514415 pipe([3, 4])            = 0 <0.000024>
+11:15:38.514490 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000017>
+11:15:38.514557 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000017>
+11:15:38.514622 rt_sigprocmask(SIG_BLOCK, [INT CHLD], [], 8) = 0 <0.000017>
+11:15:38.514692 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f01f5a90a10) = 10836 <0.000093>
+11:15:38.514872 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000018>
+11:15:38.514945 rt_sigaction(SIGCHLD, {0x4464c0, [], SA_RESTORER|SA_RESTART, 0x7f01f50d8cb0}, {0x4464c0, [], SA_RESTORER|SA_RESTART, 0x7f01f50d8cb0}, 8) = 0 <0.000017>
+11:15:38.515021 close(4)                = 0 <0.000017>
+11:15:38.515080 read(3, "2016-09-11_11:15:38\n", 128) = 20 <0.001083>
+11:15:38.516275 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=10836, si_status=0, si_utime=0, si_stime=0} ---
+11:15:38.516370 wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], WNOHANG, NULL) = 10836 <0.000038>
+11:15:38.516461 wait4(-1, 0x7ffeb05e4818, WNOHANG, NULL) = 0 <0.000024>
+11:15:38.516537 rt_sigreturn()          = 20 <0.000027>
+11:15:38.516606 read(3, "", 128)        = 0 <0.000018>
+11:15:38.516661 close(3)                = 0 <0.000024>
+11:15:38.516721 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000016>
+11:15:38.516782 rt_sigaction(SIGINT, {0x4438a0, [], SA_RESTORER, 0x7f01f50d8cb0}, {SIG_DFL, [], SA_RESTORER, 0x7f01f50d8cb0}, 8) = 0 <0.000015>
+11:15:38.516844 rt_sigaction(SIGINT, {SIG_DFL, [], SA_RESTORER, 0x7f01f50d8cb0}, {0x4438a0, [], SA_RESTORER, 0x7f01f50d8cb0}, 8) = 0 <0.000015>
+11:15:38.516905 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000015>
+11:15:38.517003 write(1, "[2016-09-11_11:15:38] 1 SERVER S"..., 53[2016-09-11_11:15:38] 1 SERVER SHOULD BE RUNNING NOW
+) = 53 <0.000035>
+11:15:38.517125 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000017>
+11:15:38.517214 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000015>
+11:15:38.517289 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000015>
+11:15:38.517346 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000014>
+11:15:38.517470 rt_sigprocmask(SIG_BLOCK, [INT CHLD], [], 8) = 0 <0.000016>
+11:15:38.517529 rt_sigprocmask(SIG_BLOCK, [CHLD], [INT CHLD], 8) = 0 <0.000014>
+11:15:38.517586 rt_sigprocmask(SIG_SETMASK, [INT CHLD], NULL, 8) = 0 <0.000015>
+11:15:38.517642 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f01f5a90a10) = 10837 <0.000103>
+11:15:38.517815 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000014>
+11:15:38.517898 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000015>
+11:15:38.517964 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000015>
+11:15:38.518017 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000016>
+11:15:38.518075 rt_sigaction(SIGINT, {0x4438a0, [], SA_RESTORER, 0x7f01f50d8cb0}, {SIG_DFL, [], SA_RESTORER, 0x7f01f50d8cb0}, 8) = 0 <0.000014>
+11:15:38.518146 wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 10837 <0.000811>
+11:15:38.519001 rt_sigaction(SIGINT, {SIG_DFL, [], SA_RESTORER, 0x7f01f50d8cb0}, {0x4438a0, [], SA_RESTORER, 0x7f01f50d8cb0}, 8) = 0 <0.000014>
+11:15:38.519068 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000014>
+11:15:38.519123 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=10837, si_status=0, si_utime=0, si_stime=0} ---
+11:15:38.519175 wait4(-1, 0x7ffeb05e40d8, WNOHANG, NULL) = 0 <0.000016>
+11:15:38.519262 rt_sigreturn()          = 0 <0.000014>
+11:15:38.519343 rt_sigprocmask(SIG_BLOCK, [INT CHLD], [], 8) = 0 <0.000014>
+11:15:38.519398 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f01f5a90a10) = 10838 <0.000076>
+11:15:38.519534 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000014>
+11:15:38.519612 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000013>
+11:15:38.519670 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000013>
+11:15:38.519719 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000015>
+11:15:38.519772 rt_sigaction(SIGINT, {0x4438a0, [], SA_RESTORER, 0x7f01f50d8cb0}, {SIG_DFL, [], SA_RESTORER, 0x7f01f50d8cb0}, 8) = 0 <0.000014>
+11:15:38.519829 wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 10838 <5.000985>
+11:15:43.521025 rt_sigaction(SIGINT, {SIG_DFL, [], SA_RESTORER, 0x7f01f50d8cb0}, {0x4438a0, [], SA_RESTORER, 0x7f01f50d8cb0}, 8) = 0 <0.000109>
+11:15:43.521349 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000102>
+11:15:43.521631 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=10838, si_status=0, si_utime=0, si_stime=0} ---
+11:15:43.521739 wait4(-1, 0x7ffeb05e41d8, WNOHANG, NULL) = 0 <0.000013>
+11:15:43.521804 rt_sigreturn()          = 0 <0.000110>
+11:15:43.522076 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0 <0.000087>
+11:15:43.522362 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0 <0.000067>
+11:15:43.522523 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0 <0.000007>
+11:15:43.522563 pipe([3, 4])            = 0 <0.000029>
+11:15:43.522642 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000015>
+11:15:43.522702 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000014>
+11:15:43.522768 rt_sigprocmask(SIG_BLOCK, [INT CHLD], [], 8) = 0 <0.000007>
+11:15:43.522798 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f01f5a90a10) = 10881 <0.000073>
+11:15:43.522911 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000008>
+11:15:43.522939 rt_sigaction(SIGCHLD, {0x4464c0, [], SA_RESTORER|SA_RESTART, 0x7f01f50d8cb0}, {0x4464c0, [], SA_RESTORER|SA_RESTART, 0x7f01f50d8cb0}, 8) = 0 <0.000008>
+11:15:43.522972 close(4)                = 0 <0.000008>
+11:15:43.522999 read(3, "2016-09-11_11:15:43\n", 128) = 20 <0.000758>
+11:15:43.523784 read(3, "", 128)        = 0 <0.000007>
+11:15:43.523814 close(3)                = 0 <0.000013>
+11:15:43.523846 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=10881, si_status=0, si_utime=0, si_stime=0} ---
+11:15:43.523865 wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], WNOHANG, NULL) = 10881 <0.000012>
+11:15:43.523898 wait4(-1, 0x7ffeb05e3e98, WNOHANG, NULL) = 0 <0.000008>
+11:15:43.523925 rt_sigreturn()          = 0 <0.000009>
+11:15:43.523952 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000007>
+11:15:43.523982 rt_sigaction(SIGINT, {0x4438a0, [], SA_RESTORER, 0x7f01f50d8cb0}, {SIG_DFL, [], SA_RESTORER, 0x7f01f50d8cb0}, 8) = 0 <0.000008>
+11:15:43.524014 rt_sigaction(SIGINT, {SIG_DFL, [], SA_RESTORER, 0x7f01f50d8cb0}, {0x4438a0, [], SA_RESTORER, 0x7f01f50d8cb0}, 8) = 0 <0.000007>
+11:15:43.524045 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000007>
+11:15:43.524119 open("/home/ruben/playground/HFO/experiments/LOGS/2016_09_11-11.15.34_SARSA/EXPERIMENT_LOG", O_WRONLY|O_CREAT|O_APPEND, 0666) = 3 <0.000018>
+11:15:43.524161 fcntl(1, F_GETFD)       = 0 <0.000009>
+11:15:43.524188 fcntl(1, F_DUPFD, 10)   = 10 <0.000008>
+11:15:43.524215 fcntl(1, F_GETFD)       = 0 <0.000007>
+11:15:43.524240 fcntl(10, F_SETFD, FD_CLOEXEC) = 0 <0.000008>
+11:15:43.524269 dup2(3, 1)              = 1 <0.000008>
+11:15:43.524295 close(3)                = 0 <0.000008>
+11:15:43.524332 write(1, "[2016-09-11_11:15:43] STARTING A"..., 39) = 39 <0.000017>
+11:15:43.524372 dup2(10, 1)             = 1 <0.000009>
+11:15:43.524400 fcntl(10, F_GETFD)      = 0x1 (flags FD_CLOEXEC) <0.000007>
+11:15:43.524426 close(10)               = 0 <0.000008>
+11:15:43.524465 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0 <0.000008>
+11:15:43.524509 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0 <0.000008>
+11:15:43.524547 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0 <0.000007>
+11:15:43.524584 pipe([3, 4])            = 0 <0.000010>
+11:15:43.524614 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000008>
+11:15:43.524643 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000008>
+11:15:43.524671 rt_sigprocmask(SIG_BLOCK, [INT CHLD], [], 8) = 0 <0.000007>
+11:15:43.524701 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f01f5a90a10) = 10882 <0.000051>
+11:15:43.524788 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000008>
+11:15:43.524816 rt_sigaction(SIGCHLD, {0x4464c0, [], SA_RESTORER|SA_RESTART, 0x7f01f50d8cb0}, {0x4464c0, [], SA_RESTORER|SA_RESTART, 0x7f01f50d8cb0}, 8) = 0 <0.000007>
+11:15:43.524848 close(4)                = 0 <0.000007>
+11:15:43.524874 read(3, "2016-09-11_11:15:43\n", 128) = 20 <0.000595>
+11:15:43.525502 read(3, "", 128)        = 0 <0.000010>
+11:15:43.525538 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=10882, si_status=0, si_utime=0, si_stime=0} ---
+11:15:43.525556 wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], WNOHANG, NULL) = 10882 <0.000011>
+11:15:43.525590 wait4(-1, 0x7ffeb05e3f58, WNOHANG, NULL) = 0 <0.000008>
+11:15:43.525617 rt_sigreturn()          = 0 <0.000008>
+11:15:43.525644 close(3)                = 0 <0.000011>
+11:15:43.525674 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000008>
+11:15:43.525704 rt_sigaction(SIGINT, {0x4438a0, [], SA_RESTORER, 0x7f01f50d8cb0}, {SIG_DFL, [], SA_RESTORER, 0x7f01f50d8cb0}, 8) = 0 <0.000009>
+11:15:43.525737 rt_sigaction(SIGINT, {SIG_DFL, [], SA_RESTORER, 0x7f01f50d8cb0}, {0x4438a0, [], SA_RESTORER, 0x7f01f50d8cb0}, 8) = 0 <0.000008>
+11:15:43.525769 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000007>
+11:15:43.525826 open("/home/ruben/playground/HFO/experiments/LOGS/2016_09_11-11.15.34_SARSA/AGENT_LOG_1_1", O_WRONLY|O_CREAT|O_APPEND, 0666) = 3 <0.000014>
+11:15:43.525874 fcntl(1, F_GETFD)       = 0 <0.000022>
+11:15:43.525925 fcntl(1, F_DUPFD, 10)   = 10 <0.000010>
+11:15:43.525956 fcntl(1, F_GETFD)       = 0 <0.000010>
+11:15:43.525990 fcntl(10, F_SETFD, FD_CLOEXEC) = 0 <0.000010>
+11:15:43.526023 dup2(3, 1)              = 1 <0.000012>
+11:15:43.526057 close(3)                = 0 <0.000009>
+11:15:43.526089 write(1, "[2016-09-11_11:15:43] STARTING A"..., 39) = 39 <0.000025>
+11:15:43.526137 dup2(10, 1)             = 1 <0.000010>
+11:15:43.526166 fcntl(10, F_GETFD)      = 0x1 (flags FD_CLOEXEC) <0.000008>
+11:15:43.526194 close(10)               = 0 <0.000008>
+11:15:43.526249 open("/home/ruben/playground/HFO/experiments/LOGS/2016_09_11-11.15.34_SARSA/AGENT_LOG_1_1", O_WRONLY|O_CREAT|O_APPEND, 0666) = 3 <0.000014>
+11:15:43.526286 fcntl(1, F_GETFD)       = 0 <0.000008>
+11:15:43.526312 fcntl(1, F_DUPFD, 10)   = 10 <0.000009>
+11:15:43.526339 fcntl(1, F_GETFD)       = 0 <0.000008>
+11:15:43.526365 fcntl(10, F_SETFD, FD_CLOEXEC) = 0 <0.000008>
+11:15:43.526392 dup2(3, 1)              = 1 <0.000008>
+11:15:43.526419 close(3)                = 0 <0.000007>
+11:15:43.526446 write(1, "================================"..., 38) = 38 <0.000013>
+11:15:43.526479 dup2(10, 1)             = 1 <0.000009>
+11:15:43.526507 fcntl(10, F_GETFD)      = 0x1 (flags FD_CLOEXEC) <0.000009>
+11:15:43.526534 close(10)               = 0 <0.000008>
+11:15:43.526630 open("/home/ruben/playground/HFO/experiments/LOGS/2016_09_11-11.15.34_SARSA/EXPERIMENT_LOG", O_WRONLY|O_CREAT|O_APPEND, 0666) = 3 <0.000012>
+11:15:43.526664 fcntl(1, F_GETFD)       = 0 <0.000008>
+11:15:43.526690 fcntl(1, F_DUPFD, 10)   = 10 <0.000008>
+11:15:43.526717 fcntl(1, F_GETFD)       = 0 <0.000008>
+11:15:43.526743 fcntl(10, F_SETFD, FD_CLOEXEC) = 0 <0.000008>
+11:15:43.526775 dup2(3, 1)              = 1 <0.000008>
+11:15:43.526802 close(3)                = 0 <0.000008>
+11:15:43.526830 write(1, "/home/ruben/playground/HFO/exper"..., 362) = 362 <0.000012>
+11:15:43.526864 dup2(10, 1)             = 1 <0.000009>
+11:15:43.526891 fcntl(10, F_GETFD)      = 0x1 (flags FD_CLOEXEC) <0.000008>
+11:15:43.526917 close(10)               = 0 <0.000008>
+11:15:43.526966 open("/home/ruben/playground/HFO/experiments/LOGS/2016_09_11-11.15.34_SARSA/AGENT_LOG_1_1", O_WRONLY|O_CREAT|O_APPEND, 0666) = 3 <0.000011>
+11:15:43.526999 fcntl(1, F_GETFD)       = 0 <0.000008>
+11:15:43.527025 fcntl(1, F_DUPFD, 10)   = 10 <0.000008>
+11:15:43.527051 fcntl(1, F_GETFD)       = 0 <0.000007>
+11:15:43.527076 fcntl(10, F_SETFD, FD_CLOEXEC) = 0 <0.000008>
+11:15:43.527103 dup2(3, 1)              = 1 <0.000008>
+11:15:43.527129 close(3)                = 0 <0.000007>
+11:15:43.527156 write(1, "================================"..., 38) = 38 <0.000011>
+11:15:43.527188 dup2(10, 1)             = 1 <0.000008>
+11:15:43.527224 fcntl(10, F_GETFD)      = 0x1 (flags FD_CLOEXEC) <0.000008>
+11:15:43.527258 close(10)               = 0 <0.000008>
+11:15:43.527299 write(1, "XXXXXXXXXXXXXX AGENT CALL START\n", 32XXXXXXXXXXXXXX AGENT CALL START
+) = 32 <0.000015>
+11:15:43.527343 rt_sigprocmask(SIG_BLOCK, [INT CHLD], [], 8) = 0 <0.000008>
+11:15:43.527374 rt_sigprocmask(SIG_BLOCK, [CHLD], [INT CHLD], 8) = 0 <0.000007>
+11:15:43.527404 rt_sigprocmask(SIG_SETMASK, [INT CHLD], NULL, 8) = 0 <0.000008>
+11:15:43.527434 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f01f5a90a10) = 10883 <0.000050>
+11:15:43.527519 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000008>
+11:15:43.527555 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000008>
+11:15:43.527589 rt_sigprocmask(SIG_BLOCK, [CHLD], [CHLD], 8) = 0 <0.000007>
+11:15:43.527619 rt_sigprocmask(SIG_SETMASK, [CHLD], NULL, 8) = 0 <0.000007>
+11:15:43.527646 rt_sigprocmask(SIG_BLOCK, [CHLD], [CHLD], 8) = 0 <0.000009>
+11:15:43.527676 rt_sigprocmask(SIG_SETMASK, [CHLD], NULL, 8) = 0 <0.000008>
+11:15:43.527705 rt_sigprocmask(SIG_BLOCK, [CHLD], [CHLD], 8) = 0 <0.000008>
+11:15:43.527735 rt_sigprocmask(SIG_SETMASK, [CHLD], NULL, 8) = 0 <0.000008>
+11:15:43.527764 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000009>
+11:15:43.527814 write(1, "XXXXXXXXXXXXXX AGENT CALL END\n", 30XXXXXXXXXXXXXX AGENT CALL END
+) = 30 <0.000014>
+11:15:43.527868 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000008>
+11:15:43.527899 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000008>
+11:15:43.527943 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0 <0.000008>
+11:15:43.527990 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0 <0.000009>
+11:15:43.528034 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0 <0.000008>
+11:15:43.528073 pipe([3, 4])            = 0 <0.000011>
+11:15:43.528104 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000008>
+11:15:43.528134 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000008>
+11:15:43.528162 rt_sigprocmask(SIG_BLOCK, [INT CHLD], [], 8) = 0 <0.000007>
+11:15:43.528192 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f01f5a90a10) = 10884 <0.000049>
+11:15:43.528285 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000010>
+11:15:43.528329 rt_sigaction(SIGCHLD, {0x4464c0, [], SA_RESTORER|SA_RESTART, 0x7f01f50d8cb0}, {0x4464c0, [], SA_RESTORER|SA_RESTART, 0x7f01f50d8cb0}, 8) = 0 <0.000011>
+11:15:43.528380 close(4)                = 0 <0.000011>
+11:15:43.528420 read(3, "2016-09-11_11:15:43\n", 128) = 20 <0.000537>
+11:15:43.528997 read(3, "", 128)        = 0 <0.000011>
+11:15:43.529040 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=10884, si_status=0, si_utime=0, si_stime=0} ---
+11:15:43.529065 wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], WNOHANG, NULL) = 10884 <0.000014>
+11:15:43.529111 wait4(-1, 0x7ffeb05e4758, WNOHANG, NULL) = 0 <0.000009>
+11:15:43.529146 rt_sigreturn()          = 0 <0.000009>
+11:15:43.529181 close(3)                = 0 <0.000014>
+11:15:43.529221 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000009>
+11:15:43.529272 rt_sigaction(SIGINT, {0x4438a0, [], SA_RESTORER, 0x7f01f50d8cb0}, {SIG_DFL, [], SA_RESTORER, 0x7f01f50d8cb0}, 8) = 0 <0.000010>
+11:15:43.529321 rt_sigaction(SIGINT, {SIG_DFL, [], SA_RESTORER, 0x7f01f50d8cb0}, {0x4438a0, [], SA_RESTORER, 0x7f01f50d8cb0}, 8) = 0 <0.000011>
+11:15:43.529372 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000012>
+11:15:43.529453 write(1, "[2016-09-11_11:15:43] 1 AGENTS S"..., 53[2016-09-11_11:15:43] 1 AGENTS SHOULD BE RUNNING NOW
+) = 53 <0.000020>
+11:15:43.529534 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000011>
+11:15:43.529587 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000011>
+11:15:43.529645 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000012>
+11:15:43.529700 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000010>
+11:15:43.529786 rt_sigprocmask(SIG_BLOCK, [INT CHLD], [], 8) = 0 <0.000011>
+11:15:43.529840 rt_sigprocmask(SIG_BLOCK, [CHLD], [INT CHLD], 8) = 0 <0.000010>
+11:15:43.529889 rt_sigprocmask(SIG_SETMASK, [INT CHLD], NULL, 8) = 0 <0.000009>
+11:15:43.529933 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f01f5a90a10) = 10885 <0.000055>
+11:15:43.530044 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000012>
+11:15:43.530112 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000011>
+11:15:43.530170 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000010>
+11:15:43.530226 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000010>
+11:15:43.530274 rt_sigaction(SIGINT, {0x4438a0, [], SA_RESTORER, 0x7f01f50d8cb0}, {SIG_DFL, [], SA_RESTORER, 0x7f01f50d8cb0}, 8) = 0 <0.000011>
+11:15:43.530326 wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 10885 <0.000385>
+11:15:43.530763 rt_sigaction(SIGINT, {SIG_DFL, [], SA_RESTORER, 0x7f01f50d8cb0}, {0x4438a0, [], SA_RESTORER, 0x7f01f50d8cb0}, 8) = 0 <0.000012>
+11:15:43.530830 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000012>
+11:15:43.530882 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=10885, si_status=0, si_utime=0, si_stime=0} ---
+11:15:43.530910 wait4(-1, 0x7ffeb05e40d8, WNOHANG, NULL) = 0 <0.000013>
+11:15:43.530955 rt_sigreturn()          = 0 <0.000012>
+11:15:43.531009 rt_sigprocmask(SIG_BLOCK, [INT CHLD], [], 8) = 0 <0.000011>
+11:15:43.531062 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f01f5a90a10) = 10886 <0.000060>
+11:15:43.531190 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000012>
+11:15:43.531281 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000011>
+11:15:43.531339 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000011>
+11:15:43.531388 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000012>
+11:15:43.531441 rt_sigaction(SIGINT, {0x4438a0, [], SA_RESTORER, 0x7f01f50d8cb0}, {SIG_DFL, [], SA_RESTORER, 0x7f01f50d8cb0}, 8) = 0 <0.000012>
+11:15:43.531523 wait4(-1, base_left: init ok.  unum: 7 side: l
+base_left 7:  KickTable created.
+base_left 7: [0, 1]  prepare see synch
+[{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 10886 <5.000603>
+11:15:48.532215 rt_sigaction(SIGINT, {SIG_DFL, [], SA_RESTORER, 0x7f01f50d8cb0}, {0x4438a0, [], SA_RESTORER, 0x7f01f50d8cb0}, 8) = 0 <0.000022>
+11:15:48.532358 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000020>
+11:15:48.532434 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=10886, si_status=0, si_utime=0, si_stime=0} ---
+11:15:48.532466 wait4(-1, 0x7ffeb05e41d8, WNOHANG, NULL) = 0 <0.000013>
+11:15:48.532509 rt_sigreturn()          = 0 <0.000013>
+11:15:48.532580 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0 <0.000012>
+11:15:48.532673 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0 <0.000013>
+11:15:48.532745 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0 <0.000012>
+11:15:48.532810 pipe([3, 4])            = 0 <0.000020>
+11:15:48.532858 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000013>
+11:15:48.532901 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000013>
+11:15:48.532941 rt_sigprocmask(SIG_BLOCK, [INT CHLD], [], 8) = 0 <0.000013>
+11:15:48.532986 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f01f5a90a10) = 10918 <0.000112>
+11:15:48.533166 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000014>
+11:15:48.533210 rt_sigaction(SIGCHLD, {0x4464c0, [], SA_RESTORER|SA_RESTART, 0x7f01f50d8cb0}, {0x4464c0, [], SA_RESTORER|SA_RESTART, 0x7f01f50d8cb0}, 8) = 0 <0.000014>
+11:15:48.533258 close(4)                = 0 <0.000012>
+11:15:48.533297 read(3, "2016-09-11_11:15:48\n", 128) = 20 <0.000828>
+11:15:48.534162 read(3, "", 128)        = 0 <0.000014>
+11:15:48.534206 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=10918, si_status=0, si_utime=0, si_stime=0} ---
+11:15:48.534234 wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], WNOHANG, NULL) = 10918 <0.000018>
+11:15:48.534281 wait4(-1, 0x7ffeb05e3e58, WNOHANG, NULL) = 0 <0.000012>
+11:15:48.534319 rt_sigreturn()          = 0 <0.000013>
+11:15:48.534357 close(3)                = 0 <0.000019>
+11:15:48.534401 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000013>
+11:15:48.534445 rt_sigaction(SIGINT, {0x4438a0, [], SA_RESTORER, 0x7f01f50d8cb0}, {SIG_DFL, [], SA_RESTORER, 0x7f01f50d8cb0}, 8) = 0 <0.000013>
+11:15:48.534491 rt_sigaction(SIGINT, {SIG_DFL, [], SA_RESTORER, 0x7f01f50d8cb0}, {0x4438a0, [], SA_RESTORER, 0x7f01f50d8cb0}, 8) = 0 <0.000012>
+11:15:48.534535 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000012>
+11:15:48.534665 open("/home/ruben/playground/HFO/experiments/LOGS/2016_09_11-11.15.34_SARSA/EXPERIMENT_LOG", O_WRONLY|O_CREAT|O_APPEND, 0666) = 3 <0.000027>
+11:15:48.534726 fcntl(1, F_GETFD)       = 0 <0.000013>
+11:15:48.534765 fcntl(1, F_DUPFD, 10)   = 10 <0.000013>
+11:15:48.534803 fcntl(1, F_GETFD)       = 0 <0.000012>
+11:15:48.534842 fcntl(10, F_SETFD, FD_CLOEXEC) = 0 <0.000012>
+11:15:48.534884 dup2(3, 1)              = 1 <0.000012>
+11:15:48.534922 close(3)                = 0 <0.000012>
+11:15:48.534967 write(1, "[2016-09-11_11:15:48] STARTING A"..., 39) = 39 <0.000027>
+11:15:48.535026 dup2(10, 1)             = 1 <0.000014>
+11:15:48.535066 fcntl(10, F_GETFD)      = 0x1 (flags FD_CLOEXEC) <0.000013>
+11:15:48.535106 close(10)               = 0 <0.000012>
+11:15:48.535170 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0 <0.000013>
+11:15:48.535277 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0 <0.000012>
+11:15:48.535361 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0 <0.000013>
+11:15:48.535427 pipe([3, 4])            = 0 <0.000016>
+11:15:48.535470 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000013>
+11:15:48.535513 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000013>
+11:15:48.535555 rt_sigprocmask(SIG_BLOCK, [INT CHLD], [], 8) = 0 <0.000013>
+11:15:48.535601 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f01f5a90a10) = 10919 <0.000092>
+11:15:48.535757 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000014>
+11:15:48.535799 rt_sigaction(SIGCHLD, {0x4464c0, [], SA_RESTORER|SA_RESTART, 0x7f01f50d8cb0}, {0x4464c0, [], SA_RESTORER|SA_RESTART, 0x7f01f50d8cb0}, 8) = 0 <0.000012>
+11:15:48.535846 close(4)                = 0 <0.000013>
+11:15:48.535884 read(3, "2016-09-11_11:15:48\n", 128) = 20 <0.000677>
+11:15:48.536593 read(3, "", 128)        = 0 <0.000013>
+11:15:48.536633 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=10919, si_status=0, si_utime=0, si_stime=0} ---
+11:15:48.536659 wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], WNOHANG, NULL) = 10919 <0.000018>
+11:15:48.536706 wait4(-1, 0x7ffeb05e3f58, WNOHANG, NULL) = 0 <0.000013>
+11:15:48.536756 rt_sigreturn()          = 0 <0.000012>
+11:15:48.536789 close(3)                = 0 <0.000028>
+11:15:48.536841 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000011>
+11:15:48.536883 rt_sigaction(SIGINT, {0x4438a0, [], SA_RESTORER, 0x7f01f50d8cb0}, {SIG_DFL, [], SA_RESTORER, 0x7f01f50d8cb0}, 8) = 0 <0.000013>
+11:15:48.536930 rt_sigaction(SIGINT, {SIG_DFL, [], SA_RESTORER, 0x7f01f50d8cb0}, {0x4438a0, [], SA_RESTORER, 0x7f01f50d8cb0}, 8) = 0 <0.000013>
+11:15:48.536975 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000012>
+11:15:48.537076 open("/home/ruben/playground/HFO/experiments/LOGS/2016_09_11-11.15.34_SARSA/AGENT_LOG_1_2", O_WRONLY|O_CREAT|O_APPEND, 0666) = 3 <0.000024>
+11:15:48.537130 fcntl(1, F_GETFD)       = 0 <0.000013>
+11:15:48.537176 fcntl(1, F_DUPFD, 10)   = 10 <0.000012>
+11:15:48.537214 fcntl(1, F_GETFD)       = 0 <0.000012>
+11:15:48.537252 fcntl(10, F_SETFD, FD_CLOEXEC) = 0 <0.000012>
+11:15:48.537292 dup2(3, 1)              = 1 <0.000012>
+11:15:48.537330 close(3)                = 0 <0.000012>
+11:15:48.537373 write(1, "[2016-09-11_11:15:48] STARTING A"..., 39) = 39 <0.000038>
+11:15:48.537461 dup2(10, 1)             = 1 <0.000013>
+11:15:48.537495 fcntl(10, F_GETFD)      = 0x1 (flags FD_CLOEXEC) <0.000023>
+11:15:48.537543 close(10)               = 0 <0.000012>
+11:15:48.537641 open("/home/ruben/playground/HFO/experiments/LOGS/2016_09_11-11.15.34_SARSA/AGENT_LOG_1_2", O_WRONLY|O_CREAT|O_APPEND, 0666) = 3 <0.000024>
+11:15:48.537695 fcntl(1, F_GETFD)       = 0 <0.000012>
+11:15:48.537732 fcntl(1, F_DUPFD, 10)   = 10 <0.000012>
+11:15:48.537769 fcntl(1, F_GETFD)       = 0 <0.000011>
+11:15:48.537806 fcntl(10, F_SETFD, FD_CLOEXEC) = 0 <0.000013>
+11:15:48.537845 dup2(3, 1)              = 1 <0.000013>
+11:15:48.537884 close(3)                = 0 <0.000013>
+11:15:48.537925 write(1, "================================"..., 38) = 38 <0.000021>
+11:15:48.537976 dup2(10, 1)             = 1 <0.000014>
+11:15:48.538015 fcntl(10, F_GETFD)      = 0x1 (flags FD_CLOEXEC) <0.000012>
+11:15:48.538053 close(10)               = 0 <0.000012>
+11:15:48.538249 open("/home/ruben/playground/HFO/experiments/LOGS/2016_09_11-11.15.34_SARSA/EXPERIMENT_LOG", O_WRONLY|O_CREAT|O_APPEND, 0666) = 3 <0.000023>
+11:15:48.538302 fcntl(1, F_GETFD)       = 0 <0.000012>
+11:15:48.538340 fcntl(1, F_DUPFD, 10)   = 10 <0.000013>
+11:15:48.538378 fcntl(1, F_GETFD)       = 0 <0.000013>
+11:15:48.538416 fcntl(10, F_SETFD, FD_CLOEXEC) = 0 <0.000011>
+11:15:48.538454 dup2(3, 1)              = 1 <0.000012>
+11:15:48.538490 close(3)                = 0 <0.000012>
+11:15:48.538532 write(1, "/home/ruben/playground/HFO/exper"..., 362) = 362 <0.000024>
+11:15:48.538587 dup2(10, 1)             = 1 <0.000027>
+11:15:48.538642 fcntl(10, F_GETFD)      = 0x1 (flags FD_CLOEXEC) <0.000010>
+11:15:48.538686 close(10)               = 0 <0.000012>
+11:15:48.538787 open("/home/ruben/playground/HFO/experiments/LOGS/2016_09_11-11.15.34_SARSA/AGENT_LOG_1_2", O_WRONLY|O_CREAT|O_APPEND, 0666) = 3 <0.000018>
+11:15:48.538845 fcntl(1, F_GETFD)       = 0 <0.000013>
+11:15:48.538884 fcntl(1, F_DUPFD, 10)   = 10 <0.000012>
+11:15:48.538921 fcntl(1, F_GETFD)       = 0 <0.000011>
+11:15:48.538958 fcntl(10, F_SETFD, FD_CLOEXEC) = 0 <0.000012>
+11:15:48.538997 dup2(3, 1)              = 1 <0.000012>
+11:15:48.539034 close(3)                = 0 <0.000012>
+11:15:48.539075 write(1, "================================"..., 38) = 38 <0.000021>
+11:15:48.539126 dup2(10, 1)             = 1 <0.000013>
+11:15:48.539165 fcntl(10, F_GETFD)      = 0x1 (flags FD_CLOEXEC) <0.000012>
+11:15:48.539203 close(10)               = 0 <0.000015>
+11:15:48.539283 write(1, "XXXXXXXXXXXXXX AGENT CALL START\n", 32XXXXXXXXXXXXXX AGENT CALL START
+) = 32 <0.000020>
+11:15:48.539340 rt_sigprocmask(SIG_BLOCK, [INT CHLD], [], 8) = 0 <0.000010>
+11:15:48.539374 rt_sigprocmask(SIG_BLOCK, [CHLD], [INT CHLD], 8) = 0 <0.000009>
+11:15:48.539408 rt_sigprocmask(SIG_SETMASK, [INT CHLD], NULL, 8) = 0 <0.000010>
+11:15:48.539444 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f01f5a90a10) = 10920 <0.000066>
+11:15:48.539555 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000010>
+11:15:48.539598 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000011>
+11:15:48.539645 rt_sigprocmask(SIG_BLOCK, [CHLD], [CHLD], 8) = 0 <0.000011>
+11:15:48.539679 rt_sigprocmask(SIG_SETMASK, [CHLD], NULL, 8) = 0 <0.000010>
+11:15:48.539712 rt_sigprocmask(SIG_BLOCK, [CHLD], [CHLD], 8) = 0 <0.000010>
+11:15:48.539745 rt_sigprocmask(SIG_SETMASK, [CHLD], NULL, 8) = 0 <0.000010>
+11:15:48.539777 rt_sigprocmask(SIG_BLOCK, [CHLD], [CHLD], 8) = 0 <0.000010>
+11:15:48.539812 rt_sigprocmask(SIG_SETMASK, [CHLD], NULL, 8) = 0 <0.000010>
+11:15:48.539843 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000010>
+11:15:48.539910 write(1, "XXXXXXXXXXXXXX AGENT CALL END\n", 30XXXXXXXXXXXXXX AGENT CALL END
+) = 30 <0.000021>
+11:15:48.539994 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000011>
+11:15:48.540033 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000011>
+11:15:48.540096 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0 <0.000010>
+11:15:48.540160 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0 <0.000010>
+11:15:48.540220 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0 <0.000010>
+11:15:48.540275 pipe([3, 4])            = 0 <0.000014>
+11:15:48.540310 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000009>
+11:15:48.540344 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000010>
+11:15:48.540377 rt_sigprocmask(SIG_BLOCK, [INT CHLD], [], 8) = 0 <0.000010>
+11:15:48.540412 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f01f5a90a10) = 10921 <0.000070>
+11:15:48.540526 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000010>
+11:15:48.540559 rt_sigaction(SIGCHLD, {0x4464c0, [], SA_RESTORER|SA_RESTART, 0x7f01f50d8cb0}, {0x4464c0, [], SA_RESTORER|SA_RESTART, 0x7f01f50d8cb0}, 8) = 0 <0.000011>
+11:15:48.540597 close(4)                = 0 <0.000010>
+11:15:48.540628 read(3, "2016-09-11_11:15:48\n", 128) = 20 <0.000632>
+11:15:48.541292 read(3, "", 128)        = 0 <0.000013>
+11:15:48.541330 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=10921, si_status=0, si_utime=0, si_stime=0} ---
+11:15:48.541352 wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], WNOHANG, NULL) = 10921 <0.000015>
+11:15:48.541391 wait4(-1, 0x7ffeb05e4758, WNOHANG, NULL) = 0 <0.000011>
+11:15:48.541422 rt_sigreturn()          = 0 <0.000010>
+11:15:48.541453 close(3)                = 0 <0.000015>
+11:15:48.541488 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000010>
+11:15:48.541523 rt_sigaction(SIGINT, {0x4438a0, [], SA_RESTORER, 0x7f01f50d8cb0}, {SIG_DFL, [], SA_RESTORER, 0x7f01f50d8cb0}, 8) = 0 <0.000010>
+11:15:48.541561 rt_sigaction(SIGINT, {SIG_DFL, [], SA_RESTORER, 0x7f01f50d8cb0}, {0x4438a0, [], SA_RESTORER, 0x7f01f50d8cb0}, 8) = 0 <0.000011>
+11:15:48.541598 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000011>
+11:15:48.541661 write(1, "[2016-09-11_11:15:48] 2 AGENTS S"..., 53[2016-09-11_11:15:48] 2 AGENTS SHOULD BE RUNNING NOW
+) = 53 <0.000020>
+11:15:48.541733 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000010>
+11:15:48.541769 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000010>
+11:15:48.541824 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000010>
+11:15:48.541858 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000010>
+11:15:48.541949 rt_sigprocmask(SIG_BLOCK, [INT CHLD], [], 8) = 0 <0.000012>
+11:15:48.541988 rt_sigprocmask(SIG_BLOCK, [CHLD], [INT CHLD], 8) = 0 <0.000012>
+11:15:48.542030 rt_sigprocmask(SIG_SETMASK, [INT CHLD], NULL, 8) = 0 <0.000009>
+11:15:48.542067 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f01f5a90a10) = 10922 <0.000069>
+11:15:48.542183 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000010>
+11:15:48.542236 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000011>
+11:15:48.542277 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000010>
+11:15:48.542310 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000010>
+11:15:48.542345 rt_sigaction(SIGINT, {0x4438a0, [], SA_RESTORER, 0x7f01f50d8cb0}, {SIG_DFL, [], SA_RESTORER, 0x7f01f50d8cb0}, 8) = 0 <0.000009>
+11:15:48.542381 wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 10922 <0.000360>
+11:15:48.542766 rt_sigaction(SIGINT, {SIG_DFL, [], SA_RESTORER, 0x7f01f50d8cb0}, {0x4438a0, [], SA_RESTORER, 0x7f01f50d8cb0}, 8) = 0 <0.000010>
+11:15:48.542810 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000010>
+11:15:48.542844 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=10922, si_status=0, si_utime=0, si_stime=0} ---
+11:15:48.542864 wait4(-1, 0x7ffeb05e40d8, WNOHANG, NULL) = 0 <0.000010>
+11:15:48.542894 rt_sigreturn()          = 0 <0.000011>
+11:15:48.542941 rt_sigprocmask(SIG_BLOCK, [INT CHLD], [], 8) = 0 <0.000011>
+11:15:48.542977 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f01f5a90a10) = 10923 <0.000067>
+11:15:48.543089 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000012>
+11:15:48.543153 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000014>
+11:15:48.543220 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000013>
+11:15:48.543269 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000014>
+11:15:48.543325 rt_sigaction(SIGINT, {0x4438a0, [], SA_RESTORER, 0x7f01f50d8cb0}, {SIG_DFL, [], SA_RESTORER, 0x7f01f50d8cb0}, 8) = 0 <0.000014>
+11:15:48.543385 wait4(-1, base_left: init ok.  unum: 8 side: l
+base_left 8:  KickTable created.
+base_left 8: [0, 1]  prepare see synch
+[{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 10923 <5.000633>
+11:15:53.544185 rt_sigaction(SIGINT, {SIG_DFL, [], SA_RESTORER, 0x7f01f50d8cb0}, {0x4438a0, [], SA_RESTORER, 0x7f01f50d8cb0}, 8) = 0 <0.000110>
+11:15:53.544551 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000107>
+11:15:53.544859 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=10923, si_status=0, si_utime=0, si_stime=0} ---
+11:15:53.545020 wait4(-1, 0x7ffeb05e41d8, WNOHANG, NULL) = 0 <0.000069>
+11:15:53.545180 rt_sigreturn()          = 0 <0.000024>
+11:15:53.545326 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0 <0.000021>
+11:15:53.545530 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0 <0.000022>
+11:15:53.545730 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0 <0.000021>
+11:15:53.545955 pipe([3, 4])            = 0 <0.000086>
+11:15:53.546151 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000041>
+11:15:53.546264 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000016>
+11:15:53.546328 rt_sigprocmask(SIG_BLOCK, [INT CHLD], [], 8) = 0 <0.000015>
+11:15:53.546410 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f01f5a90a10) = 10957 <0.000157>
+11:15:53.546663 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000013>
+11:15:53.546726 rt_sigaction(SIGCHLD, {0x4464c0, [], SA_RESTORER|SA_RESTART, 0x7f01f50d8cb0}, {0x4464c0, [], SA_RESTORER|SA_RESTART, 0x7f01f50d8cb0}, 8) = 0 <0.000008>
+11:15:53.546764 close(4)                = 0 <0.000021>
+11:15:53.546809 read(3, "2016-09-11_11:15:53\n", 128) = 20 <0.001209>
+11:15:53.548069 read(3, "", 128)        = 0 <0.000016>
+11:15:53.548129 close(3)                = 0 <0.000027>
+11:15:53.548196 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=10957, si_status=0, si_utime=0, si_stime=0} ---
+11:15:53.548236 wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], WNOHANG, NULL) = 10957 <0.000025>
+11:15:53.548306 wait4(-1, 0x7ffeb05e3e98, WNOHANG, NULL) = 0 <0.000017>
+11:15:53.548363 rt_sigreturn()          = 0 <0.000019>
+11:15:53.548419 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000015>
+11:15:53.548482 rt_sigaction(SIGINT, {0x4438a0, [], SA_RESTORER, 0x7f01f50d8cb0}, {SIG_DFL, [], SA_RESTORER, 0x7f01f50d8cb0}, 8) = 0 <0.000017>
+11:15:53.548551 rt_sigaction(SIGINT, {SIG_DFL, [], SA_RESTORER, 0x7f01f50d8cb0}, {0x4438a0, [], SA_RESTORER, 0x7f01f50d8cb0}, 8) = 0 <0.000016>
+11:15:53.548619 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000017>
+11:15:53.548795 open("/home/ruben/playground/HFO/experiments/LOGS/2016_09_11-11.15.34_SARSA/EXPERIMENT_LOG", O_WRONLY|O_CREAT|O_APPEND, 0666) = 3 <0.000018>
+11:15:53.548841 fcntl(1, F_GETFD)       = 0 <0.000018>
+11:15:53.548909 fcntl(1, F_DUPFD, 10)   = 10 <0.000017>
+11:15:53.548965 fcntl(1, F_GETFD)       = 0 <0.000016>
+11:15:53.549020 fcntl(10, F_SETFD, FD_CLOEXEC) = 0 <0.000016>
+11:15:53.549081 dup2(3, 1)              = 1 <0.000017>
+11:15:53.549136 close(3)                = 0 <0.000016>
+11:15:53.549199 write(1, "[2016-09-11_11:15:53] STARTING A"..., 39) = 39 <0.000037>
+11:15:53.549282 dup2(10, 1)             = 1 <0.000020>
+11:15:53.549339 fcntl(10, F_GETFD)      = 0x1 (flags FD_CLOEXEC) <0.000016>
+11:15:53.549397 close(10)               = 0 <0.000016>
+11:15:53.549478 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0 <0.000016>
+11:15:53.549579 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0 <0.000016>
+11:15:53.549663 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0 <0.000016>
+11:15:53.549739 pipe([3, 4])            = 0 <0.000022>
+11:15:53.549802 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000016>
+11:15:53.549865 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000010>
+11:15:53.549924 rt_sigprocmask(SIG_BLOCK, [INT CHLD], [], 8) = 0 <0.000009>
+11:15:53.549986 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f01f5a90a10) = 10958 <0.000095>
+11:15:53.550165 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000011>
+11:15:53.550203 rt_sigaction(SIGCHLD, {0x4464c0, [], SA_RESTORER|SA_RESTART, 0x7f01f50d8cb0}, {0x4464c0, [], SA_RESTORER|SA_RESTART, 0x7f01f50d8cb0}, 8) = 0 <0.000010>
+11:15:53.550245 close(4)                = 0 <0.000011>
+11:15:53.550281 read(3, "2016-09-11_11:15:53\n", 128) = 20 <0.001146>
+11:15:53.551475 read(3, "", 128)        = 0 <0.000017>
+11:15:53.551540 close(3)                = 0 <0.000029>
+11:15:53.551599 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=10958, si_status=0, si_utime=0, si_stime=0} ---
+11:15:53.551621 wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], WNOHANG, NULL) = 10958 <0.000023>
+11:15:53.551701 wait4(-1, 0x7ffeb05e3f98, WNOHANG, NULL) = 0 <0.000017>
+11:15:53.551757 rt_sigreturn()          = 0 <0.000018>
+11:15:53.551813 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000015>
+11:15:53.551875 rt_sigaction(SIGINT, {0x4438a0, [], SA_RESTORER, 0x7f01f50d8cb0}, {SIG_DFL, [], SA_RESTORER, 0x7f01f50d8cb0}, 8) = 0 <0.000015>
+11:15:53.551941 rt_sigaction(SIGINT, {SIG_DFL, [], SA_RESTORER, 0x7f01f50d8cb0}, {0x4438a0, [], SA_RESTORER, 0x7f01f50d8cb0}, 8) = 0 <0.000016>
+11:15:53.552006 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000010>
+11:15:53.552125 open("/home/ruben/playground/HFO/experiments/LOGS/2016_09_11-11.15.34_SARSA/AGENT_LOG_1_3", O_WRONLY|O_CREAT|O_APPEND, 0666) = 3 <0.000017>
+11:15:53.552168 fcntl(1, F_GETFD)       = 0 <0.000013>
+11:15:53.552223 fcntl(1, F_DUPFD, 10)   = 10 <0.000012>
+11:15:53.552276 fcntl(1, F_GETFD)       = 0 <0.000025>
+11:15:53.552341 fcntl(10, F_SETFD, FD_CLOEXEC) = 0 <0.000009>
+11:15:53.552410 dup2(3, 1)              = 1 <0.000008>
+11:15:53.552452 close(3)                = 0 <0.000010>
+11:15:53.552489 write(1, "[2016-09-11_11:15:53] STARTING A"..., 39) = 39 <0.000044>
+11:15:53.552591 dup2(10, 1)             = 1 <0.000019>
+11:15:53.552649 fcntl(10, F_GETFD)      = 0x1 (flags FD_CLOEXEC) <0.000018>
+11:15:53.552714 close(10)               = 0 <0.000021>
+11:15:53.552846 open("/home/ruben/playground/HFO/experiments/LOGS/2016_09_11-11.15.34_SARSA/AGENT_LOG_1_3", O_WRONLY|O_CREAT|O_APPEND, 0666) = 3 <0.000027>
+11:15:53.552923 fcntl(1, F_GETFD)       = 0 <0.000017>
+11:15:53.552978 fcntl(1, F_DUPFD, 10)   = 10 <0.000016>
+11:15:53.553033 fcntl(1, F_GETFD)       = 0 <0.000015>
+11:15:53.553086 fcntl(10, F_SETFD, FD_CLOEXEC) = 0 <0.000016>
+11:15:53.553141 dup2(3, 1)              = 1 <0.000016>
+11:15:53.553196 close(3)                = 0 <0.000016>
+11:15:53.553252 write(1, "================================"..., 38) = 38 <0.000024>
+11:15:53.553321 dup2(10, 1)             = 1 <0.000018>
+11:15:53.553377 fcntl(10, F_GETFD)      = 0x1 (flags FD_CLOEXEC) <0.000016>
+11:15:53.553434 close(10)               = 0 <0.000016>
+11:15:53.553632 open("/home/ruben/playground/HFO/experiments/LOGS/2016_09_11-11.15.34_SARSA/EXPERIMENT_LOG", O_WRONLY|O_CREAT|O_APPEND, 0666) = 3 <0.000026>
+11:15:53.553702 fcntl(1, F_GETFD)       = 0 <0.000017>
+11:15:53.553757 fcntl(1, F_DUPFD, 10)   = 10 <0.000016>
+11:15:53.553811 fcntl(1, F_GETFD)       = 0 <0.000015>
+11:15:53.553865 fcntl(10, F_SETFD, FD_CLOEXEC) = 0 <0.000017>
+11:15:53.553921 dup2(3, 1)              = 1 <0.000017>
+11:15:53.553975 close(3)                = 0 <0.000016>
+11:15:53.554033 write(1, "/home/ruben/playground/HFO/exper"..., 362) = 362 <0.000026>
+11:15:53.554104 dup2(10, 1)             = 1 <0.000018>
+11:15:53.554160 fcntl(10, F_GETFD)      = 0x1 (flags FD_CLOEXEC) <0.000016>
+11:15:53.554215 close(10)               = 0 <0.000017>
+11:15:53.554314 open("/home/ruben/playground/HFO/experiments/LOGS/2016_09_11-11.15.34_SARSA/AGENT_LOG_1_3", O_WRONLY|O_CREAT|O_APPEND, 0666) = 3 <0.000024>
+11:15:53.554382 fcntl(1, F_GETFD)       = 0 <0.000016>
+11:15:53.554437 fcntl(1, F_DUPFD, 10)   = 10 <0.000017>
+11:15:53.554492 fcntl(1, F_GETFD)       = 0 <0.000016>
+11:15:53.554556 fcntl(10, F_SETFD, FD_CLOEXEC) = 0 <0.000016>
+11:15:53.554612 dup2(3, 1)              = 1 <0.000016>
+11:15:53.554667 close(3)                = 0 <0.000016>
+11:15:53.554722 write(1, "================================"..., 38) = 38 <0.000023>
+11:15:53.554789 dup2(10, 1)             = 1 <0.000018>
+11:15:53.554845 fcntl(10, F_GETFD)      = 0x1 (flags FD_CLOEXEC) <0.000019>
+11:15:53.554910 close(10)               = 0 <0.000023>
+11:15:53.555004 write(1, "XXXXXXXXXXXXXX AGENT CALL START\n", 32XXXXXXXXXXXXXX AGENT CALL START
+) = 32 <0.000028>
+11:15:53.555093 rt_sigprocmask(SIG_BLOCK, [INT CHLD], [], 8) = 0 <0.000017>
+11:15:53.555159 rt_sigprocmask(SIG_BLOCK, [CHLD], [INT CHLD], 8) = 0 <0.000017>
+11:15:53.555253 rt_sigprocmask(SIG_SETMASK, [INT CHLD], NULL, 8) = 0 <0.000010>
+11:15:53.555294 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f01f5a90a10) = 10959 <0.000097>
+11:15:53.555484 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000011>
+11:15:53.555531 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000011>
+11:15:53.555577 rt_sigprocmask(SIG_BLOCK, [CHLD], [CHLD], 8) = 0 <0.000011>
+11:15:53.555617 rt_sigprocmask(SIG_SETMASK, [CHLD], NULL, 8) = 0 <0.000010>
+11:15:53.555654 rt_sigprocmask(SIG_BLOCK, [CHLD], [CHLD], 8) = 0 <0.000011>
+11:15:53.555693 rt_sigprocmask(SIG_SETMASK, [CHLD], NULL, 8) = 0 <0.000011>
+11:15:53.555731 rt_sigprocmask(SIG_BLOCK, [CHLD], [CHLD], 8) = 0 <0.000010>
+11:15:53.555771 rt_sigprocmask(SIG_SETMASK, [CHLD], NULL, 8) = 0 <0.000011>
+11:15:53.555808 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000025>
+11:15:53.555912 write(1, "XXXXXXXXXXXXXX AGENT CALL END\n", 30XXXXXXXXXXXXXX AGENT CALL END
+) = 30 <0.000029>
+11:15:53.556023 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000018>
+11:15:53.556087 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000017>
+11:15:53.556178 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0 <0.000017>
+11:15:53.556276 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0 <0.000017>
+11:15:53.556360 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0 <0.000016>
+11:15:53.556439 pipe([3, 4])            = 0 <0.000021>
+11:15:53.556502 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000016>
+11:15:53.556564 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000016>
+11:15:53.556621 rt_sigprocmask(SIG_BLOCK, [INT CHLD], [], 8) = 0 <0.000017>
+11:15:53.556685 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f01f5a90a10) = 10960 <0.000072>
+11:15:53.556807 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000010>
+11:15:53.556843 rt_sigaction(SIGCHLD, {0x4464c0, [], SA_RESTORER|SA_RESTART, 0x7f01f50d8cb0}, {0x4464c0, [], SA_RESTORER|SA_RESTART, 0x7f01f50d8cb0}, 8) = 0 <0.000011>
+11:15:53.556884 close(4)                = 0 <0.000010>
+11:15:53.556918 read(3, "2016-09-11_11:15:53\n", 128) = 20 <0.000732>
+11:15:53.557680 read(3, "", 128)        = 0 <0.000013>
+11:15:53.557727 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=10960, si_status=0, si_utime=0, si_stime=0} ---
+11:15:53.557751 wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], WNOHANG, NULL) = 10960 <0.000014>
+11:15:53.557793 wait4(-1, 0x7ffeb05e4758, WNOHANG, NULL) = 0 <0.000010>
+11:15:53.557827 rt_sigreturn()          = 0 <0.000010>
+11:15:53.557860 close(3)                = 0 <0.000014>
+11:15:53.557897 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000010>
+11:15:53.557935 rt_sigaction(SIGINT, {0x4438a0, [], SA_RESTORER, 0x7f01f50d8cb0}, {SIG_DFL, [], SA_RESTORER, 0x7f01f50d8cb0}, 8) = 0 <0.000010>
+11:15:53.557976 rt_sigaction(SIGINT, {SIG_DFL, [], SA_RESTORER, 0x7f01f50d8cb0}, {0x4438a0, [], SA_RESTORER, 0x7f01f50d8cb0}, 8) = 0 <0.000010>
+11:15:53.558016 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000010>
+11:15:53.558075 write(1, "[2016-09-11_11:15:53] 3 AGENTS S"..., 53[2016-09-11_11:15:53] 3 AGENTS SHOULD BE RUNNING NOW
+) = 53 <0.000018>
+11:15:53.558141 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000011>
+11:15:53.558179 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000010>
+11:15:53.558226 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000009>
+11:15:53.558269 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000010>
+11:15:53.558324 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0 <0.000010>
+11:15:53.558360 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000010>
+11:15:53.558398 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000010>
+11:15:53.558433 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000010>
+11:15:53.558471 rt_sigaction(SIGINT, {0x4438a0, [], SA_RESTORER, 0x7f01f50d8cb0}, {SIG_DFL, [], SA_RESTORER, 0x7f01f50d8cb0}, 8) = 0 <0.000010>
+11:15:53.558511 wait4(-1, base_left: init ok.  unum: 11 side: l
+base_left 11:  KickTable created.
+base_left 11: [0, 1]  prepare see synch
+[{WIFSIGNALED(s) && WTERMSIG(s) == SIGSEGV && WCOREDUMP(s)}], 0, NULL) = 10959 <1.611876>
+11:15:55.170475 wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 10920 <124.963307>
+11:18:00.133906 wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 10883 <0.000178>
+11:18:00.134235 wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 10834 <0.123349>
+11:18:00.257781 rt_sigaction(SIGINT, {SIG_DFL, [], SA_RESTORER, 0x7f01f50d8cb0}, {0x4438a0, [], SA_RESTORER, 0x7f01f50d8cb0}, 8) = 0 <0.000148>
+11:18:00.258191 open("/usr/share/locale/locale.alias", O_RDONLY|O_CLOEXEC) = 3 <0.000124>
+11:18:00.258411 fstat(3, {st_mode=S_IFREG|0644, st_size=2570, ...}) = 0 <0.000013>
+11:18:00.258474 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f01f5aac000 <0.000032>
+11:18:00.258546 read(3, "# Locale name alias data base.\n#"..., 4096) = 2570 <0.000031>
+11:18:00.258654 brk(0x255e000)          = 0x255e000 <0.000034>
+11:18:00.258744 brk(0x255f000)          = 0x255f000 <0.000015>
+11:18:00.258811 read(3, "", 4096)       = 0 <0.000013>
+11:18:00.258874 close(3)                = 0 <0.000014>
+11:18:00.258924 munmap(0x7f01f5aac000, 4096) = 0 <0.000028>
+11:18:00.258997 open("/usr/share/locale/en_US/LC_MESSAGES/bash.mo", O_RDONLY) = -1 ENOENT (No such file or directory) <0.000016>
+11:18:00.259052 open("/usr/share/locale/en/LC_MESSAGES/bash.mo", O_RDONLY) = -1 ENOENT (No such file or directory) <0.000015>
+11:18:00.259100 open("/usr/share/locale-langpack/en_US/LC_MESSAGES/bash.mo", O_RDONLY) = -1 ENOENT (No such file or directory) <0.000016>
+11:18:00.259149 open("/usr/share/locale-langpack/en/LC_MESSAGES/bash.mo", O_RDONLY) = -1 ENOENT (No such file or directory) <0.000014>
+11:18:00.259219 open("/usr/share/locale/en_US/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory) <0.000029>
+11:18:00.259281 open("/usr/share/locale/en/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory) <0.000012>
+11:18:00.259322 open("/usr/share/locale-langpack/en_US/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory) <0.000013>
+11:18:00.259363 open("/usr/share/locale-langpack/en/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory) <0.000012>
+11:18:00.259417 write(2, "./experiments/run.sh: line 215: "..., 265./experiments/run.sh: line 215: 10959 Segmentation fault      (core dumped) "${BASE_DIR}"/experiment.py -p "${HFO_PORT[${server}]}" -a "${AGENT}" -i "${INTERVAL}" -d "${DURATION}" -t "${TRIALS}" -l "${_dir[${server}]}${AGENT}"_"${run}" -s "${SEED}" >> ${AGENT_LOG}
+) = 265 <0.000026>
+11:18:00.259477 rt_sigprocmask(SIG_BLOCK, [CHLD], [CHLD], 8) = 0 <0.000010>
+11:18:00.259519 rt_sigprocmask(SIG_SETMASK, [CHLD], NULL, 8) = 0 <0.000010>
+11:18:00.259557 rt_sigprocmask(SIG_BLOCK, [CHLD], [CHLD], 8) = 0 <0.000010>
+11:18:00.259597 rt_sigprocmask(SIG_SETMASK, [CHLD], NULL, 8) = 0 <0.000009>
+11:18:00.259635 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000010>
+11:18:00.259675 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_DUMPED, si_pid=10959, si_status=SIGSEGV, si_utime=54, si_stime=97} ---
+11:18:00.259702 wait4(-1, 0x7ffeb05e4998, WNOHANG, NULL) = -1 ECHILD (No child processes) <0.000011>
+11:18:00.259741 rt_sigreturn()          = 0 <0.000012>
+11:18:00.259779 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000009>
+11:18:00.259819 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000010>
+11:18:00.259938 stat(".", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0 <0.000014>
+11:18:00.259999 stat("/home/ruben/anaconda2/envs/deepatariEnv/bin/mv", 0x7ffeb05e51b0) = -1 ENOENT (No such file or directory) <0.000015>
+11:18:00.260045 stat("/usr/local/cuda/bin/mv", 0x7ffeb05e51b0) = -1 ENOENT (No such file or directory) <0.000014>
+11:18:00.260088 stat("/home/ruben/anaconda2/bin/mv", 0x7ffeb05e51b0) = -1 ENOENT (No such file or directory) <0.000012>
+11:18:00.260129 stat("/usr/local/sbin/mv", 0x7ffeb05e51b0) = -1 ENOENT (No such file or directory) <0.000012>
+11:18:00.260169 stat("/usr/local/bin/mv", 0x7ffeb05e51b0) = -1 ENOENT (No such file or directory) <0.000012>
+11:18:00.260210 stat("/usr/sbin/mv", 0x7ffeb05e51b0) = -1 ENOENT (No such file or directory) <0.000011>
+11:18:00.260250 stat("/usr/bin/mv", 0x7ffeb05e51b0) = -1 ENOENT (No such file or directory) <0.000012>
+11:18:00.260291 stat("/sbin/mv", 0x7ffeb05e51b0) = -1 ENOENT (No such file or directory) <0.000012>
+11:18:00.260331 stat("/bin/mv", {st_mode=S_IFREG|0755, st_size=122088, ...}) = 0 <0.000012>
+11:18:00.260374 stat("/bin/mv", {st_mode=S_IFREG|0755, st_size=122088, ...}) = 0 <0.000011>
+11:18:00.260415 geteuid()               = 1000 <0.000011>
+11:18:00.260449 getegid()               = 1000 <0.000010>
+11:18:00.260482 getuid()                = 1000 <0.000009>
+11:18:00.260515 getgid()                = 1000 <0.000010>
+11:18:00.260548 access("/bin/mv", X_OK) = 0 <0.000013>
+11:18:00.260588 stat("/bin/mv", {st_mode=S_IFREG|0755, st_size=122088, ...}) = 0 <0.000012>
+11:18:00.260628 geteuid()               = 1000 <0.000010>
+11:18:00.260661 getegid()               = 1000 <0.000010>
+11:18:00.260700 getuid()                = 1000 <0.000007>
+11:18:00.260744 getgid()                = 1000 <0.000008>
+11:18:00.260781 access("/bin/mv", R_OK) = 0 <0.000012>
+11:18:00.260822 stat("/bin/mv", {st_mode=S_IFREG|0755, st_size=122088, ...}) = 0 <0.000011>
+11:18:00.260863 stat("/bin/mv", {st_mode=S_IFREG|0755, st_size=122088, ...}) = 0 <0.000011>
+11:18:00.260903 geteuid()               = 1000 <0.000009>
+11:18:00.260936 getegid()               = 1000 <0.000010>
+11:18:00.260971 getuid()                = 1000 <0.000011>
+11:18:00.261008 getgid()                = 1000 <0.000013>
+11:18:00.261043 access("/bin/mv", X_OK) = 0 <0.000013>
+11:18:00.261082 stat("/bin/mv", {st_mode=S_IFREG|0755, st_size=122088, ...}) = 0 <0.000011>
+11:18:00.261123 geteuid()               = 1000 <0.000010>
+11:18:00.261156 getegid()               = 1000 <0.000010>
+11:18:00.261189 getuid()                = 1000 <0.000009>
+11:18:00.261222 getgid()                = 1000 <0.000010>
+11:18:00.261254 access("/bin/mv", R_OK) = 0 <0.000012>
+11:18:00.261299 rt_sigprocmask(SIG_BLOCK, [INT CHLD], [], 8) = 0 <0.000011>
+11:18:00.261340 rt_sigprocmask(SIG_BLOCK, [CHLD], [INT CHLD], 8) = 0 <0.000010>
+11:18:00.261378 rt_sigprocmask(SIG_SETMASK, [INT CHLD], NULL, 8) = 0 <0.000010>
+11:18:00.261414 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f01f5a90a10) = 11478 <0.000072>
+11:18:00.261535 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000010>
+11:18:00.261598 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000010>
+11:18:00.261644 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000010>
+11:18:00.261681 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000011>
+11:18:00.261721 rt_sigaction(SIGINT, {0x4438a0, [], SA_RESTORER, 0x7f01f50d8cb0}, {SIG_DFL, [], SA_RESTORER, 0x7f01f50d8cb0}, 8) = 0 <0.000010>
+11:18:00.261764 wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 11478 <0.001051>
+11:18:00.262858 rt_sigaction(SIGINT, {SIG_DFL, [], SA_RESTORER, 0x7f01f50d8cb0}, {0x4438a0, [], SA_RESTORER, 0x7f01f50d8cb0}, 8) = 0 <0.000012>
+11:18:00.262917 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000011>
+11:18:00.262958 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=11478, si_status=0, si_utime=0, si_stime=0} ---
+11:18:00.262983 wait4(-1, 0x7ffeb05e4cd8, WNOHANG, NULL) = -1 ECHILD (No child processes) <0.000010>
+11:18:00.263021 rt_sigreturn()          = 0 <0.000011>
+11:18:00.263080 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000011>
+11:18:00.263130 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000010>
+11:18:00.263178 rt_sigprocmask(SIG_BLOCK, [INT CHLD], [], 8) = 0 <0.000010>
+11:18:00.263225 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f01f5a90a10) = 11481 <0.000068>
+11:18:00.263353 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000011>
+11:18:00.263411 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000010>
+11:18:00.263455 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000024>
+11:18:00.263512 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000009>
+11:18:00.263553 rt_sigaction(SIGINT, {0x4438a0, [], SA_RESTORER, 0x7f01f50d8cb0}, {SIG_DFL, [], SA_RESTORER, 0x7f01f50d8cb0}, 8) = 0 <0.000009>
+11:18:00.263601 wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 11481 <10.000738>
+11:18:10.264553 rt_sigaction(SIGINT, {SIG_DFL, [], SA_RESTORER, 0x7f01f50d8cb0}, {0x4438a0, [], SA_RESTORER, 0x7f01f50d8cb0}, 8) = 0 <0.000112>
+11:18:10.264907 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000101>
+11:18:10.265187 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=11481, si_status=0, si_utime=0, si_stime=0} ---
+11:18:10.265345 wait4(-1, 0x7ffeb05e4fd8, WNOHANG, NULL) = -1 ECHILD (No child processes) <0.000062>
+11:18:10.265484 rt_sigreturn()          = 0 <0.000023>
+11:18:10.265646 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000020>
+11:18:10.265747 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000016>
+11:18:10.265905 read(255, "\n# The magic line\n#   $$ holds t"..., 6664) = 148 <0.000047>
+11:18:10.266143 rt_sigprocmask(SIG_BLOCK, [INT], [], 8) = 0 <0.000016>
+11:18:10.266216 rt_sigaction(SIGINT, {0x45a190, [], SA_RESTORER, 0x7f01f50d8cb0}, {SIG_DFL, [], SA_RESTORER, 0x7f01f50d8cb0}, 8) = 0 <0.000015>
+11:18:10.266280 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000014>
+11:18:10.266376 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0 <0.000015>
+11:18:10.266443 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000014>
+11:18:10.266500 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000015>
+11:18:10.266554 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000015>
+11:18:10.266612 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000014>
+11:18:10.266674 read(255, "", 6664)     = 0 <0.000016>
+11:18:10.266730 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000013>
+11:18:10.266785 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000014>
+11:18:10.266872 exit_group(0)           = ?
+11:18:10.267139 +++ exited with 0 +++

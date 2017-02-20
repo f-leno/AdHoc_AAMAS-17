@@ -1,0 +1,51 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "/home/leno/HFO/build/CMakeFiles/hfo-teams"
+		},
+		
+		{
+			"file" : "/home/leno/HFO/build/CMakeFiles/hfo-teams.rule"
+		},
+		
+		{
+			"file" : "/home/leno/HFO/build/CMakeFiles/hfo-teams-complete.rule"
+		},
+		
+		{
+			"file" : "/home/leno/HFO/build/hfo-teams-prefix/src/hfo-teams-stamp/hfo-teams-install.rule"
+		},
+		
+		{
+			"file" : "/home/leno/HFO/build/hfo-teams-prefix/src/hfo-teams-stamp/hfo-teams-mkdir.rule"
+		},
+		
+		{
+			"file" : "/home/leno/HFO/build/hfo-teams-prefix/src/hfo-teams-stamp/hfo-teams-download.rule"
+		},
+		
+		{
+			"file" : "/home/leno/HFO/build/hfo-teams-prefix/src/hfo-teams-stamp/hfo-teams-update.rule"
+		},
+		
+		{
+			"file" : "/home/leno/HFO/build/hfo-teams-prefix/src/hfo-teams-stamp/hfo-teams-patch.rule"
+		},
+		
+		{
+			"file" : "/home/leno/HFO/build/hfo-teams-prefix/src/hfo-teams-stamp/hfo-teams-configure.rule"
+		},
+		
+		{
+			"file" : "/home/leno/HFO/build/hfo-teams-prefix/src/hfo-teams-stamp/hfo-teams-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "hfo-teams" ],
+		"name" : "hfo-teams"
+	}
+}

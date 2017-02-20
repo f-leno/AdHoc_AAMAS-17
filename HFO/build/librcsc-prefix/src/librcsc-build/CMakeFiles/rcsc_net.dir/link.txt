@@ -1,0 +1,2 @@
+/usr/bin/ar cq lib/librcsc_net.a  CMakeFiles/rcsc_net.dir/rcsc/net/udp_socket.cpp.o CMakeFiles/rcsc_net.dir/rcsc/net/basic_socket.cpp.o CMakeFiles/rcsc_net.dir/rcsc/net/tcp_socket.cpp.o
+/usr/bin/ranlib lib/librcsc_net.a

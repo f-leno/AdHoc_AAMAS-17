@@ -1,0 +1,2 @@
+/home/leno/HFO/build/soccerwindow2-prefix/src/soccerwindow2-build/CMakeFiles/soccerwindow2_automoc.dir
+/home/leno/HFO/build/soccerwindow2-prefix/src/soccerwindow2-build/CMakeFiles/soccerwindow2.dir

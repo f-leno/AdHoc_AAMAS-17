@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/leno/HFO/build/librcsc-prefix/src/librcsc/config.h
+
+/home/leno/HFO/build/librcsc-prefix/src/librcsc/rcsc/time/timer.cpp
+config.h
+-
+rcsc/timer.h
+-
+iostream
+-
+cstdio
+-
+sys/time.h
+-
+
+/home/leno/HFO/build/librcsc-prefix/src/librcsc/rcsc/time/timer.h
+iostream
+-
+
+/home/leno/HFO/build/librcsc-prefix/src/librcsc/rcsc/timer.h
+rcsc/time/timer.h
+-
+

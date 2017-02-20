@@ -1,0 +1,36 @@
+[2016-09-14_08:01:51] STARTING AGENT 0_2
+=====================================
+=====================================
+New agent called
+***** Loading agent implementation
+***** Connecting to HFO server on port 12345
+******************************************************************
+ librcsc 4.1.0
+ Copyright 2000 - 2007. Hidehisa Akiyama.
+ Copyright 2007 - 2011. Hidehisa Akiyama and Hiroki Shimora
+ All rights reserved.
+******************************************************************
+base_left 8: [0, 7]  see synch.
+Feature 1 Violated Feature Bounds: -24 Expected min/max: [-5.25, 57.75]
+Feature 7 Violated Feature Bounds: 84.9779 Expected min/max: [0, 62.548]
+Feature 10 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 13 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 14 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 23 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 1 Violated Feature Bounds: -24 Expected min/max: [-5.25, 57.75]
+Feature 7 Violated Feature Bounds: 84.9779 Expected min/max: [0, 62.548]
+Feature 10 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 13 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 14 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 23 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+***** Problems while connecting? None
+***** 8: Agent uses CMAC(20,0.3,0.1)
+***** 8: Agent online --> Agent: 8, Type: Torrey, Training steps: 0, Q-Table size: 0
+***** 8: Setting up train log files
+***** 8: Setting up eval log files
+***** 8: Start training
+Feature 17 Violated Feature Bounds: 62.8294 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.8294 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.8294 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.8294 Expected min/max: [0, 62.548]
+***** 8: Agent --> Agent: 8, Type: Torrey, Training steps: 43134, Q-Table size: 369

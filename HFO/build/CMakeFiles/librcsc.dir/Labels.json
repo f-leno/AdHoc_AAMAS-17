@@ -1,0 +1,51 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "/home/leno/HFO/build/CMakeFiles/librcsc"
+		},
+		
+		{
+			"file" : "/home/leno/HFO/build/CMakeFiles/librcsc.rule"
+		},
+		
+		{
+			"file" : "/home/leno/HFO/build/CMakeFiles/librcsc-complete.rule"
+		},
+		
+		{
+			"file" : "/home/leno/HFO/build/librcsc-prefix/src/librcsc-stamp/librcsc-install.rule"
+		},
+		
+		{
+			"file" : "/home/leno/HFO/build/librcsc-prefix/src/librcsc-stamp/librcsc-mkdir.rule"
+		},
+		
+		{
+			"file" : "/home/leno/HFO/build/librcsc-prefix/src/librcsc-stamp/librcsc-download.rule"
+		},
+		
+		{
+			"file" : "/home/leno/HFO/build/librcsc-prefix/src/librcsc-stamp/librcsc-update.rule"
+		},
+		
+		{
+			"file" : "/home/leno/HFO/build/librcsc-prefix/src/librcsc-stamp/librcsc-patch.rule"
+		},
+		
+		{
+			"file" : "/home/leno/HFO/build/librcsc-prefix/src/librcsc-stamp/librcsc-configure.rule"
+		},
+		
+		{
+			"file" : "/home/leno/HFO/build/librcsc-prefix/src/librcsc-stamp/librcsc-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "librcsc" ],
+		"name" : "librcsc"
+	}
+}

@@ -1,0 +1,51 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "/home/leno/HFO/build/CMakeFiles/rcssserver"
+		},
+		
+		{
+			"file" : "/home/leno/HFO/build/CMakeFiles/rcssserver.rule"
+		},
+		
+		{
+			"file" : "/home/leno/HFO/build/CMakeFiles/rcssserver-complete.rule"
+		},
+		
+		{
+			"file" : "/home/leno/HFO/build/rcssserver-prefix/src/rcssserver-stamp/rcssserver-install.rule"
+		},
+		
+		{
+			"file" : "/home/leno/HFO/build/rcssserver-prefix/src/rcssserver-stamp/rcssserver-mkdir.rule"
+		},
+		
+		{
+			"file" : "/home/leno/HFO/build/rcssserver-prefix/src/rcssserver-stamp/rcssserver-download.rule"
+		},
+		
+		{
+			"file" : "/home/leno/HFO/build/rcssserver-prefix/src/rcssserver-stamp/rcssserver-update.rule"
+		},
+		
+		{
+			"file" : "/home/leno/HFO/build/rcssserver-prefix/src/rcssserver-stamp/rcssserver-patch.rule"
+		},
+		
+		{
+			"file" : "/home/leno/HFO/build/rcssserver-prefix/src/rcssserver-stamp/rcssserver-configure.rule"
+		},
+		
+		{
+			"file" : "/home/leno/HFO/build/rcssserver-prefix/src/rcssserver-stamp/rcssserver-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "rcssserver" ],
+		"name" : "rcssserver"
+	}
+}

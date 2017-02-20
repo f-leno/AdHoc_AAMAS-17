@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/leno/HFO/build/librcsc-prefix/src/librcsc/config.h
+
+/home/leno/HFO/build/librcsc-prefix/src/librcsc/src/scheduler.cpp
+config.h
+/home/leno/HFO/build/librcsc-prefix/src/librcsc/src/config.h
+iostream
+-
+fstream
+-
+vector
+-
+list
+-
+set
+-
+utility
+-
+string
+-
+algorithm
+-
+climits
+-
+cstdlib
+-
+cstring
+-
+

@@ -1,0 +1,207 @@
+[2016-09-14_12:01:47] START EXPERIMENT
+=====================================
+./experiments/run.sh    --runs=20 --trials=500    --max-frames-per-trial=200    --max_untouched=200    --agent=AdHocVisit    --offense-agents=3    --defense-agents=1    --mode=--headless    --evaluation_interval=10    --evaluation_duration=100    --seed=12345    --port=12345    --parallel_server=1
+=====================================
+[2016-09-14_12:01:47] GET BASE DIRECTORY: /home/ruben/playground/HFO/experiments
+[2016-09-14_12:01:47] MAKE LOG DIRECTORY: /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/
+[2016-09-14_12:01:49] STARTING RUN 1 ==================
+[2016-09-14_12:01:51] STARTING HFO SERVER
+[2016-09-14_12:01:51] HFO SERVER PID: 27894
+[2016-09-14_12:02:01] STARTING AGENT 0_1
+/home/ruben/playground/HFO/experiments/experiment.py -p 12345 -a AdHocVisit -i 10 -d      100 -t 500 -l /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_1_AGENT_1_RESULTS -s 12345      >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_1_AGENT_1_LOG & >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_1_AGENT_1_LOG
+[2016-09-14_12:02:06] STARTING AGENT 0_2
+/home/ruben/playground/HFO/experiments/experiment.py -p 12345 -a AdHocVisit -i 10 -d      100 -t 500 -l /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_1_AGENT_2_RESULTS -s 12345      >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_1_AGENT_2_LOG & >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_1_AGENT_2_LOG
+[2016-09-14_12:02:11] STARTING AGENT 0_3
+/home/ruben/playground/HFO/experiments/experiment.py -p 12345 -a AdHocVisit -i 10 -d      100 -t 500 -l /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_1_AGENT_3_RESULTS -s 12345      >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_1_AGENT_3_LOG & >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_1_AGENT_3_LOG
+[2016-09-14_12:31:00] SHUTTING DOWN SERVER 0 AND CLEANING UP
+‘/home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/incomplete.hfo’ -> ‘/home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/incomplete_1.hfo’
+[2016-09-14_12:31:00] END EXPERIMENT [DURATION=1753s]
+[2016-09-14_12:32:00] STARTING RUN 2 ==================
+[2016-09-14_12:32:02] STARTING HFO SERVER
+[2016-09-14_12:32:02] HFO SERVER PID: 8499
+[2016-09-14_12:32:12] STARTING AGENT 0_1
+/home/ruben/playground/HFO/experiments/experiment.py -p 12345 -a AdHocVisit -i 10 -d      100 -t 500 -l /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_2_AGENT_1_RESULTS -s 12345      >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_2_AGENT_1_LOG & >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_2_AGENT_1_LOG
+[2016-09-14_12:32:17] STARTING AGENT 0_2
+/home/ruben/playground/HFO/experiments/experiment.py -p 12345 -a AdHocVisit -i 10 -d      100 -t 500 -l /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_2_AGENT_2_RESULTS -s 12345      >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_2_AGENT_2_LOG & >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_2_AGENT_2_LOG
+[2016-09-14_12:32:22] STARTING AGENT 0_3
+/home/ruben/playground/HFO/experiments/experiment.py -p 12345 -a AdHocVisit -i 10 -d      100 -t 500 -l /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_2_AGENT_3_RESULTS -s 12345      >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_2_AGENT_3_LOG & >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_2_AGENT_3_LOG
+[2016-09-14_13:01:40] SHUTTING DOWN SERVER 0 AND CLEANING UP
+‘/home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/incomplete.hfo’ -> ‘/home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/incomplete_2.hfo’
+[2016-09-14_13:01:40] END EXPERIMENT [DURATION=3593s]
+[2016-09-14_13:02:40] STARTING RUN 3 ==================
+[2016-09-14_13:02:42] STARTING HFO SERVER
+[2016-09-14_13:02:42] HFO SERVER PID: 21413
+[2016-09-14_13:02:52] STARTING AGENT 0_1
+/home/ruben/playground/HFO/experiments/experiment.py -p 12345 -a AdHocVisit -i 10 -d      100 -t 500 -l /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_3_AGENT_1_RESULTS -s 12345      >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_3_AGENT_1_LOG & >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_3_AGENT_1_LOG
+[2016-09-14_13:02:58] STARTING AGENT 0_2
+/home/ruben/playground/HFO/experiments/experiment.py -p 12345 -a AdHocVisit -i 10 -d      100 -t 500 -l /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_3_AGENT_2_RESULTS -s 12345      >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_3_AGENT_2_LOG & >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_3_AGENT_2_LOG
+[2016-09-14_13:03:03] STARTING AGENT 0_3
+/home/ruben/playground/HFO/experiments/experiment.py -p 12345 -a AdHocVisit -i 10 -d      100 -t 500 -l /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_3_AGENT_3_RESULTS -s 12345      >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_3_AGENT_3_LOG & >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_3_AGENT_3_LOG
+[2016-09-14_13:31:06] SHUTTING DOWN SERVER 0 AND CLEANING UP
+‘/home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/incomplete.hfo’ -> ‘/home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/incomplete_3.hfo’
+[2016-09-14_13:31:06] END EXPERIMENT [DURATION=5359s]
+[2016-09-14_13:32:06] STARTING RUN 4 ==================
+[2016-09-14_13:32:08] STARTING HFO SERVER
+[2016-09-14_13:32:08] HFO SERVER PID: 1307
+[2016-09-14_13:32:18] STARTING AGENT 0_1
+/home/ruben/playground/HFO/experiments/experiment.py -p 12345 -a AdHocVisit -i 10 -d      100 -t 500 -l /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_4_AGENT_1_RESULTS -s 12345      >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_4_AGENT_1_LOG & >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_4_AGENT_1_LOG
+[2016-09-14_13:32:23] STARTING AGENT 0_2
+/home/ruben/playground/HFO/experiments/experiment.py -p 12345 -a AdHocVisit -i 10 -d      100 -t 500 -l /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_4_AGENT_2_RESULTS -s 12345      >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_4_AGENT_2_LOG & >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_4_AGENT_2_LOG
+[2016-09-14_13:32:28] STARTING AGENT 0_3
+/home/ruben/playground/HFO/experiments/experiment.py -p 12345 -a AdHocVisit -i 10 -d      100 -t 500 -l /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_4_AGENT_3_RESULTS -s 12345      >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_4_AGENT_3_LOG & >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_4_AGENT_3_LOG
+[2016-09-14_14:02:09] SHUTTING DOWN SERVER 0 AND CLEANING UP
+‘/home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/incomplete.hfo’ -> ‘/home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/incomplete_4.hfo’
+[2016-09-14_14:02:09] END EXPERIMENT [DURATION=7222s]
+[2016-09-14_14:03:09] STARTING RUN 5 ==================
+[2016-09-14_14:03:11] STARTING HFO SERVER
+[2016-09-14_14:03:11] HFO SERVER PID: 14762
+[2016-09-14_14:03:21] STARTING AGENT 0_1
+/home/ruben/playground/HFO/experiments/experiment.py -p 12345 -a AdHocVisit -i 10 -d      100 -t 500 -l /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_5_AGENT_1_RESULTS -s 12345      >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_5_AGENT_1_LOG & >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_5_AGENT_1_LOG
+[2016-09-14_14:03:26] STARTING AGENT 0_2
+/home/ruben/playground/HFO/experiments/experiment.py -p 12345 -a AdHocVisit -i 10 -d      100 -t 500 -l /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_5_AGENT_2_RESULTS -s 12345      >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_5_AGENT_2_LOG & >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_5_AGENT_2_LOG
+[2016-09-14_14:03:31] STARTING AGENT 0_3
+/home/ruben/playground/HFO/experiments/experiment.py -p 12345 -a AdHocVisit -i 10 -d      100 -t 500 -l /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_5_AGENT_3_RESULTS -s 12345      >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_5_AGENT_3_LOG & >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_5_AGENT_3_LOG
+[2016-09-14_14:34:53] SHUTTING DOWN SERVER 0 AND CLEANING UP
+‘/home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/incomplete.hfo’ -> ‘/home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/incomplete_5.hfo’
+[2016-09-14_14:34:53] END EXPERIMENT [DURATION=9186s]
+[2016-09-14_14:35:53] STARTING RUN 6 ==================
+[2016-09-14_14:35:55] STARTING HFO SERVER
+[2016-09-14_14:35:55] HFO SERVER PID: 28439
+[2016-09-14_14:36:05] STARTING AGENT 0_1
+/home/ruben/playground/HFO/experiments/experiment.py -p 12345 -a AdHocVisit -i 10 -d      100 -t 500 -l /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_6_AGENT_1_RESULTS -s 12345      >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_6_AGENT_1_LOG & >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_6_AGENT_1_LOG
+[2016-09-14_14:36:10] STARTING AGENT 0_2
+/home/ruben/playground/HFO/experiments/experiment.py -p 12345 -a AdHocVisit -i 10 -d      100 -t 500 -l /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_6_AGENT_2_RESULTS -s 12345      >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_6_AGENT_2_LOG & >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_6_AGENT_2_LOG
+[2016-09-14_14:36:15] STARTING AGENT 0_3
+/home/ruben/playground/HFO/experiments/experiment.py -p 12345 -a AdHocVisit -i 10 -d      100 -t 500 -l /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_6_AGENT_3_RESULTS -s 12345      >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_6_AGENT_3_LOG & >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_6_AGENT_3_LOG
+[2016-09-14_15:08:55] SHUTTING DOWN SERVER 0 AND CLEANING UP
+‘/home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/incomplete.hfo’ -> ‘/home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/incomplete_6.hfo’
+[2016-09-14_15:08:55] END EXPERIMENT [DURATION=11228s]
+[2016-09-14_15:09:55] STARTING RUN 7 ==================
+[2016-09-14_15:09:57] STARTING HFO SERVER
+[2016-09-14_15:09:57] HFO SERVER PID: 10610
+[2016-09-14_15:10:07] STARTING AGENT 0_1
+/home/ruben/playground/HFO/experiments/experiment.py -p 12345 -a AdHocVisit -i 10 -d      100 -t 500 -l /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_7_AGENT_1_RESULTS -s 12345      >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_7_AGENT_1_LOG & >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_7_AGENT_1_LOG
+[2016-09-14_15:10:12] STARTING AGENT 0_2
+/home/ruben/playground/HFO/experiments/experiment.py -p 12345 -a AdHocVisit -i 10 -d      100 -t 500 -l /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_7_AGENT_2_RESULTS -s 12345      >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_7_AGENT_2_LOG & >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_7_AGENT_2_LOG
+[2016-09-14_15:10:17] STARTING AGENT 0_3
+/home/ruben/playground/HFO/experiments/experiment.py -p 12345 -a AdHocVisit -i 10 -d      100 -t 500 -l /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_7_AGENT_3_RESULTS -s 12345      >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_7_AGENT_3_LOG & >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_7_AGENT_3_LOG
+[2016-09-14_15:39:37] SHUTTING DOWN SERVER 0 AND CLEANING UP
+‘/home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/incomplete.hfo’ -> ‘/home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/incomplete_7.hfo’
+[2016-09-14_15:39:37] END EXPERIMENT [DURATION=13070s]
+[2016-09-14_15:40:37] STARTING RUN 8 ==================
+[2016-09-14_15:40:39] STARTING HFO SERVER
+[2016-09-14_15:40:39] HFO SERVER PID: 23498
+[2016-09-14_15:40:49] STARTING AGENT 0_1
+/home/ruben/playground/HFO/experiments/experiment.py -p 12345 -a AdHocVisit -i 10 -d      100 -t 500 -l /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_8_AGENT_1_RESULTS -s 12345      >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_8_AGENT_1_LOG & >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_8_AGENT_1_LOG
+[2016-09-14_15:40:54] STARTING AGENT 0_2
+/home/ruben/playground/HFO/experiments/experiment.py -p 12345 -a AdHocVisit -i 10 -d      100 -t 500 -l /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_8_AGENT_2_RESULTS -s 12345      >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_8_AGENT_2_LOG & >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_8_AGENT_2_LOG
+[2016-09-14_15:40:59] STARTING AGENT 0_3
+/home/ruben/playground/HFO/experiments/experiment.py -p 12345 -a AdHocVisit -i 10 -d      100 -t 500 -l /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_8_AGENT_3_RESULTS -s 12345      >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_8_AGENT_3_LOG & >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_8_AGENT_3_LOG
+[2016-09-14_16:16:45] SHUTTING DOWN SERVER 0 AND CLEANING UP
+‘/home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/incomplete.hfo’ -> ‘/home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/incomplete_8.hfo’
+[2016-09-14_16:16:45] END EXPERIMENT [DURATION=15298s]
+[2016-09-14_16:17:45] STARTING RUN 9 ==================
+[2016-09-14_16:17:47] STARTING HFO SERVER
+[2016-09-14_16:17:47] HFO SERVER PID: 6896
+[2016-09-14_16:17:57] STARTING AGENT 0_1
+/home/ruben/playground/HFO/experiments/experiment.py -p 12345 -a AdHocVisit -i 10 -d      100 -t 500 -l /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_9_AGENT_1_RESULTS -s 12345      >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_9_AGENT_1_LOG & >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_9_AGENT_1_LOG
+[2016-09-14_16:18:02] STARTING AGENT 0_2
+/home/ruben/playground/HFO/experiments/experiment.py -p 12345 -a AdHocVisit -i 10 -d      100 -t 500 -l /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_9_AGENT_2_RESULTS -s 12345      >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_9_AGENT_2_LOG & >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_9_AGENT_2_LOG
+[2016-09-14_16:18:07] STARTING AGENT 0_3
+/home/ruben/playground/HFO/experiments/experiment.py -p 12345 -a AdHocVisit -i 10 -d      100 -t 500 -l /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_9_AGENT_3_RESULTS -s 12345      >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_9_AGENT_3_LOG & >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_9_AGENT_3_LOG
+[2016-09-14_16:53:23] SHUTTING DOWN SERVER 0 AND CLEANING UP
+‘/home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/incomplete.hfo’ -> ‘/home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/incomplete_9.hfo’
+[2016-09-14_16:53:23] END EXPERIMENT [DURATION=17496s]
+[2016-09-14_16:54:23] STARTING RUN 10 ==================
+[2016-09-14_16:54:26] STARTING HFO SERVER
+[2016-09-14_16:54:26] HFO SERVER PID: 22268
+[2016-09-14_16:54:36] STARTING AGENT 0_1
+/home/ruben/playground/HFO/experiments/experiment.py -p 12345 -a AdHocVisit -i 10 -d      100 -t 500 -l /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_10_AGENT_1_RESULTS -s 12345      >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_10_AGENT_1_LOG & >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_10_AGENT_1_LOG
+[2016-09-14_16:54:41] STARTING AGENT 0_2
+/home/ruben/playground/HFO/experiments/experiment.py -p 12345 -a AdHocVisit -i 10 -d      100 -t 500 -l /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_10_AGENT_2_RESULTS -s 12345      >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_10_AGENT_2_LOG & >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_10_AGENT_2_LOG
+[2016-09-14_16:54:46] STARTING AGENT 0_3
+/home/ruben/playground/HFO/experiments/experiment.py -p 12345 -a AdHocVisit -i 10 -d      100 -t 500 -l /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_10_AGENT_3_RESULTS -s 12345      >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_10_AGENT_3_LOG & >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_10_AGENT_3_LOG
+[2016-09-14_17:28:23] SHUTTING DOWN SERVER 0 AND CLEANING UP
+‘/home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/incomplete.hfo’ -> ‘/home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/incomplete_10.hfo’
+[2016-09-14_17:28:23] END EXPERIMENT [DURATION=19596s]
+[2016-09-14_17:29:23] STARTING RUN 11 ==================
+[2016-09-14_17:29:25] STARTING HFO SERVER
+[2016-09-14_17:29:25] HFO SERVER PID: 4965
+[2016-09-14_17:29:35] STARTING AGENT 0_1
+/home/ruben/playground/HFO/experiments/experiment.py -p 12345 -a AdHocVisit -i 10 -d      100 -t 500 -l /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_11_AGENT_1_RESULTS -s 12345      >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_11_AGENT_1_LOG & >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_11_AGENT_1_LOG
+[2016-09-14_17:29:40] STARTING AGENT 0_2
+/home/ruben/playground/HFO/experiments/experiment.py -p 12345 -a AdHocVisit -i 10 -d      100 -t 500 -l /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_11_AGENT_2_RESULTS -s 12345      >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_11_AGENT_2_LOG & >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_11_AGENT_2_LOG
+[2016-09-14_17:29:45] STARTING AGENT 0_3
+/home/ruben/playground/HFO/experiments/experiment.py -p 12345 -a AdHocVisit -i 10 -d      100 -t 500 -l /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_11_AGENT_3_RESULTS -s 12345      >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_11_AGENT_3_LOG & >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_11_AGENT_3_LOG
+[2016-09-14_17:59:03] SHUTTING DOWN SERVER 0 AND CLEANING UP
+‘/home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/incomplete.hfo’ -> ‘/home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/incomplete_11.hfo’
+[2016-09-14_17:59:03] END EXPERIMENT [DURATION=21436s]
+[2016-09-14_18:00:03] STARTING RUN 12 ==================
+[2016-09-14_18:00:05] STARTING HFO SERVER
+[2016-09-14_18:00:05] HFO SERVER PID: 17922
+[2016-09-14_18:00:15] STARTING AGENT 0_1
+/home/ruben/playground/HFO/experiments/experiment.py -p 12345 -a AdHocVisit -i 10 -d      100 -t 500 -l /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_12_AGENT_1_RESULTS -s 12345      >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_12_AGENT_1_LOG & >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_12_AGENT_1_LOG
+[2016-09-14_18:00:20] STARTING AGENT 0_2
+/home/ruben/playground/HFO/experiments/experiment.py -p 12345 -a AdHocVisit -i 10 -d      100 -t 500 -l /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_12_AGENT_2_RESULTS -s 12345      >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_12_AGENT_2_LOG & >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_12_AGENT_2_LOG
+[2016-09-14_18:00:25] STARTING AGENT 0_3
+/home/ruben/playground/HFO/experiments/experiment.py -p 12345 -a AdHocVisit -i 10 -d      100 -t 500 -l /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_12_AGENT_3_RESULTS -s 12345      >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_12_AGENT_3_LOG & >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_12_AGENT_3_LOG
+[2016-09-14_18:25:12] SHUTTING DOWN SERVER 0 AND CLEANING UP
+‘/home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/incomplete.hfo’ -> ‘/home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/incomplete_12.hfo’
+[2016-09-14_18:25:12] END EXPERIMENT [DURATION=23005s]
+[2016-09-14_18:26:12] STARTING RUN 13 ==================
+[2016-09-14_18:26:14] STARTING HFO SERVER
+[2016-09-14_18:26:14] HFO SERVER PID: 28860
+[2016-09-14_18:26:24] STARTING AGENT 0_1
+/home/ruben/playground/HFO/experiments/experiment.py -p 12345 -a AdHocVisit -i 10 -d      100 -t 500 -l /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_13_AGENT_1_RESULTS -s 12345      >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_13_AGENT_1_LOG & >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_13_AGENT_1_LOG
+[2016-09-14_18:26:29] STARTING AGENT 0_2
+/home/ruben/playground/HFO/experiments/experiment.py -p 12345 -a AdHocVisit -i 10 -d      100 -t 500 -l /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_13_AGENT_2_RESULTS -s 12345      >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_13_AGENT_2_LOG & >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_13_AGENT_2_LOG
+[2016-09-14_18:26:34] STARTING AGENT 0_3
+/home/ruben/playground/HFO/experiments/experiment.py -p 12345 -a AdHocVisit -i 10 -d      100 -t 500 -l /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_13_AGENT_3_RESULTS -s 12345      >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_13_AGENT_3_LOG & >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_13_AGENT_3_LOG
+[2016-09-14_18:55:26] SHUTTING DOWN SERVER 0 AND CLEANING UP
+‘/home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/incomplete.hfo’ -> ‘/home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/incomplete_13.hfo’
+[2016-09-14_18:55:26] END EXPERIMENT [DURATION=24819s]
+[2016-09-14_18:56:26] STARTING RUN 14 ==================
+[2016-09-14_18:56:28] STARTING HFO SERVER
+[2016-09-14_18:56:28] HFO SERVER PID: 9693
+[2016-09-14_18:56:38] STARTING AGENT 0_1
+/home/ruben/playground/HFO/experiments/experiment.py -p 12345 -a AdHocVisit -i 10 -d      100 -t 500 -l /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_14_AGENT_1_RESULTS -s 12345      >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_14_AGENT_1_LOG & >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_14_AGENT_1_LOG
+[2016-09-14_18:56:43] STARTING AGENT 0_2
+/home/ruben/playground/HFO/experiments/experiment.py -p 12345 -a AdHocVisit -i 10 -d      100 -t 500 -l /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_14_AGENT_2_RESULTS -s 12345      >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_14_AGENT_2_LOG & >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_14_AGENT_2_LOG
+[2016-09-14_18:56:48] STARTING AGENT 0_3
+/home/ruben/playground/HFO/experiments/experiment.py -p 12345 -a AdHocVisit -i 10 -d      100 -t 500 -l /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_14_AGENT_3_RESULTS -s 12345      >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_14_AGENT_3_LOG & >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_14_AGENT_3_LOG
+[2016-09-14_19:35:10] SHUTTING DOWN SERVER 0 AND CLEANING UP
+‘/home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/incomplete.hfo’ -> ‘/home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/incomplete_14.hfo’
+[2016-09-14_19:35:10] END EXPERIMENT [DURATION=27203s]
+[2016-09-14_19:36:10] STARTING RUN 15 ==================
+[2016-09-14_19:36:12] STARTING HFO SERVER
+[2016-09-14_19:36:12] HFO SERVER PID: 26457
+[2016-09-14_19:36:22] STARTING AGENT 0_1
+/home/ruben/playground/HFO/experiments/experiment.py -p 12345 -a AdHocVisit -i 10 -d      100 -t 500 -l /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_15_AGENT_1_RESULTS -s 12345      >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_15_AGENT_1_LOG & >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_15_AGENT_1_LOG
+[2016-09-14_19:36:27] STARTING AGENT 0_2
+/home/ruben/playground/HFO/experiments/experiment.py -p 12345 -a AdHocVisit -i 10 -d      100 -t 500 -l /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_15_AGENT_2_RESULTS -s 12345      >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_15_AGENT_2_LOG & >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_15_AGENT_2_LOG
+[2016-09-14_19:36:32] STARTING AGENT 0_3
+/home/ruben/playground/HFO/experiments/experiment.py -p 12345 -a AdHocVisit -i 10 -d      100 -t 500 -l /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_15_AGENT_3_RESULTS -s 12345      >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_15_AGENT_3_LOG & >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_15_AGENT_3_LOG
+[2016-09-14_20:04:38] SHUTTING DOWN SERVER 0 AND CLEANING UP
+‘/home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/incomplete.hfo’ -> ‘/home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/incomplete_15.hfo’
+[2016-09-14_20:04:38] END EXPERIMENT [DURATION=28971s]
+[2016-09-14_20:05:38] STARTING RUN 16 ==================
+[2016-09-14_20:05:40] STARTING HFO SERVER
+[2016-09-14_20:05:40] HFO SERVER PID: 6776
+[2016-09-14_20:05:50] STARTING AGENT 0_1
+/home/ruben/playground/HFO/experiments/experiment.py -p 12345 -a AdHocVisit -i 10 -d      100 -t 500 -l /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_16_AGENT_1_RESULTS -s 12345      >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_16_AGENT_1_LOG & >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_16_AGENT_1_LOG
+[2016-09-14_20:05:55] STARTING AGENT 0_2
+/home/ruben/playground/HFO/experiments/experiment.py -p 12345 -a AdHocVisit -i 10 -d      100 -t 500 -l /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_16_AGENT_2_RESULTS -s 12345      >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_16_AGENT_2_LOG & >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_16_AGENT_2_LOG
+[2016-09-14_20:06:00] STARTING AGENT 0_3
+/home/ruben/playground/HFO/experiments/experiment.py -p 12345 -a AdHocVisit -i 10 -d      100 -t 500 -l /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_16_AGENT_3_RESULTS -s 12345      >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_16_AGENT_3_LOG & >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_16_AGENT_3_LOG
+[2016-09-14_20:33:58] SHUTTING DOWN SERVER 0 AND CLEANING UP
+‘/home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/incomplete.hfo’ -> ‘/home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/incomplete_16.hfo’
+[2016-09-14_20:33:58] END EXPERIMENT [DURATION=30731s]
+[2016-09-14_20:34:58] STARTING RUN 17 ==================
+[2016-09-14_20:35:00] STARTING HFO SERVER
+[2016-09-14_20:35:00] HFO SERVER PID: 19177
+[2016-09-14_20:35:10] STARTING AGENT 0_1
+/home/ruben/playground/HFO/experiments/experiment.py -p 12345 -a AdHocVisit -i 10 -d      100 -t 500 -l /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_17_AGENT_1_RESULTS -s 12345      >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_17_AGENT_1_LOG & >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_17_AGENT_1_LOG
+[2016-09-14_20:35:15] STARTING AGENT 0_2
+/home/ruben/playground/HFO/experiments/experiment.py -p 12345 -a AdHocVisit -i 10 -d      100 -t 500 -l /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_17_AGENT_2_RESULTS -s 12345      >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_17_AGENT_2_LOG & >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_17_AGENT_2_LOG
+[2016-09-14_20:35:20] STARTING AGENT 0_3
+/home/ruben/playground/HFO/experiments/experiment.py -p 12345 -a AdHocVisit -i 10 -d      100 -t 500 -l /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_17_AGENT_3_RESULTS -s 12345      >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_17_AGENT_3_LOG & >> /home/ruben/playground/HFO/experiments/EVAL/2016_09_14-12.01.47_AdHocVisit_1_20/_0_17_AGENT_3_LOG

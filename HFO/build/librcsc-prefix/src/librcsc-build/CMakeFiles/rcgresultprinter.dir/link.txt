@@ -1,0 +1,1 @@
+/usr/bin/c++    -std=c++11 -fPIC -O3 -DNDEBUG   CMakeFiles/rcgresultprinter.dir/src/resultprinter.cpp.o  -o bin/rcgresultprinter -rdynamic lib/librcsc_gz.a lib/librcsc_rcg.a -lz 

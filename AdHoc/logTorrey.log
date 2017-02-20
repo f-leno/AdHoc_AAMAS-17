@@ -1,0 +1,2824 @@
+Namespace(agent1='Torrey', agent10='Dummy', agent11='Dummy', agent2='Torrey', agent3='Torrey', agent4='Dummy', agent5='Dummy', agent6='Dummy', agent7='Dummy', agent8='Dummy', agent9='Dummy', evaluation_duration=100, evaluation_interval=20, learning_trials=5000, log_file='/home/leno/HFO/log/', number_agents=3, number_trial=36, port=14311, seed=12345, server_path='/home/leno/HFO/bin/')
+***** Loading agent implementations
+AgentName: Torrey
+Creating agent
+OK Agent
+AgentName: Torrey
+Creating agent
+OK Agent
+AgentName: Torrey
+Creating agent
+OK Agent
+***** %s: Agents online --> %s
+Agent Classes OK
+******Connecting agent 0****
+***** Connecting to HFO server on port 14311
+******************************************************************
+ librcsc 4.1.0
+ Copyright 2000 - 2007. Hidehisa Akiyama.
+ Copyright 2007 - 2011. Hidehisa Akiyama and Hiroki Shimora
+ All rights reserved.
+******************************************************************
+base_left 7: [0, 5]  see synch.
+******Connecting agent 1****
+***** Connecting to HFO server on port 14311
+******************************************************************
+ librcsc 4.1.0
+ Copyright 2000 - 2007. Hidehisa Akiyama.
+ Copyright 2007 - 2011. Hidehisa Akiyama and Hiroki Shimora
+ All rights reserved.
+******************************************************************
+base_left 8: [0, 5]  see synch.
+******Connecting agent 2****
+***** Connecting to HFO server on port 14311
+******************************************************************
+ librcsc 4.1.0
+ Copyright 2000 - 2007. Hidehisa Akiyama.
+ Copyright 2007 - 2011. Hidehisa Akiyama and Hiroki Shimora
+ All rights reserved.
+******************************************************************
+base_left 11: [0, 5]  see synch.
+Feature Feature 11 Violated Feature Bounds:  Violated Feature Bounds: -21-24 Expected min/max: [ Expected min/max: [-5.25-5.25, , 57.7557.75]]
+
+Feature 7 Violated Feature Bounds: Feature 7 Violated Feature Bounds: 82.2876 Expected min/max: [84.9779 Expected min/max: [0, 0, 62.548]62.548]
+
+Feature 10 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 13 Violated Feature Bounds: Feature 179.177 Violated Feature Bounds:  Expected min/max: [0, -33 Expected min/max: [62.548]
+Feature 14 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 23 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+-5.25, 57.75]
+Feature 7 Violated Feature Bounds: 93.1625 Expected min/max: [0, 62.548]
+Feature 10 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 13 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 14 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 23 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 10 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 13 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 14 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 23 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 1 Violated Feature Bounds: -21 Expected min/max: [-5.25, 57.75]
+Feature 7 Violated Feature Bounds: 82.2876 Expected min/max: [0, 62.548]
+Feature 10 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 13 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 14 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 23 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+***** Problems while connecting? None
+******Connected agent 0****
+***** 7: Setting up eval log files
+***** 7: Start training
+Feature 1 Violated Feature Bounds: -24 Expected min/max: [-5.25, 57.75]
+Feature 7 Violated Feature Bounds: 84.9779 Expected min/max: [0, 62.548]
+Feature 10 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 13 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 14 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 23 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+***** Problems while connecting? None
+******Connected agent 1****
+***** 8: Setting up eval log files
+***** 8: Start training
+Feature 1 Violated Feature Bounds: -33 Expected min/max: [-5.25, 57.75]
+Feature 7 Violated Feature Bounds: 93.1625 Expected min/max: [0, 62.548]
+Feature 10 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 13 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 14 Violated Feature Bounds: 81.8413 Expected min/max: [0
+ ***** Problems while connecting? None
+******Connected agent 2****
+***** 7: Start training
+***** 11: Setting up eval log files
+***** 11: Start training
+***** 8: Setting up eval log files
+***** 8: Start training
+Feature 20 Violated Feature Bounds: 63.3923 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.3923 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.3923 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.3923 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.3923 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.3923 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.3923 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.3923 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.9805 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.9805 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.9805 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.9805 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.9805 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.9805 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.9805 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.9805 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.0105 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.0105 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.0105 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.0105 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.0105 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.0105 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.0105 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.0105 Expected min/max: [0, 62.548]
+***** 8: Shutting down agent
+***** 8: Agent --> Agent: 8, Type: Torrey, Training steps: 456144, Q-Table size: 2488
+***** 7: Shutting down agent
+***** 7: Agent --> Agent: 7, Type: Torrey, Training steps: 456144, Q-Table size: 2601
+***** 11: Shutting down agent
+***** 11: Agent --> Agent: 11, Type: Torrey, Training steps: 456144, Q-Table size: 2917
+Namespace(agent1='Torrey', agent10='Dummy', agent11='Dummy', agent2='Torrey', agent3='Torrey', agent4='Dummy', agent5='Dummy', agent6='Dummy', agent7='Dummy', agent8='Dummy', agent9='Dummy', evaluation_duration=100, evaluation_interval=20, learning_trials=5000, log_file='/home/leno/HFO/log/', number_agents=3, number_trial=16, port=14111, seed=12345, server_path='/home/leno/HFO/bin/')
+***** Loading agent implementations
+AgentName: Torrey
+Creating agent
+OK Agent
+AgentName: Torrey
+Creating agent
+OK Agent
+AgentName: Torrey
+Creating agent
+OK Agent
+***** %s: Agents online --> %s
+Agent Classes OK
+******Connecting agent 0****
+***** Connecting to HFO server on port 14111
+******************************************************************
+ librcsc 4.1.0
+ Copyright 2000 - 2007. Hidehisa Akiyama.
+ Copyright 2007 - 2011. Hidehisa Akiyama and Hiroki Shimora
+ All rights reserved.
+******************************************************************
+base_left 7: [0, 6]  see synch.
+******Connecting agent 1****
+***** Connecting to HFO server on port 14111
+******************************************************************
+ librcsc 4.1.0
+ Copyright 2000 - 2007. Hidehisa Akiyama.
+ Copyright 2007 - 2011. Hidehisa Akiyama and Hiroki Shimora
+ All rights reserved.
+******************************************************************
+base_left 8: [0, 6]  see synch.
+******Connecting agent 2****
+***** Connecting to HFO server on port 14111
+******************************************************************
+ librcsc 4.1.0
+ Copyright 2000 - 2007. Hidehisa Akiyama.
+ Copyright 2007 - 2011. Hidehisa Akiyama and Hiroki Shimora
+ All rights reserved.
+******************************************************************
+base_left 11: [0, 5]  see synch.
+Feature Feature 1 Violated Feature Bounds: 1 Violated Feature Bounds: Feature -33 Expected min/max: [1 Violated Feature Bounds: -5.25, -24 Expected min/max: [-5.25, 57.75]57.75-21 Expected min/max: []
+
+-5.25, 57.75]
+Feature 7 Violated Feature Bounds: 82.2876 Expected min/max: [0, 62.548]
+Feature 10 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 13 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 14 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 23 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 7 Violated Feature Bounds: Feature 7 Violated Feature Bounds: 93.1625 Expected min/max: [0, 62.548]
+84.9779 Expected min/max: [Feature 10 Violated Feature Bounds: 0, 89.9611 Expected min/max: [0, 62.548]
+Feature 10 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 13 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 14 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 23 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+62.548]
+Feature 13 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 14 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 23 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature Feature 1 Violated Feature Bounds: 1 Violated Feature Bounds: -24-21 Expected min/max: [ Expected min/max: [-5.25, -5.25, 57.75]57.75]
+
+Feature 7 Violated Feature Bounds: 84.9779 Expected min/max: [0, 62.548]Feature 
+1Feature  Violated Feature Bounds: 10 Violated Feature Bounds: Feature 7 Violated Feature Bounds: 81.8413 Expected min/max: [0, -33 Expected min/max: [62.548]-5.25
+, 82.2876Feature 13 Violated Feature Bounds:  Expected min/max: [79.177 Expected min/max: [0, 0, 62.548]
+Feature 14 Violated Feature Bounds: 62.54889.9611 Expected min/max: []
+0, Feature 10 Violated Feature Bounds: 62.548]
+79.177 Expected min/max: [Feature 23 Violated Feature Bounds: 0, 81.8413 Expected min/max: [62.548]
+0, Feature 13 Violated Feature Bounds: 62.548]
+81.8413 Expected min/max: [0, 62.548]
+Feature 14 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 23 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+***** Problems while connecting? None***** Problems while connecting? None
+******Connected agent 0****
+
+57.75]
+Feature ******Connected agent 1****7 Violated Feature Bounds: 
+93.1625 Expected min/max: [0, 62.548]
+Feature 10 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 13 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 14 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 23 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+***** Problems while connecting? None
+******Connected agent 2****
+***** 8: Setting up eval log files
+***** 7: Setting up eval log files
+***** 7: Start training
+ ***** 11: Setting up eval log files***** 8: Start training
+
+***** 11: Start training
+Feature 17 Violated Feature Bounds: 65.3983 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 65.3983 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 65.3983 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 65.3983 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 65.3983 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 65.3983 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 64.7786 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 64.7786 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.5769 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.5769 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.6151 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.6151 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.6151 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.6151 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.6151 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.6151 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.6151 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.6151 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 62.6313 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 62.6313 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 62.6313 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 62.6313 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 62.6313 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 62.6313 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.441 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.441 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.441 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.441 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.441 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.441 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.441 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.441 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 62.9718 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 62.9718 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 62.9718 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 62.9718 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 62.9718 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 62.9718 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 62.9718 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 62.9718 Expected min/max: [0, 62.548]
+***** 7: Shutting down agent
+***** 7: Agent --> Agent: 7, Type: Torrey, Training steps: 470572, Q-Table size: 2706
+***** 8: Shutting down agent
+***** 8: Agent --> Agent: 8, Type: Torrey, Training steps: 470572, Q-Table size: 2651
+***** 11: Shutting down agent
+***** 11: Agent --> Agent: 11, Type: Torrey, Training steps: 470572, Q-Table size: 3018
+Namespace(agent1='Torrey', agent10='Dummy', agent11='Dummy', agent2='Torrey', agent3='Torrey', agent4='Dummy', agent5='Dummy', agent6='Dummy', agent7='Dummy', agent8='Dummy', agent9='Dummy', evaluation_duration=100, evaluation_interval=20, learning_trials=5000, log_file='/home/leno/HFO/log/', number_agents=3, number_trial=17, port=14111, seed=12345, server_path='/home/leno/HFO/bin/')
+***** Loading agent implementations
+AgentName: Torrey
+Creating agent
+OK Agent
+AgentName: Torrey
+Creating agent
+OK Agent
+AgentName: Torrey
+Creating agent
+OK Agent
+***** %s: Agents online --> %s
+Agent Classes OK
+******Connecting agent 0****
+***** Connecting to HFO server on port 14111
+******************************************************************
+ librcsc 4.1.0
+ Copyright 2000 - 2007. Hidehisa Akiyama.
+ Copyright 2007 - 2011. Hidehisa Akiyama and Hiroki Shimora
+ All rights reserved.
+******************************************************************
+base_left 7: [0, 6]  see synch.
+******Connecting agent 1****
+***** Connecting to HFO server on port 14111
+******************************************************************
+ librcsc 4.1.0
+ Copyright 2000 - 2007. Hidehisa Akiyama.
+ Copyright 2007 - 2011. Hidehisa Akiyama and Hiroki Shimora
+ All rights reserved.
+******************************************************************
+base_left 8: [0, 5]  see synch.
+******Connecting agent 2****
+***** Connecting to HFO server on port 14111
+******************************************************************
+ librcsc 4.1.0
+ Copyright 2000 - 2007. Hidehisa Akiyama.
+ Copyright 2007 - 2011. Hidehisa Akiyama and Hiroki Shimora
+ All rights reserved.
+******************************************************************
+base_left 11: [0, 5]  see synch.
+Feature 1 Violated Feature Bounds: -21 Expected min/max: [-5.25, 57.75]
+Feature 7 Violated Feature Bounds: 82.2876 Expected min/max: [0, 62.548]
+Feature 10 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 13 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 14 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 23 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 1 Violated Feature Bounds: -24 Expected min/max: [-5.25, 57.75]
+Feature 7 Violated Feature Bounds: 84.9779 Expected min/max: [0, 62.548]
+Feature 10 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 13 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 14 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 23 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 1 Violated Feature Bounds: -33 Expected min/max: [-5.25, 57.75]
+Feature 7 Violated Feature Bounds: 93.1625 Expected min/max: [0, 62.548]
+Feature 10 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 13 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 14 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 23 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 1 Violated Feature Bounds: -21 Expected min/max: [-5.25, 57.75]
+Feature 7 Violated Feature Bounds: 82.2876 Expected min/max: [0, 62.548]
+Feature 10 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 1Feature  Violated Feature Bounds: 13 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548-33] Expected min/max: [
+Feature 14 Violated Feature Bounds: -5.25, 89.9611 Expected min/max: [0, 57.75]
+Feature 7 Violated Feature Bounds: Feature 93.16251 Expected min/max: [ Violated Feature Bounds: 0, -24 Expected min/max: [62.548]
+-5.25, Feature 10 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 13 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 14 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 23 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+***** Problems while connecting? None
+******Connected agent 2****
+***** 11: Setting up eval log files
+***** 11: Start training
+57.75]
+Feature 7 Violated Feature Bounds: 84.9779 Expected min/max: [0, 62.548]
+Feature 10 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 13 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 14 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 23 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+***** Problems while connecting? None
+******Connected agent 1****
+***** 8: Setting up eval log files
+***** 8: Start training
+62.548]
+Feature 23 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+***** Problems while connecting? None
+******Connected agent 0****
+***** 7: Setting up eval log files
+***** 7: Start training
+Feature 1 Violated Feature Bounds: -5.28509 Expected min/max: [-5.25, 57.75]
+Feature 1 Violated Feature Bounds: -5.48944 Expected min/max: [-5.25, 57.75]
+Feature 1 Violated Feature Bounds: -5.574 Expected min/max: [-5.25, 57.75]
+Feature Feature 2017 Violated Feature Bounds:  Violated Feature Bounds: 62.886262.8862 Expected min/max: [ Expected min/max: [00, , 62.54862.548]]
+
+Feature 17 Violated Feature Bounds: 62.8862 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 62.8862 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.8862 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 62.8862 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.8862 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 62.8862 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.7436 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.7436 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.7436 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.7436 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.7436 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.7436 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.1431 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.1431 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.1174 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.1174 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.1174 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.1174 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.1174 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.1174 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.1174 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.1174 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 65.2477 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 65.2477 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 65.2477 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 65.2477 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 65.2477 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 65.2477 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 65.2477 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 65.2477 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 64.1557 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 64.1557 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 62.6488 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.6488 Expected min/max: [0, 62.548]
+***** 11: Shutting down agent
+***** 11: Agent --> Agent: 11, Type: Torrey, Training steps: 458964, Q-Table size: 2999
+***** 7: Shutting down agent
+***** 7: Agent --> Agent: 7, Type: Torrey, Training steps: 458964, Q-Table size: 2525
+***** 8: Shutting down agent
+***** 8: Agent --> Agent: 8, Type: Torrey, Training steps: 458964, Q-Table size: 2649
+Namespace(agent1='Torrey', agent10='Dummy', agent11='Dummy', agent2='Torrey', agent3='Torrey', agent4='Dummy', agent5='Dummy', agent6='Dummy', agent7='Dummy', agent8='Dummy', agent9='Dummy', evaluation_duration=100, evaluation_interval=20, learning_trials=5000, log_file='/home/leno/HFO/log/', number_agents=3, number_trial=18, port=14111, seed=12345, server_path='/home/leno/HFO/bin/')
+***** Loading agent implementations
+AgentName: Torrey
+Creating agent
+OK Agent
+AgentName: Torrey
+Creating agent
+OK Agent
+AgentName: Torrey
+Creating agent
+OK Agent
+***** %s: Agents online --> %s
+Agent Classes OK
+******Connecting agent 0****
+***** Connecting to HFO server on port 14111
+******************************************************************
+ librcsc 4.1.0
+ Copyright 2000 - 2007. Hidehisa Akiyama.
+ Copyright 2007 - 2011. Hidehisa Akiyama and Hiroki Shimora
+ All rights reserved.
+******************************************************************
+base_left 7: [0, 6]  see synch.
+******Connecting agent 1****
+***** Connecting to HFO server on port 14111
+******************************************************************
+ librcsc 4.1.0
+ Copyright 2000 - 2007. Hidehisa Akiyama.
+ Copyright 2007 - 2011. Hidehisa Akiyama and Hiroki Shimora
+ All rights reserved.
+******************************************************************
+base_left 8: [0, 6]  see synch.
+******Connecting agent 2****
+***** Connecting to HFO server on port 14111
+******************************************************************
+ librcsc 4.1.0
+ Copyright 2000 - 2007. Hidehisa Akiyama.
+ Copyright 2007 - 2011. Hidehisa Akiyama and Hiroki Shimora
+ All rights reserved.
+******************************************************************
+base_left 11: [0, 5]  see synch.
+Feature 1 Violated Feature Bounds: -21 Expected min/max: [-5.25, 57.75]
+Feature 7 Violated Feature Bounds: 82.2876 Expected min/max: [0, 62.548]
+Feature 10 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 13 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 14 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 23 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 1 Violated Feature Bounds: -24 Expected min/max: [-5.25, 57.75]
+Feature 7 Violated Feature Bounds: 84.9779 Expected min/max: [0, 62.548]
+Feature 10 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 13 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 14 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 23 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 1 Violated Feature Bounds: -33 Expected min/max: [-5.25, 57.75]
+Feature 7 Violated Feature Bounds: 93.1625 Expected min/max: [0, 62.548]
+Feature 10 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 13 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 14 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 23 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 1 Violated Feature Bounds: -21 Expected min/max: [-5.25, 57.75]
+Feature 7 Violated Feature Bounds: 82.2876 Expected min/max: [0, 62.548]
+Feature 10 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 13 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 14 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 23 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+***** Problems while connecting? None
+******Connected agent 0****
+***** 7: Setting up eval log files
+***** 7: Start training
+Feature 1 Violated Feature Bounds: -24 Expected min/max: [-5.25, 57.75]
+Feature 7 Violated Feature Bounds: 84.9779 Expected min/max: [0, 62.548]
+Feature 10 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 13 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 14 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 23 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+***** Problems while connecting? None
+******Connected agent 1****
+***** 8: Setting up eval log files
+***** 8: Start training
+Feature 1 Violated Feature Bounds: -33 Expected min/max: [-5.25, 57.75]
+Feature 7 Violated Feature Bounds: 93.1625 Expected min/max: [0, 62.548]
+Feature 10 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 13 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 14 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 23 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+***** Problems while connecting? None
+******Connected agent 2****
+***** 11: Setting up eval log files
+***** 11: Start training
+Feature 20 Violated Feature Bounds: 63.3611 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.3611 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.3611 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.3611 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.3611 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.3611 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 62.9198 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 62.9198 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 62.5739 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.5739 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 62.5739 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.5739 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 62.5739 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.5739 Expected min/max: [0, 62.548]
+Feature 1 Violated Feature Bounds: -5.51614 Expected min/max: [-5.25, 57.75]
+Feature 20 Violated Feature Bounds: 63.5097 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.5097 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.5097 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.5097 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.5097 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.5097 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.0582 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.0582 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 65.306 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 65.306 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 65.306 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 65.306 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 65.306 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 65.306 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 65.306 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 65.306 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 64.1706 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 64.1706 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.8664 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 62.8664 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 62.8664 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.8664 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 62.8664 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.8664 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 62.8664 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.8664 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.5747 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.5747 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.5747 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.5747 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.5747 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.5747 Expected min/max: [0, 62.548]
+***** 7: Shutting down agent
+***** 7: Agent --> Agent: 7, Type: Torrey, Training steps: 468025, Q-Table size: 2686
+***** 11: Shutting down agent
+***** 11: Agent --> Agent: 11, Type: Torrey, Training steps: 468025, Q-Table size: 3022
+***** 8: Shutting down agent
+***** 8: Agent --> Agent: 8, Type: Torrey, Training steps: 468025, Q-Table size: 2544
+Namespace(agent1='Torrey', agent10='Dummy', agent11='Dummy', agent2='Torrey', agent3='Torrey', agent4='Dummy', agent5='Dummy', agent6='Dummy', agent7='Dummy', agent8='Dummy', agent9='Dummy', evaluation_duration=100, evaluation_interval=20, learning_trials=5000, log_file='/home/leno/HFO/log/', number_agents=3, number_trial=19, port=14111, seed=12345, server_path='/home/leno/HFO/bin/')
+***** Loading agent implementations
+AgentName: Torrey
+Creating agent
+OK Agent
+AgentName: Torrey
+Creating agent
+OK Agent
+AgentName: Torrey
+Creating agent
+OK Agent
+***** %s: Agents online --> %s
+Agent Classes OK
+******Connecting agent 0****
+***** Connecting to HFO server on port 14111
+******************************************************************
+ librcsc 4.1.0
+ Copyright 2000 - 2007. Hidehisa Akiyama.
+ Copyright 2007 - 2011. Hidehisa Akiyama and Hiroki Shimora
+ All rights reserved.
+******************************************************************
+base_left 7: [0, 5]  see synch.
+******Connecting agent 1****
+***** Connecting to HFO server on port 14111
+******************************************************************
+ librcsc 4.1.0
+ Copyright 2000 - 2007. Hidehisa Akiyama.
+ Copyright 2007 - 2011. Hidehisa Akiyama and Hiroki Shimora
+ All rights reserved.
+******************************************************************
+base_left 8: [0, 7]  see synch.
+******Connecting agent 2****
+***** Connecting to HFO server on port 14111
+******************************************************************
+ librcsc 4.1.0
+ Copyright 2000 - 2007. Hidehisa Akiyama.
+ Copyright 2007 - 2011. Hidehisa Akiyama and Hiroki Shimora
+ All rights reserved.
+******************************************************************
+base_left 11: [0, 7]  see synch.
+Feature 1 Violated Feature Bounds: -21 Expected min/max: [-5.25, 57.75]
+Feature 7 Violated Feature Bounds: 82.2876 Expected min/max: [0, 62.548]
+Feature 10 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 13 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 14 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 23 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 1 Violated Feature Bounds: -24 Expected min/max: [-5.25, 57.75]
+Feature 7 Violated Feature Bounds: 84.9779 Expected min/max: [0, 62.548]
+Feature 10 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 13 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 14 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 23 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 1 Violated Feature Bounds: -33 Expected min/max: [-5.25, 57.75]
+Feature 7 Violated Feature Bounds: 93.1625 Expected min/max: [0, 62.548]
+Feature 10 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 13 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 14 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 23 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 1 Violated Feature Bounds: -21 Expected min/max: [-5.25, 57.75]
+Feature 7 Violated Feature Bounds: 82.2876 Expected min/max: [0, 62.548]
+Feature 10 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 13 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 14 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 23 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+***** Problems while connecting? None
+******Connected agent 0****
+***** 7: Setting up eval log files
+***** 7: Start training
+Feature 1 Violated Feature Bounds: -24 Expected min/max: [-5.25, 57.75]
+Feature 7 Violated Feature Bounds: 84.9779 Expected min/max: [0, 62.548]
+Feature 10 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 13 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 14 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 23 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+***** Problems while connecting? None
+******Connected agent 1****
+***** 8: Setting up eval log files
+***** 8: Start training
+Feature 1 Violated Feature Bounds: -33 Expected min/max: [-5.25, 57.75]
+Feature 7 Violated Feature Bounds: 93.1625 Expected min/max: [0, 62.548]
+Feature 10 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 13 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 14 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 23 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+***** Problems while connecting? None
+******Connected agent 2****
+***** 11: Setting up eval log files
+***** 11: Start training
+Feature 20 Violated Feature Bounds: 63.5891 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.5891 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.5891 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.5891 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.5891 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.5891 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.5891 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.5891 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.7522 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.7522 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.7522 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.7522 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.7522 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.7522 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.4023 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.4023 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.4023 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.4023 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.4023 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.4023 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.4023 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.4023 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.4649 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.4649 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.4649 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.4649 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.4649 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.4649 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.4649 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.4649 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.1741 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.1741 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.1741 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.1741 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.1741 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.1741 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.1741 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.1741 Expected min/max: [0, 62.548]
+***** 8: Shutting down agent
+***** 8: Agent --> Agent: 8, Type: Torrey, Training steps: 462735, Q-Table size: 2513
+***** 11: Shutting down agent
+***** 11: Agent --> Agent: 11, Type: Torrey, Training steps: 462735, Q-Table size: 3058
+***** 7: Shutting down agent
+***** 7: Agent --> Agent: 7, Type: Torrey, Training steps: 462735, Q-Table size: 2617
+Namespace(agent1='Torrey', agent10='Dummy', agent11='Dummy', agent2='Torrey', agent3='Torrey', agent4='Dummy', agent5='Dummy', agent6='Dummy', agent7='Dummy', agent8='Dummy', agent9='Dummy', evaluation_duration=100, evaluation_interval=20, learning_trials=5000, log_file='/home/leno/HFO/log/', number_agents=3, number_trial=20, port=14111, seed=12345, server_path='/home/leno/HFO/bin/')
+***** Loading agent implementations
+AgentName: Torrey
+Creating agent
+OK Agent
+AgentName: Torrey
+Creating agent
+OK Agent
+AgentName: Torrey
+Creating agent
+OK Agent
+***** %s: Agents online --> %s
+Agent Classes OK
+******Connecting agent 0****
+***** Connecting to HFO server on port 14111
+******************************************************************
+ librcsc 4.1.0
+ Copyright 2000 - 2007. Hidehisa Akiyama.
+ Copyright 2007 - 2011. Hidehisa Akiyama and Hiroki Shimora
+ All rights reserved.
+******************************************************************
+base_left 7: [0, 7]  see synch.
+******Connecting agent 1****
+***** Connecting to HFO server on port 14111
+******************************************************************
+ librcsc 4.1.0
+ Copyright 2000 - 2007. Hidehisa Akiyama.
+ Copyright 2007 - 2011. Hidehisa Akiyama and Hiroki Shimora
+ All rights reserved.
+******************************************************************
+base_left 8: [0, 6]  see synch.
+******Connecting agent 2****
+***** Connecting to HFO server on port 14111
+******************************************************************
+ librcsc 4.1.0
+ Copyright 2000 - 2007. Hidehisa Akiyama.
+ Copyright 2007 - 2011. Hidehisa Akiyama and Hiroki Shimora
+ All rights reserved.
+******************************************************************
+base_left 11: [0, 6]  see synch.
+Feature Feature 11 Violated Feature Bounds:  Violated Feature Bounds: -21 Expected min/max: [-33 Expected min/max: [-5.25, -5.25, 57.75]57.75]
+
+Feature 7 Violated Feature Bounds: 93.1625 Expected min/max: [0, 62.548]
+Feature 10 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 13 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 14 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 23 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 7 Violated Feature Bounds: 82.2876 Expected min/max: [0, 62.548]
+Feature 10 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 13 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 14 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 23 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 1 Violated Feature Bounds: -24 Expected min/max: [-5.25, 57.75]
+Feature 7 Violated Feature Bounds: 84.9779 Expected min/max: [0, 62.548]
+Feature 10 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 13 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 14 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 23 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 1 Violated Feature Bounds: -21 Expected min/max: [-5.25, 57.75]
+Feature 7 Violated Feature Bounds: 82.2876 Expected min/max: [0, 62.548]
+Feature 10 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 13 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 14 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 23 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+***** Problems while connecting? None
+******Connected agent 0****
+***** 7: Setting up eval log files
+***** 7: Start training
+Feature 1 Violated Feature Bounds: -24 Expected min/max: [-5.25, 57.75]
+Feature 7 Violated Feature Bounds: 84.9779 Expected min/max: [0, 62.548]
+Feature 10 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 13 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 14 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 23 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+***** Problems while connecting? None
+******Connected agent 1****
+***** 8: Setting up eval log files
+***** 8: Start training
+Feature 1 Violated Feature Bounds: -33 Expected min/max: [-5.25, 57.75]
+Feature 7 Violated Feature Bounds: 93.1625 Expected min/max: [0, 62.548]
+Feature 10 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 13 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 14 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 23 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+***** Problems while connecting? None
+******Connected agent 2****
+***** 11: Setting up eval log files
+***** 11: Start training
+Feature 20 Violated Feature Bounds: 62.5976 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 62.5976 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 62.5976 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 62.5976 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 62.5976 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 62.5976 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 62.5976 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 62.5976 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.5444 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.5444 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.5444 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.5444 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.5444 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.5444 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.5444 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.5444 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.5572 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.5572 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.8357 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.8357 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.8357 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.8357 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.8357 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.8357 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.8357 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.8357 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.8213 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 62.8213 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.9355 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.9355 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.9355 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.9355 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.9355 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.9355 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.9355 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.9355 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.6661 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.6661 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: Feature 20 Violated Feature Bounds: 63.6661 Expected min/max: [0, 62.548]
+63.6661 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.6661 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.6661 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.6661 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.6661 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.7674 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.7674 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.7674 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.7674 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.7674 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.7674 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.7674 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.7674 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.1068 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.1068 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.1068 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.1068 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.1068 Expected min/max: [Feature 0, 1762.548] Violated Feature Bounds: 
+63.1068 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.1068 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.1068 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.748 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 62.748 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 62.748 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.748 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.748 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 62.748 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 62.748 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.748 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.3605 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.3605 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.3605 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.3605 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.3605 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.3605 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.3605 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.3605 Expected min/max: [0, 62.548]
+***** 7: Shutting down agent
+***** 7: Agent --> Agent: 7, Type: Torrey, Training steps: 469884, Q-Table size: 2627
+***** 8: Shutting down agent
+***** 8: Agent --> Agent: 8, Type: Torrey, Training steps: 469884, Q-Table size: 2552
+***** 11: Shutting down agent
+***** 11: Agent --> Agent: 11, Type: Torrey, Training steps: 469884, Q-Table size: 3057
+Namespace(agent1='Torrey', agent10='Dummy', agent11='Dummy', agent2='Torrey', agent3='Torrey', agent4='Dummy', agent5='Dummy', agent6='Dummy', agent7='Dummy', agent8='Dummy', agent9='Dummy', evaluation_duration=100, evaluation_interval=20, learning_trials=5000, log_file='/home/leno/HFO/log/', number_agents=3, number_trial=21, port=14111, seed=12345, server_path='/home/leno/HFO/bin/')
+***** Loading agent implementations
+AgentName: Torrey
+Creating agent
+OK Agent
+AgentName: Torrey
+Creating agent
+OK Agent
+AgentName: Torrey
+Creating agent
+OK Agent
+***** %s: Agents online --> %s
+Agent Classes OK
+******Connecting agent 0****
+***** Connecting to HFO server on port 14111
+******************************************************************
+ librcsc 4.1.0
+ Copyright 2000 - 2007. Hidehisa Akiyama.
+ Copyright 2007 - 2011. Hidehisa Akiyama and Hiroki Shimora
+ All rights reserved.
+******************************************************************
+base_left 7: [0, 6]  see synch.
+******Connecting agent 1****
+***** Connecting to HFO server on port 14111
+******************************************************************
+ librcsc 4.1.0
+ Copyright 2000 - 2007. Hidehisa Akiyama.
+ Copyright 2007 - 2011. Hidehisa Akiyama and Hiroki Shimora
+ All rights reserved.
+******************************************************************
+base_left 8: [0, 5]  see synch.
+******Connecting agent 2****
+***** Connecting to HFO server on port 14111
+******************************************************************
+ librcsc 4.1.0
+ Copyright 2000 - 2007. Hidehisa Akiyama.
+ Copyright 2007 - 2011. Hidehisa Akiyama and Hiroki Shimora
+ All rights reserved.
+******************************************************************
+base_left 11: [0, 5]  see synch.
+Feature 1 Violated Feature Bounds: -24 Expected min/max: [Feature -5.25, 1 Violated Feature Bounds: 57.75]
+Feature 7 Violated Feature Bounds: 84.9779 Expected min/max: [0, 62.548]
+Feature 10 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 13 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 14 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 23 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+-21 Expected min/max: [-5.25, 57.75]
+Feature 7 Violated Feature Bounds: 82.2876 Expected min/max: [0, 62.548]
+Feature 10 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 13 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 14 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 23 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 1 Violated Feature Bounds: -33 Expected min/max: [-5.25, 57.75]
+Feature 7 Violated Feature Bounds: 93.1625 Expected min/max: [0, 62.548]
+Feature 10 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 13 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 14 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 23 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+***** Problems while connecting? None
+******Connected agent 1****
+***** 8: Setting up eval log files
+***** 8: Start training
+***** Problems while connecting? None
+******Connected agent 0****
+***** 7: Setting up eval log files
+***** 7: Start training
+***** Problems while connecting? None
+******Connected agent 2****
+***** 11: Setting up eval log files
+***** 11: Start training
+Feature 17 Violated Feature Bounds: 63.0946 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.0946 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.0946 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.0946 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.0946 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.0946 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.0946 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.0946 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 62.5507 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.5507 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.5507 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 62.5507 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.5507 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 62.5507 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 62.5507 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.5507 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.3544 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.3544 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.3544 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.3544 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.3544 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.3544 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 62.8772 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.8772 Expected min/max: [0, 62.548]
+***** 11: Shutting down agent
+***** 11: Agent --> Agent: 11, Type: Torrey, Training steps: 462487, Q-Table size: 3068
+***** 7: Shutting down agent
+***** 7: Agent --> Agent: 7, Type: Torrey, Training steps: 462487, Q-Table size: 2689
+***** 8: Shutting down agent
+***** 8: Agent --> Agent: 8, Type: Torrey, Training steps: 462487, Q-Table size: 2663
+Namespace(agent1='Torrey', agent10='Dummy', agent11='Dummy', agent2='Torrey', agent3='Torrey', agent4='Dummy', agent5='Dummy', agent6='Dummy', agent7='Dummy', agent8='Dummy', agent9='Dummy', evaluation_duration=100, evaluation_interval=20, learning_trials=5000, log_file='/home/leno/HFO/log/', number_agents=3, number_trial=22, port=14111, seed=12345, server_path='/home/leno/HFO/bin/')
+***** Loading agent implementations
+AgentName: Torrey
+Creating agent
+OK Agent
+AgentName: Torrey
+Creating agent
+OK Agent
+AgentName: Torrey
+Creating agent
+OK Agent
+***** %s: Agents online --> %s
+Agent Classes OK
+******Connecting agent 0****
+***** Connecting to HFO server on port 14111
+******************************************************************
+ librcsc 4.1.0
+ Copyright 2000 - 2007. Hidehisa Akiyama.
+ Copyright 2007 - 2011. Hidehisa Akiyama and Hiroki Shimora
+ All rights reserved.
+******************************************************************
+base_left 7: [0, 5]  see synch.
+******Connecting agent 1****
+***** Connecting to HFO server on port 14111
+******************************************************************
+ librcsc 4.1.0
+ Copyright 2000 - 2007. Hidehisa Akiyama.
+ Copyright 2007 - 2011. Hidehisa Akiyama and Hiroki Shimora
+ All rights reserved.
+******************************************************************
+base_left 8: [0, 5]  see synch.
+******Connecting agent 2****
+***** Connecting to HFO server on port 14111
+******************************************************************
+ librcsc 4.1.0
+ Copyright 2000 - 2007. Hidehisa Akiyama.
+ Copyright 2007 - 2011. Hidehisa Akiyama and Hiroki Shimora
+ All rights reserved.
+******************************************************************
+base_left 11: [0, 7]  see synch.
+Feature Feature 11 Violated Feature Bounds:  Violated Feature Bounds: -24-21 Expected min/max: [ Expected min/max: [Feature 1 Violated Feature Bounds: -5.25-5.25, , 57.7557.75]]
+
+-33 Expected min/max: [Feature 7 Violated Feature Bounds: 82.2876 Expected min/max: [0, 62.548]
+Feature 10 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 13 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 14 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 23 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 7 Violated Feature Bounds: 84.9779 Expected min/max: [0, 62.548]
+Feature 10 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 13 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 14 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 23 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+-5.25, 57.75]
+Feature 7 Violated Feature Bounds: 93.1625 Expected min/max: [0, 62.548]
+Feature 10 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 13 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 14 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 23 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature Feature 11 Violated Feature Bounds:  Violated Feature Bounds: Feature 1 Violated Feature Bounds: -21-24-33 Expected min/max: [ Expected min/max: [-5.25, 57.75]
+Feature 7 Violated Feature Bounds: 84.9779 Expected min/max: [0, 62.548]
+Feature 10 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 13 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 14 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 23 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+***** Problems while connecting? None
+******Connected agent 1****
+***** 8: Setting up eval log files
+***** 8: Start training
+ Expected min/max: [-5.25, 57.75]
+Feature 7 Violated Feature Bounds: 82.2876 Expected min/max: [0, 62.548]
+Feature 10 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 13 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 14 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 23 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+***** Problems while connecting? None
+******Connected agent 0****
+***** 7: Setting up eval log files
+***** 7: Start training
+-5.25, 57.75]
+Feature 7 Violated Feature Bounds: 93.1625 Expected min/max: [0, 62.548]
+Feature 10 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 13 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 14 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 23 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+***** Problems while connecting? None
+******Connected agent 2****
+***** 11: Setting up eval log files
+***** 11: Start training
+Feature 20 Violated Feature Bounds: 64.0751 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 64.0751 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 64.0751 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 64.0751 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 64.0751 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 64.0751 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 64.0751 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 64.0751 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.1435 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.1435 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 64.1401 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 64.1401 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 64.1401 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 64.1401 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 64.1401 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 64.1401 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 64.1401 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 64.1401 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: Feature 17 Violated Feature Bounds: 62.9832 Expected min/max: [0, 62.9832 Expected min/max: [62.548]0
+, 62.548]
+***** 7: Shutting down agent
+***** 7: Agent --> Agent: 7, Type: Torrey, Training steps: 460802, Q-Table size: 2674
+***** 8: Shutting down agent
+***** 8: Agent --> Agent: 8, Type: Torrey, Training steps: 460802, Q-Table size: 2652
+***** 11: Shutting down agent
+***** 11: Agent --> Agent: 11, Type: Torrey, Training steps: 460802, Q-Table size: 3055
+Namespace(agent1='Torrey', agent10='Dummy', agent11='Dummy', agent2='Torrey', agent3='Torrey', agent4='Dummy', agent5='Dummy', agent6='Dummy', agent7='Dummy', agent8='Dummy', agent9='Dummy', evaluation_duration=100, evaluation_interval=20, learning_trials=5000, log_file='/home/leno/HFO/log/', number_agents=3, number_trial=23, port=14111, seed=12345, server_path='/home/leno/HFO/bin/')
+***** Loading agent implementations
+AgentName: Torrey
+Creating agent
+OK Agent
+AgentName: Torrey
+Creating agent
+OK Agent
+AgentName: Torrey
+Creating agent
+OK Agent
+***** %s: Agents online --> %s
+Agent Classes OK
+******Connecting agent 0****
+***** Connecting to HFO server on port 14111
+******************************************************************
+ librcsc 4.1.0
+ Copyright 2000 - 2007. Hidehisa Akiyama.
+ Copyright 2007 - 2011. Hidehisa Akiyama and Hiroki Shimora
+ All rights reserved.
+******************************************************************
+base_left 7: [0, 5]  see synch.
+******Connecting agent 1****
+***** Connecting to HFO server on port 14111
+******************************************************************
+ librcsc 4.1.0
+ Copyright 2000 - 2007. Hidehisa Akiyama.
+ Copyright 2007 - 2011. Hidehisa Akiyama and Hiroki Shimora
+ All rights reserved.
+******************************************************************
+base_left 8: [0, 7]  see synch.
+******Connecting agent 2****
+***** Connecting to HFO server on port 14111
+******************************************************************
+ librcsc 4.1.0
+ Copyright 2000 - 2007. Hidehisa Akiyama.
+ Copyright 2007 - 2011. Hidehisa Akiyama and Hiroki Shimora
+ All rights reserved.
+******************************************************************
+base_left 11: [0, 6]  see synch.
+Feature 1 Violated Feature Bounds: -21 Expected min/max: [-5.25, 57.75]
+Feature 7 Violated Feature Bounds: 82.2876 Expected min/max: [Feature 0, 1 Violated Feature Bounds: 62.548]
+-24 Expected min/max: [Feature 10 Violated Feature Bounds: -5.25, 79.177 Expected min/max: [0, 57.75]
+Feature 7 Violated Feature Bounds: 84.9779 Expected min/max: [0, 62.548]
+Feature 10 Violated Feature Bounds: Feature 1 Violated Feature Bounds: 81.8413 Expected min/max: [0, -33 Expected min/max: [62.548]
+62.548]
+Feature 13 Violated Feature Bounds: Feature 13 Violated Feature Bounds: 79.177 Expected min/max: [81.8413 Expected min/max: [0, 0, 62.548]
+62.548]Feature 14 Violated Feature Bounds: 
+89.9611 Expected min/max: [0, Feature 14 Violated Feature Bounds: 62.548]
+89.9611Feature 23 Violated Feature Bounds:  Expected min/max: [81.8413 Expected min/max: [0, 0, 62.548]
+62.548]Feature 
+23 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+-5.25, 57.75]
+Feature 7 Violated Feature Bounds: 93.1625 Expected min/max: [0, 62.548]
+Feature 10 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 13 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 14 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 23 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 1 Violated Feature Bounds: -21 Expected min/max: [-5.25, 57.75]
+Feature 7 Violated Feature Bounds: 82.2876 Expected min/max: [0, 62.548]
+Feature 10 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 13 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 14 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 23 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+***** Problems while connecting? None
+******Connected agent 0****
+***** 7: Setting up eval log files
+***** 7: Start training
+Feature 1 Violated Feature Bounds: -24 Expected min/max: [-5.25, 57.75]
+Feature 7 Violated Feature Bounds: 84.9779 Expected min/max: [0, 62.548]
+Feature 10 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 13 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 14 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 23 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+***** Problems while connecting? None
+******Connected agent 1****
+***** 8: Setting up eval log files
+***** 8: Start training
+Feature 1 Violated Feature Bounds: -33 Expected min/max: [-5.25, 57.75]
+Feature 7 Violated Feature Bounds: 93.1625 Expected min/max: [0, 62.548]
+Feature 10 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 13 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 14 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 23 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+***** Problems while connecting? None
+******Connected agent 2****
+***** 11: Setting up eval log files
+***** 11: Start training
+Feature 17 Violated Feature Bounds: 62.9442 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.9442 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.9442 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.9442 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.9442 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.9442 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.9442 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.9442 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.5594 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.5594 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.5594 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.5594 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.5594 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.5594 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.5594 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.5594 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 64.1602 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 64.1602 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 64.1602 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 64.1602 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 64.1602 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 64.1602 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 64.1602 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 64.1602 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.1512 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.1512 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.4391 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.4391 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.4391 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.4391 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.4391 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.4391 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.4391 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.4391 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 64.567 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 64.567 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 64.567 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 64.567 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 64.567 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 64.567 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 64.1626 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 64.1626 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.6235 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.6235 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.8189 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.8189 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.8189 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.8189 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.8189 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.8189 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.8189 Expected min/max: [0, 62Feature 20 Violated Feature Bounds: 63.7244 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.7244 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.7244 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.7244 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.7244 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.7244 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.1495 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.1495 Expected min/max: [0, 62.548]
+***** 11: Shutting down agent
+***** 11: Agent --> Agent: 11, Type: Torrey, Training steps: 474789, Q-Table size: 2997
+***** 8: Shutting down agent
+***** 8: Agent --> Agent: 8, Type: Torrey, Training steps: 474789, Q-Table size: 2578
+***** 7: Shutting down agent
+***** 7: Agent --> Agent: 7, Type: Torrey, Training steps: 474789, Q-Table size: 2561
+Namespace(agent1='Torrey', agent10='Dummy', agent11='Dummy', agent2='Torrey', agent3='Torrey', agent4='Dummy', agent5='Dummy', agent6='Dummy', agent7='Dummy', agent8='Dummy', agent9='Dummy', evaluation_duration=100, evaluation_interval=20, learning_trials=5000, log_file='/home/leno/HFO/log/', number_agents=3, number_trial=45, port=14311, seed=12345, server_path='/home/leno/HFO/bin/')
+***** Loading agent implementations
+AgentName: Torrey
+Creating agent
+OK Agent
+AgentName: Torrey
+Creating agent
+OK Agent
+AgentName: Torrey
+Creating agent
+OK Agent
+***** %s: Agents online --> %s
+Agent Classes OK
+******Connecting agent 0****
+***** Connecting to HFO server on port 14311
+******************************************************************
+ librcsc 4.1.0
+ Copyrigh***** 11: Shutting down agent
+***** 11: Agent --> Agent: 11, Type: Torrey, Training steps: 464367, Q-Table size: 2988
+***** 7: Shutting down agent
+***** 7: Agent --> Agent: 7, Type: Torrey, Training steps: 464367, Q-Table size: 2623
+***** 8: Shutting down agent
+***** 8: Agent --> Agent: 8, Type: Torrey, Training steps: 464367, Q-Table size: 2614
+Namespace(agent1='Torrey', agent10='Dummy', agent11='Dummy', agent2='Torrey', agent3='Torrey', agent4='Dummy', agent5='Dummy', agent6='Dummy', agent7='Dummy', agent8='Dummy', agent9='Dummy', evaluation_duration=100, evaluation_interval=20, learning_trials=5000, log_file='/home/leno/HFO/log/', number_agents=3, number_trial=24, port=14111, seed=12345, server_path='/home/leno/HFO/bin/')
+***** Loading agent implementations
+AgentName: Torrey
+Creating agent
+OK Agent
+AgentName: Torrey
+Creating agent
+OK Agent
+AgentName: Torrey
+Creating agent
+OK Agent
+***** %s: Agents online --> %s
+Agent Classes OK
+******Connecting agent 0****
+***** Connecting to HFO server on port 14111
+******************************************************************
+ librcsc 4.1.0
+ Copyright 2000 - 2007. Hidehisa Akiyama.
+ Copyright 2007 - 2011. Hidehisa Akiyama and Hiroki Shimora
+ All rights reserved.
+******************************************************************
+base_left 7: [0, 5]  see synch.
+******Connecting agent 1****
+***** Connecting to HFO server on port 14111
+******************************************************************
+ librcsc 4.1.0
+ Copyright 2000 - 2007. Hidehisa Akiyama.
+ Copyright 2007 - 2011. Hidehisa Akiyama and Hiroki Shimora
+ All rights reserved.
+******************************************************************
+base_left 8: [0, 7]  see synch.
+******Connecting agent 2****
+***** Connecting to HFO server on port 14111
+******************************************************************
+ librcsc 4.1.0
+ Copyright 2000 - 2007. Hidehisa Akiyama.
+ Copyright 2007 - 2011. Hidehisa Akiyama and Hiroki Shimora
+ All rights reserved.
+******************************************************************
+base_left 11: [0, 7]  see synch.
+Feature 1 Violated Feature Bounds: -21 Expected min/max: [-5.25, 57.75]
+Feature 7 Violated Feature Bounds: 82.2876 Expected min/max: [0, 62.548]
+Feature 10 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature Feature 13 Violated Feature Bounds: 81.8413 Expected min/max: [0, 162.548] Violated Feature Bounds: 
+Feature 14 Violated Feature Bounds: 89.9611 Expected min/max: [-24 Expected min/max: [0, -5.25, 62.548]
+Feature 1 Violated Feature Bounds: -33 Expected min/max: [-5.25, Feature 23 Violated Feature Bounds: 57.75]
+Feature 7 Violated Feature Bounds: 93.1625 Expected min/max: [0, 62.548]
+Feature 10 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 13 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 14 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 23 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+57.75]
+Feature 7 Violated Feature Bounds: 84.9779 Expected min/max: [0, 62.548]
+Feature 10 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 13 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 14 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 23 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+79.177 Expected min/max: [0, 62.548]
+Feature 1 Violated Feature Bounds: -21 Expected min/max: [-5.25, 57.75]
+Feature 7 Violated Feature Bounds: 82.2876 Expected min/max: [0, 62.548]
+Feature 10 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 13 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 14 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 23 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+***** Problems while connecting? None
+******Connected agent 0****
+***** 7: Setting up eval log files
+***** 7: Start training
+Feature 1 Violated Feature Bounds: -24 Expected min/max: [-5.25, 57.75]
+Feature 7 Violated Feature Feature 17 Violated Feature Bounds: 63.3593 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.3593 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.3593 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.3593 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.3593 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.3593 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.3593 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.3593 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 64.6215 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 64.6215 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 64.6215 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 64.6215 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 64.6215 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 64.6215 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 64.6215 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 64.6215 Expected min/max: [0, 62.548]
+Feature Feature 17 Violated Feature Bounds: 17 Violated Feature Bounds: 63.6632 Expected min/max: [0, 63.6632 Expected min/max: [62.5480, ]
+62.548]
+Feature 17 Violated Feature Bounds: 63.2759 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.2759 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.2759 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.2759 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.2759 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.2759 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.2759 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.2759 Expected min/max: [0, 62.548]
+***** 8: Shutting down agent
+***** 8: Agent --> Agent: 8, Type: Torrey, Training steps: 458922, Q-Table size: 2606
+***** 7: Shutting down agent
+***** 7: Agent --> Agent: 7, Type: Torrey, Training steps: 458922, Q-Table size: 2553
+***** 11: Shutting down agent
+***** 11: Agent --> Agent: 11, Type: Torrey, Training steps: 458922, Q-Table size: 2893
+Namespace(agent1='Torrey', agent10='Dummy', agent11='Dummy', agent2='Torrey', agent3='Torrey', agent4='Dummy', agent5='Dummy', agent6='Dummy', agent7='Dummy', agent8='Dummy', agent9='Dummy', evaluation_duration=100, evaluation_interval=20, learning_trials=5000, log_file='/home/leno/HFO/log/', number_agents=3, number_trial=46, port=14311, seed=12345, server_path='/home/leno/HFO/bin/')
+***** Loading agent implementations
+AgentName: Torrey
+Creating agent
+OK Agent
+AgentName: Torrey
+Creating agent
+OK Agent
+AgentName: Torrey
+Creating agent
+OK Agent
+***** %s: Agents online --> %s
+Agent Classes OK
+******Connecting agent 0****
+***** Connecting to HFO server on port 14311
+******************************************************************
+ librcsc 4.1.0
+ Copyright 2000 - 2007. Hidehisa Akiyama.
+ Copyright 2007 - 2011. Hidehisa Akiyama and Hiroki Shimora
+ All rights reserved.
+******************************************************************
+base_left 7: [0, 7]  see synch.
+******Connecting agent 1****
+***** Connecting to HFO server on port 14311
+******************************************************************
+ librcsc 4.1.0
+ Copyright 2000 - 2007. Hidehisa Akiyama.
+ Copyright 2007 - 2011. Hidehisa Akiyama and Hiroki Shimora
+ All rights reserved.
+******************************************************************
+base_left 8: [0, 6]  see synch.
+******Connecting agent 2****
+***** Connecting to HFO server on port 14311
+******************************************************************
+ librcsc 4.1.0
+ Copyright 2000 - 2007. Hidehisa Akiyama.
+ Copyright 2007 - 2011. Hidehisa Akiyama and Hiroki Shimora
+ All rights reserved.
+******************************************************************
+base_left 11: [0, 6]  see synch.
+Feature 1 Violated Feature Bounds: Feature 1-24 Expected min/max: [ Violated Feature Bounds: -5.25, 57.75]
+-33 Expected min/max: [Feature 7 Violated Feature Bounds: 84.9779 Expected min/max: [0, 62.548]
+Feature 10 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 13 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 14 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 23 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+-5.25, 57.75]
+Feature 7 Violated Feature Bounds: 93.1625 Expected min/max: [0, 62.548]
+Feature 10 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 13 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 14 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 23 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 1 Violated Feature Bounds: -21 Expected min/max: [-5.25, 57.75]
+Feature 7 Violated Feature Bounds: 82.2876 Expected min/max: [0, 62.548]
+Feature 10 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 13 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 14 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 23 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 1 Violated Feature Bounds: -24 Expected min/max: [-5.25, 57.75]
+Feature Feature 7 Violated Feature Bounds: 1 Violated Feature Bounds: 84.9779 Expected min/max: [-21 Expected min/max: [0, -5.25, 62.548]
+57.75]
+Feature 7 Violated Feature Bounds: 82.2876 Expected min/max: [0, 62.548]
+Feature 10 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 13 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 14 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 23 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+***** Problems while connecting? None
+******Connected agent 0****
+***** 7: Setting up eval log files
+***** 7: Start training
+Feature 1 Violated Feature Bounds: -33 Expected min/max: [-5.25, 57.75]
+Feature 7 Violated Feature Bounds: 93.1625 Expect***** 8: Shutting down agent
+***** 8: Agent --> Agent: 8, Type: Torrey, Training steps: 468885, Q-Table size: 2725
+***** 7: Shutting down agent
+***** 7: Agent --> Agent: 7, Type: Torrey, Training steps: 468885, Q-Table size: 2813
+***** 11: Shutting down agent
+***** 11: Agent --> Agent: 11, Type: Torrey, Training steps: 468885, Q-Table size: 3210
+Namespace(agent1='Torrey', agent10='Dummy', agent11='Dummy', agent2='Torrey', agent3='Torrey', agent4='Dummy', agent5='Dummy', agent6='Dummy', agent7='Dummy', agent8='Dummy', agent9='Dummy', evaluation_duration=100, evaluation_interval=20, learning_trials=5000, log_file='/home/leno/HFO/log/', number_agents=3, number_trial=25, port=14111, seed=12345, server_path='/home/leno/HFO/bin/')
+***** Loading agent implementations
+AgentName: Torrey
+Creating agent
+OK Agent
+AgentName: Torrey
+Creating agent
+OK Agent
+AgentName: Feature 17 Violated Feature Bounds: 62.8266 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.8266 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.8266 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.8266 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.8266 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.8266 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.8266 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.8266 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.3621 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.3621 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.3621 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.3621 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.3621 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.3621 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.3621 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.3621 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.2543 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.2543 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.2543 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.2543 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.2543 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.2543 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.2543 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.2543 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.8313 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.8313 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 62.7023 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 62.7023 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 62.7023 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 62.7023 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 62.7023 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 62.7023 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 64.8942 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 64.8942 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 64.8942 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 64.8942 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 64.8942 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 64.8942 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 64.5055 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 64.5055 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.7815 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.7815 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 62.8012 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 62.8012 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 62.8012 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 62.8012 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 62.8012 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 62.8012 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 62.8012 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 62.8012 Expected min/max: [0, 62.548]
+***** 8: Shutting down agent
+***** 8: Agent --> Agent: 8, Type: Torrey, Training steps: 466233, Q-Table size: 2530
+***** 11: Shutting down agent
+***** 11: Agent --> Agent: 11, Type: Torrey, Training steps: 466233, Q-Table size: 2968
+***** 7: Shutting down agent
+***** 7: Agent --> Agent: 7, Type: Torrey, Training steps: 466233, Q-Table size: 2699
+Namespace(agent1='Torrey', agent10='Dummy', agent11='Dummy', agent2='Torrey', agent3='Torrey', agent4='Dummy', agent5='Dummy', agent6='Dummy', agent7='Dummy', agent8='Dummy', agent9='Dummy', evaluation_duration=100, evaluation_interval=20, learning_trials=5000, log_file='/home/leno/HFO/log/', number_agents=3, number_trial=47, port=14311, seed=12345, server_path='/home/leno/HFO/bin/')
+***** Loading agent implementations
+AgentName: Torrey
+Creating agent
+OK Agent
+AgentName: Torrey
+Creating agent
+OK Agent
+AgentName: Torrey
+Creating agent
+OK Agent
+***** %s: Agents online --> %s
+Agent Classes OK
+******Connecting agent 0****
+***** Connecting to HFO server on port 14311
+******************************************************************
+ librcsc 4.1.0
+ Copyright 2000 - 2007. Hidehisa Akiyama.
+ Copyright 2007 - 2011. Hidehisa Akiyama and Hiroki Shimora
+ All rights reserved.
+******************************************************************
+base_left 7: [0, 5]  see synch.
+******Connecting agent 1****
+***** Connecting to HFO server on port 14311
+******************************************************************
+ librcsc 4.1.0
+ Copyright 2000 - 2007. Hidehisa Akiyama.
+ Copyright 2007 - 2011. Hidehisa Akiyama and Hiroki Shimora
+ All rights reserved.
+******************************************************************
+base_left 8: [0, 7]  see synch.
+******Connecting agent 2****
+***** Connecting to HFO server on port 14311
+******************************************************************
+ librcsc 4.1.0
+ Copyright 2000 - 2007. Hidehisa Akiyama.
+ Copyright 2007 - 2011. Hidehisa Akiyama and Hiroki Shimora
+ All rights reserved.
+******************************************************************
+base_left 11: [0, 6]  see synch.
+Feature 1 Violated Feature Bounds: -24 Expected min/max: [-5.25, 57.75]
+Feature 7 Violated Feature Bounds: 84.9779 Expected min/max: [0, 62.548]
+Feature 10 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 13 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 14 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 23 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 1 Violated Feature Bounds: -21 Expected min/max: [-5.25, 57.75]
+Feature 7 Violated Feature Bounds: 82.2876 Expected min/max: [0, 62.548]
+Feature 10 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 13 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 14 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 23 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 1 Violated Feature Bounds: -33 Expected min/max: [-5.25, 57.75]
+Feature 7 Violated Feature Bounds: 93.1625 Expected min/max: [0, 62.548]
+Feature 10 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 13 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 14 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 23 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 1 Violated Feature Bounds: -21 Expected min/max: [-5.25, 57.75]
+Feature 7 Violated Feature Bounds: 82.2876 Expected min/max: [0, 62.548]
+Feature 10 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 13 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 14 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 23 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+***** Problems while connecting? None
+******Connected agent 0****
+***** 7: Setting up eval log files
+***** 7: Start training
+Feature 1 Violated Feature Bounds: -24 Expected min/max: [-5.25, 57.75]
+Feature 7 Violated Feature Bounds: 84.9779 Expected min/max: [0, 62.548]
+Feature 10 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 13 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 14 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 23 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+***** Problems while connecting? None
+******Connected agent 1****
+***** 8: Setting up eval log files
+***** 8: Start training
+Feature 1 Violated Feature Bounds: -33 Expected min/max: [-5.25, 57.75]
+Feature 7 Violated Feature Bounds: 93.1625 Expected min/max: [0, 62.548]
+Feature 10 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 13 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 14 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 23 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+***** Problems while connecting? None
+******Connected agent 2****
+***** 11: Setting up eval log files
+***** 11: Start training
+Feature 20 Violated Feature Bounds: 63.3209 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.3209 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.3209 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.3209 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.3209 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.3209 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.3209 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.3209 Expected min/max: [0, 62.548]
+Feature 1 Violated Feature Bounds: -5.47072 Expected min/max: [-5.25, 57.75]
+Feature 1 Violated Feature Bounds: -5.68226 Expected min/max: [-5.25, 57.75]
+Feature 7 Violated Feature Bounds: 62.6771 Expected min/max: [0, 62.548]
+Feature 1 Violated Feature Bounds: -5.45712 Expected min/max: [-5.25, 57.75]
+Feature 7 Violated Feature Bounds: 62.6369 Expected min/max: [0, 62.548]
+Feature 1 Violated Feature Bounds: -5.58061 Expected min/max: [-5.25, 57.75]
+Feature 7 Violated Feature Bounds: 62.7494 Expected min/max: [0, 62.548]
+***** 7: Shutting down agent
+***** 7: Agent --> Agent: 7, Type: Torrey, Training steps: 467569, Q-Table size: 2758
+***** 11: Shutting down agent
+***** 11: Agent --> Agent: 11, Type: Torrey, Training steps: 467569, Q-Table size: 3076
+***** 8: Shutting down agent
+***** 8: Agent --> Agent: 8, Type: Torrey, Training steps: 467569, Q-Table size: 2751
+Namespace(agent1='Torrey', agent10='Dummy', agent11='Dummy', agent2='Torrey', agent3='Torrey', agent4='Dummy', agent5='Dummy', agent6='Dummy', agent7='Dummy', agent8='Dummy', agent9='Dummy', evaluation_duration=100, evaluation_interval=20, learning_trials=5000, log_file='/home/leno/HFO/log/', number_agents=3, number_trial=48, port=14311, seed=12345, server_path='/home/leno/HFO/bin/')
+***** Loading agent implementations
+AgentName: Torrey
+Creating agent
+OK Agent
+AgentName: Torrey
+Creating agent
+OK Agent
+AgentName: Torrey
+Creating agent
+OK Agent
+***** %s: Agents online --> %s
+Agent Classes OK
+******Connecting agent 0****
+***** Connecting to HFO server on port 14311
+******************************************************************
+ librcsc 4.1.0
+ Copyright 2000 - 2007. Hidehisa Akiyama.
+ Copyright 2007 - 2011. Hidehisa Akiyama and Hiroki Shimora
+ All rights reserved.
+******************************************************************
+base_left 7: [0, 7]  see synch.
+******Connecting agent 1****
+***** Connecting to HFO server on port 14311
+******************************************************************
+ librcsc 4.1.0
+ Copyright 2000 - 2007. Hidehisa Akiyama.
+ Copyright 2007 - 2011. Hidehisa Akiyama and Hiroki Shimora
+ All rights reserved.
+******************************************************************
+base_left 8: [0, 6]  see synch.
+******Connecting agent 2****
+***** Connecting to HFO server on port 14311
+******************************************************************
+ librcsc 4.1.0
+ Copyright 2000 - 2007. Hidehisa Akiyama.
+ Copyright 2007 - 2011. Hidehisa Akiyama and Hiroki Shimora
+ All rights reserved.
+******************************************************************
+base_left 11: [0, 7]  see synch.
+Feature Feature 11 Violated Feature Bounds:  Violated Feature Bounds: -33 Expected min/max: [-5.25, -2457.75] Expected min/max: [
+Feature 7 Violated Feature Bounds: -5.25, 93.1625 Expected min/max: [0, 57.75]62.548
+]Feature 1 Violated Feature Bounds: Feature 7 Violated Feature Bounds: 84.9779 Expected min/max: [-210 Expected min/max: [, -5.25, 62.548]
+57.75]
+Feature 7 Violated Feature Bounds: 82.2876 Expected min/max: [0, 62.548]
+Feature 10 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 13 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 14 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 23 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 10 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 13 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 14 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 23 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+
+Feature 10 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 13 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 14 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 23 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature Feature 11 Violated Feature Bounds:  Violated Feature Bounds: -21-24 Expected min/max: [ Expected min/max: [-5.25-5.25, , 57.7557.75]]
+
+Feature 7 Violated Feature Bounds: Feature 7 Violated Feature Bounds: 84.9779 Expected min/max: [082.2876,  Expected min/max: [0, 62.548]
+62.548]
+Feature 10 Violated Feature Bounds: Feature 10 Violated Feature Bounds: 81.8413 Expected min/max: [79.177 Expected min/max: [0, 0, 62.548]
+62.548]
+Feature 1 Violated Feature Bounds: -33 Expected min/max: [-5.25, Feature 13 Violated Feature Bounds: 57.75]
+Feature 81.84137 Violated Feature Bounds:  Expected min/max: [93.16250 Expected min/max: [, 0, 62.548]
+Feature 14 Violated Feature Bounds: 62.54889.9611] Expected min/max: [
+0, Feature 10 Violated Feature Bounds: 62.548]
+Feature 13 Violated Feature Bounds: 79.177 Expected min/max: [0, Feature 23 Violated Feature Bounds: 62.548]
+Feature 14 Violated Feature Bounds: 79.177 Expected min/max: [89.9611 Expected min/max: [00, , 62.548]
+62.548]
+Feature 23 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+89.9611 Expected min/max: [0, 62.548]
+Feature 13 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 14 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+***** Problems while connecting? NoneFeature 23 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+
+ ***** Problems while connecting? None******Connected agent 0****
+
+******Connected agent 2****
+***** 7: Setting up eval log files
+ ***** 11: Setting up eval log files
+***** 7: Start training
+ ***** 11: Start training***** Problems while connecting? None
+******Connected agent 1****
+
+***** 8: Setting up eval log files
+***** 8: Start training
+Feature 20 Violated Feature Bounds: 64 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 64 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 64 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 64 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 64 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 64 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 64 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 64 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.1765 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.1765 Expected min/max: [0, 62.548]
+Feature 1 Violated Feature Bounds: -5.47741 Expected min/max: [-5.25, 57.75]
+Feature 17 Violated Feature Bounds: 62.6695 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.6695 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.6695 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.6695 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.6695 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.6695 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.6695 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.6695 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.7913 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.7913 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.7913 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.7913 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.7913 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.7913 Expected min/max: [0, 62.548]
+Feature 1 Violated Feature Bounds: -5.3132 Expected min/max: [-5.25, 57.75]
+Feature 1 Violated Feature Bounds: -5.41219 Expected min/max: [-5.25, 57.75]
+Feature 1 Violated Feature Bounds: -5.45524 Expected min/max: [-5.25, 57.75]
+Feature 20 Violated Feature Bounds: 64.262 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 64.262 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 64.262 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 64.262 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 64.262 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 64.262 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.6601 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.6601 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 62.7653 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 62.7653 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 62.7653 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 62.7653 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 62.7653 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 62.7653 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 62.7653 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 62.7653 Expected min/max: [0, 62.548]
+***** 8: Shutting down agent
+***** 8: Agent --> Agent: 8, Type: Torrey, Training steps: 474339, Q-Table size: 2696
+***** 7: Shutting down agent
+***** 7: Agent --> Agent: 7, Type: Torrey, Training steps: 474339, Q-Table size: 2598
+***** 11: Shutting down agent
+***** 11: Agent --> Agent: 11, Type: Torrey, Training steps: 474339, Q-Table size: 3117
+Namespace(agent1='Torrey', agent10='Dummy', agent11='Dummy', agent2='Torrey', agent3='Torrey', agent4='Dummy', agent5='Dummy', agent6='Dummy', agent7='Dummy', agent8='Dummy', agent9='Dummy', evaluation_duration=100, evaluation_interval=20, learning_trials=5000, log_file='/home/leno/HFO/log/', number_agents=3, number_trial=49, port=14311, seed=12345, server_path='/home/leno/HFO/bin/')
+***** Loading agent implementations
+AgentName: Torrey
+Creating agent
+OK Agent
+AgentName: Torrey
+Creating agent
+OK Agent
+AgentName: Torrey
+Creating agent
+OK Agent
+***** %s: Agents online --> %s
+Agent Classes OK
+******Connecting agent 0****
+***** Connecting to HFO server on port 14311
+******************************************************************
+ librcsc 4.1.0
+ Copyright 2000 - 2007. Hidehisa Akiyama.
+ Copyright 2007 - 2011. Hidehisa Akiyama and Hiroki Shimora
+ All rights reserved.
+******************************************************************
+base_left 7: [0, 7]  see synch.
+******Connecting agent 1****
+***** Connecting to HFO server on port 14311
+******************************************************************
+ librcsc 4.1.0
+ Copyright 2000 - 2007. Hidehisa Akiyama.
+ Copyright 2007 - 2011. Hidehisa Akiyama and Hiroki Shimora
+ All rights reserved.
+******************************************************************
+base_left 8: [0, 7]  see synch.
+******Connecting agent 2****
+***** Connecting to HFO server on port 14311
+******************************************************************
+ librcsc 4.1.0
+ Copyright 2000 - 2007. Hidehisa Akiyama.
+ Copyright 2007 - 2011. Hidehisa Akiyama and Hiroki Shimora
+ All rights reserved.
+******************************************************************
+base_left 11: [0, 6]  see synch.
+Feature 1 Violated Feature Bounds: -21 Expected min/max: [-5.25, 57.75]
+Feature 7 Violated Feature Bounds: 82.2876 Expected min/max: [0, 62.548]
+Feature 10 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 13 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 14 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 23 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 1 Violated Feature Bounds: -24 Expected min/max: [-5.25, 57.75]
+Feature 7 Violated Feature Bounds: 84.9779 Expected min/max: [0, 62.548]
+Feature 10 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 13 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 14 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 23 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 1 Violated Feature Bounds: -33 Expected min/max: [-5.25, 57.75]
+Feature 7 Violated Feature Bounds: 93.1625 Expected min/max: [0, 62.548]
+Feature 10 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 13 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 14 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 23 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 1 Violated Feature Bounds: -21 Expected min/max: [-5.25, 57.75]
+Feature 7 Violated Feature Bounds: 82.2876 Expected min/max: [0, 62.548]
+Feature 10 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 13 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 14 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 23 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+***** Problems while connecting? None
+******Connected agent 0****
+***** 7: Setting up eval log files
+***** 7: Start training
+Feature 1 Violated Feature Bounds: -24 Expected min/max: [-5.25, 57.75]
+Feature 7 Violated Feature Bounds: 84.9779 Expected min/max: [0, 62.548]
+Feature 10 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 13 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 14 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 23 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+***** Problems while connecting? None
+******Connected agent 1****
+***** 8: Setting up eval log files
+***** 8: Start training
+Feature 1 Violated Feature Bounds: -33 Expected min/max: [-5.25, 57.75]
+Feature 7 Violated Feature Bounds: 93.1625 Expected min/max: [0, 62.548]
+Feature 10 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 13 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 14 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 23 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+***** Problems while connecting? None
+******Connected agent 2****
+***** 11: Setting up eval log files
+***** 11: Start training
+Feature 17 Violated Feature Bounds: 62.786 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 62.786 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.786 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 62.786 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.786 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 62.786 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.786 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 62.786 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.9627 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.9627 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.9627 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.9627 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.9627 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.9627 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.5179 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.5179 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.1272 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.1272 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.1272 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.1272 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.1272 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.1272 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.1272 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.1272 Expected min/max: [0, 62.548]
+***** 8: Shutting down agent
+***** 8: Agent --> Agent: 8, Type: Torrey, Training steps: 460589, Q-Table size: 2594
+***** 7: Shutting down agent
+***** 7: Agent --> Agent: 7, Type: Torrey, Training steps: 460589, Q-Table size: 2643
+***** 11: Shutting down agent
+***** 11: Agent --> Agent: 11, Type: Torrey, Training steps: 460589, Q-Table size: 2958
+Namespace(agent1='Torrey', agent10='Dummy', agent11='Dummy', agent2='Torrey', agent3='Torrey', agent4='Dummy', agent5='Dummy', agent6='Dummy', agent7='Dummy', agent8='Dummy', agent9='Dummy', evaluation_duration=100, evaluation_interval=20, learning_trials=5000, log_file='/home/leno/HFO/log/', number_agents=3, number_trial=50, port=14311, seed=12345, server_path='/home/leno/HFO/bin/')
+***** Loading agent implementations
+AgentName: Torrey
+Creating agent
+OK Agent
+AgentName: Torrey
+Creating agent
+OK Agent
+AgentName: Torrey
+Creating agent
+OK Agent
+***** %s: Agents online --> %s
+Agent Classes OK
+******Connecting agent 0****
+***** Connecting to HFO server on port 14311
+******************************************************************
+ librcsc 4.1.0
+ Copyright 2000 - 2007. Hidehisa Akiyama.
+ Copyright 2007 - 2011. Hidehisa Akiyama and Hiroki Shimora
+ All rights reserved.
+******************************************************************
+base_left 7: [0, 6]  see synch.
+******Connecting agent 1****
+***** Connecting to HFO server on port 14311
+******************************************************************
+ librcsc 4.1.0
+ Copyright 2000 - 2007. Hidehisa Akiyama.
+ Copyright 2007 - 2011. Hidehisa Akiyama and Hiroki Shimora
+ All rights reserved.
+******************************************************************
+base_left 8: [0, 5]  see synch.
+******Connecting agent 2****
+***** Connecting to HFO server on port 14311
+******************************************************************
+ librcsc 4.1.0
+ Copyright 2000 - 2007. Hidehisa Akiyama.
+ Copyright 2007 - 2011. Hidehisa Akiyama and Hiroki Shimora
+ All rights reserved.
+******************************************************************
+base_left 11: [0, 5]  see synch.
+Feature 1 Violated Feature Bounds: -21 Expected min/max: [-5.25, 57.75]
+Feature Feature 71 Violated Feature Bounds:  Violated Feature Bounds: 82.2876 Expected min/max: [-33 Expected min/max: [0, -5.25, 57.7562.548]]
+
+Feature 7 Violated Feature Bounds: Feature 10 Violated Feature Bounds: 93.1625 Expected min/max: [79.177 Expected min/max: [00, , 62.54862.548]]
+
+Feature 10 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 13 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 14 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 23 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 1 Violated Feature Bounds: -24 Expected min/max: [-5.25, 57.75]
+Feature 7 Violated Feature Bounds: 84.9779 Expected min/max: [0, 62.548]
+Feature 10 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 13 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 14 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 23 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 13 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 14 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 23 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 1 Violated Feature Bounds: -21 Expected min/max: [-5.25, 57.75]
+Feature 7 Violated Feature Bounds: 82.2876 Expected min/max: [0, 62.548]
+Feature 10 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 13 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 14 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 23 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 1 Violated Feature Bounds: -24 Expected min/max: [-5.25, 57.75]
+Feature 7 Violated Feature Bounds: 84.9779 Expected min/max: [0, 62.548]
+Feature 10 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 13 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 14 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 23 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+***** Problems while connecting? None
+******Connected agent 0****
+***** 7: Setting up eval log files
+***** 7: Start training
+***** Problems while connecting? None
+******Connected agent 1****
+***** 8: Setting up eval log files
+***** 8: Start training
+Feature 1 Violated Feature Bounds: -33 Expected min/max: [-5.25, 57.75]
+Feature 7 Violated Feature Bounds: 93.1625 Expected min/max: [0, 62.548]
+Feature 10 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 13 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 14 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 23 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+***** Problems while connecting? None
+******Connected agent 2****
+***** 11: Setting up eval log files
+***** 11: Start training
+Feature 17 Violated Feature Bounds: 62.7902 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 62.7902 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 62.7902 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.7902 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.7902 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 62.7902 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.7902 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 62.7902 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.9423 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.9423 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.9423 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.9423 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.9423 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.9423 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.5849 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.5849 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.7135 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.7135 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.7135 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.7135 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.7135 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.7135 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.7135 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.7135 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.7531 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 62.7531 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.2713 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.2713 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.2713 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.2713 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.2713 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.2713 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.2713 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.2713 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.5682 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.5682 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.5682 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.5682 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.5682 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.5682 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.5682 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.5682 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.0143 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.0143 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.0143 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.0143 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.0143 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.0143 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.0143 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.0143 Expected min/max: [0, 62.548]
+***** 7: Shutting down agent
+***** 7: Agent --> Agent: 7, Type: Torrey, Training steps: 463132, Q-Table size: 2688
+***** 11: Shutting down agent
+***** 11: Agent --> Agent: 11, Type: Torrey, Training steps: 463132, Q-Table size: 2975
+***** 8: Shutting down agent
+***** 8: Agent --> Agent: 8, Type: Torrey, Training steps: 463132, Q-Table size: 2548
+ected min/max: [0, 62.548]
+ Expected min/max: [0, 62.548]
+Feature 10 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 13 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 14 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 23 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 1 Violated Feature Bounds: -24 Expected min/max: [-5.25, 57.75]
+Feature 7 Violated Feature Bounds: 84.9779 Expected min/max: [0, 62.548]
+Feature 10 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 13 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 14 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 23 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+***** Problems while connecting? None
+******Connected agent 1****
+***** 8: Setting up eval log files
+***** 8: Start training
+Feature 1 Violated Feature Bounds: -33 Expected min/max: [-5.25, 57.75]
+Feature 7 Violated Feature Bounds: 93.1625 Expected min/max: [0, 62.548]
+Feature 10 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 13 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 14 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 23 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+***** Problems while connecting? None
+******Connected agent 2****
+***** 11: Setting up eval log files
+***** 11: Start training
+Feature 1 Violated Feature Bounds: -21 Expected min/max: [-5.25, 57.75]
+Feature 7 Violated Feature Bounds: 82.2876 Expected min/max: [0, 62.548]
+Feature 10 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 13 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 14 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 23 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+***** Problems while connecting? None
+******Connected agent 0****
+***** 7: Setting up eval log files
+***** 7: Start training
+Feature 17 Violated Feature Bounds: 64.0171 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 64.0171 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 64.0171 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 64.0171 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 64.0171 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 64.0171 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 64.0171 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 64.0171 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.0728 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.0728 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 62.6259 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 62.6259 Expected min/max: [0, 62.548]
+Feature Feature 2020 Violated Feature Bounds:  Violated Feature Bounds: 62.625962.6259 Expected min/max: [ Expected min/max: [00, , 62.54862.548]]
+
+Feature 20 Violated Feature Bounds: 62.6259 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 62.6259 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 62.6259 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 62.6259 Expected min/max: [0, 62.548]
+***** 7: Shutting down agent
+***** 7: Agent --> Agent: 7, Type: Torrey, Training steps: 463366, Q-Table size: 2625
+***** 8: Shutting down agent
+***** 8: Agent --> Agent: 8, Type: Torrey, Training steps: 463366, Q-Table size: 2505
+***** 11: Shutting down agent
+***** 11: Agent --> Agent: 11, Type: Torrey, Training steps: 463366, Q-Table size: 2905
+Namespace(agent1='Torrey', agent10='Dummy', agent11='Dummy', agent2='Torrey', agent3='Torrey', agent4='Dummy', agent5='Dummy', agent6='Dummy', agent7='Dummy', agent8='Dummy', agent9='Dummy', evaluation_duration=100, evaluation_interval=20, learning_trials=5000, log_file='/home/leno/HFO/log/', number_agents=3, number_trial=30, port=14111, seed=12345, server_path='/home/leno/HFO/bin/')
+***** Loading agent implementations
+AgentName: Torrey
+Creating agent
+OK Agent
+AgentName: Torrey
+Creating agent
+OK Agent
+AgentName: Torrey
+Creating agent
+OK Agent
+***** %s: Agents online --> %s
+Agent Classes OK
+******Connecting agent 0****
+***** Connecting to HFO server on port 14111
+******************************************************************
+ librcsc 4.1.0
+ Copyright 2000 - 2007. Hidehisa Akiyama.
+ Copyright 2007 - 2011. Hidehisa Akiyama and Hiroki Shimora
+ All rights reserved.
+******************************************************************
+base_left 7: [0, 5]  see synch.
+******Connecting agent 1****
+***** Connecting to HFO server on port 14111
+******************************************************************
+ librcsc 4.1.0
+ Copyright 2000 - 2007. Hidehisa Akiyama.
+ Copyright 2007 - 2011. Hidehisa Akiyama and Hiroki Shimora
+ All rights reserved.
+******************************************************************
+base_left 8: [0, 7]  see synch.
+******Connecting agent 2****
+***** Connecting to HFO server on port 14111
+******************************************************************
+ librcsc 4.1.0
+ Copyright 2000 - 2007. Hidehisa Akiyama.
+ Copyright 2007 - 2011. Hidehisa Akiyama and Hiroki Shimora
+ All rights reserved.
+******************************************************************
+base_left 11: [0, 7]  see synch.
+Feature Feature 11Feature  Violated Feature Bounds: 1 Violated Feature Bounds: -21 Expected min/max: [-24 Expected min/max: [-5.25, -5.25, 57.75]57.75
+]
+Feature 7 Violated Feature Bounds: 84.9779 Expected min/max: [0, 62.548]
+Feature 10 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+ Violated Feature Bounds: Feature 13 Violated Feature Bounds: 79.177 Expected min/max: [0, -3362.548] Expected min/max: [
+Feature 14 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 23 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 7 Violated Feature Bounds: 82.2876 Expected min/max: [0, 62.548]-5.25
+, Feature 10 Violated Feature Bounds: 79.177 Expected min/max: [0, 57.75]
+Feature 62.5487 Violated Feature Bounds: ]
+93.1625 Expected min/max: [Feature 13 Violated Feature Bounds: 0, 62.548]
+81.8413 Expected min/max: [0, Feature 10 Violated Feature Bounds: 62.548]
+Feature 14 Violated Feature Bounds: 89.9611 Expected min/max: [0, 89.961162.548] Expected min/max: [
+Feature 23 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+0, 62.548]
+Feature 13 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 14 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 23 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 1 Violated Feature Bounds: -21 Expected min/max: [-5.25, 57.75]
+Feature 7 Violated Feature Bounds: 82.2876 Expected min/max: [0, 62.548]
+Feature 10 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 13 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 14 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature Feature 123 Violated Feature Bounds:  Violated Feature Bounds: 79.177 Expected min/max: [0, -24 Expected min/max: [62.548]
+-5.25, 57.75]
+Feature 7 Violated Feature Bounds: 84.9779 Expected min/max: [0, 62.548]
+Feature 10 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]***** Problems while connecting? None
+Feature 1 Violated Feature Bounds: Feature -3313 Expected min/max: [ Violated Feature Bounds: -5.25, 79.177 Expected min/max: [57.75]
+Feature 07 Violated Feature Bounds: , 93.1625 Expected min/max: [62.548]
+Feature 014 Violated Feature Bounds: , 89.9611 Expected min/max: [0, 62.548]
+62.548]
+Feature 23 Violated Feature Bounds: 
+81.8413 Expected min/max: [0, 62.548]
+Feature 10 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+***** Problems while connecting? NoneFeature 13 Violated Feature Bounds: 
+79.177 Expected min/max: [0, 62.548]
+Feature 14 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 23 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+******Connected agent 1********* Problems while connecting? None
+
+ ******Connected agent 0****
+***** 7: Setting up eval log files
+***** 7: Start training
+***** 8: Setting up eval log files
+******Connected agent 2****
+***** 8: Start training
+***** 11: Setting up eval log files
+***** 11: Start training
+Feature 20 Violated Feature Bounds: 62.9366 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 62.9366 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 62.9366 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 62.9366 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 62.9366 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 62.9366 Expected min/max: [0, 62.548]
+Feature 1 Violated Feature Bounds: -5.44007 Expected min/max: [-5.25, 57.75]
+Feature 1 Violated Feature Bounds: -5.85813 Expected min/max: [-5.25, 57.75]
+Feature 7 Violated Feature Bounds: 62.8952 Expected min/max: [0, 62.548]
+Feature 1 Violated Feature Bounds: -6.02629 Expected min/max: [-5.25, 57.75]
+Feature 7 Violated Feature Bounds: 63.1084 Expected min/max: [0, 62.548]
+Feature 1 Violated Feature Bounds: -6.09268 Expected min/max: [-5.25, 57.75]
+Feature 7 Violated Feature Bounds: 63.1929 Expected min/max: [0, 62.548]
+Feature 1 Violated Feature Bounds: -5.69681 Expected min/max: [-5.25, 57.75]
+Feature 7 Violated Feature Bounds: 62.7882 Expected min/max: [0, 62.548]
+Feature 1 Violated Feature Bounds: -5.25532 Expected min/max: [-5.25, 57.75]
+Feature 1 Violated Feature Bounds: -5.46654 Expected min/max: [-5.25, 57.75]
+Feature 1 Violated Feature Bounds: -5.55823 Expected min/max: [-5.25, 57.75]
+Feature 7 Violated Feature Bounds: 62.6583 Expected min/max: [0, 62.548]
+Feature 1 Violated Feature Bounds: -5.59531 Expected min/max: [-5.25, 57.75]
+Feature 7 Violated Feature Bounds: 62.7085 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 64.2349 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 64.2349 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 64.2349 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 64.2349 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 64.2349 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 64.2349 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 64.2349 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 64.2349 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.0615 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.0615 Expected min/max: [0, 62.548]
+***** 11: Shutting down agent
+***** 11: Agent --> Agent: 11, Type: Torrey, Training steps: 460510, Q-Table size: 2986
+***** 8: Shutting down agent
+ ***** 7: Shutting down agent
+***** 7: Agent --> Agent: 7, Type: Torrey, Training steps: 460510, Q-Table size: 2672
+***** 8: Agent --> Agent: 8, Type: Torrey, Training steps: 460510, Q-Table size: 2574
+Namespace(agent1='Torrey', agent10='Dummy', agent11='Dummy', agent2='Torrey', agent3='Torrey', agent4='Dummy', agent5='Dummy', agent6='Dummy', agent7='Dummy', agent8='Dummy', agent9='Dummy', evaluation_duration=100, evaluation_interval=20, learning_trials=5000, log_file='/home/leno/HFO/log/', number_agents=3, number_trial=31, port=14111, seed=12345, server_path='/home/leno/HFO/bin/')
+***** Loading agent implementations
+AgentName: Torrey
+Creating agent
+OK Agent
+AgentName: Torrey
+Creating agent
+OK Agent
+AgentName: Torrey
+Creating agent
+OK Agent
+***** %s: Agents online --> %s
+Agent Classes OK
+******Connecting agent 0****
+***** Connecting to HFO server on port 14111
+******************************************************************
+ librcsc 4.1.0
+ Copyright 2000 - 2007. Hidehisa Akiyama.
+ Copyright 2007 - 2011. Hidehisa Akiyama and Hiroki Shimora
+ All rights reserved.
+******************************************************************
+base_left 7: [0, 5]  see synch.
+******Connecting agent 1****
+***** Connecting to HFO server on port 14111
+******************************************************************
+ librcsc 4.1.0
+ Copyright 2000 - 2007. Hidehisa Akiyama.
+ Copyright 2007 - 2011. Hidehisa Akiyama and Hiroki Shimora
+ All rights reserved.
+******************************************************************
+base_left 8: [0, 5]  see synch.
+******Connecting agent 2****
+***** Connecting to HFO server on port 14111
+******************************************************************
+ librcsc 4.1.0
+ Copyright 2000 - 2007. Hidehisa Akiyama.
+ Copyright 2007 - 2011. Hidehisa Akiyama and Hiroki Shimora
+ All rights reserved.
+******************************************************************
+base_left 11: [0, 7]  see synch.
+Feature Feature 11 Violated Feature Bounds:  Violated Feature Bounds: -21-33 Expected min/max: [ Expected min/max: [-5.25, -5.25, 57.75]57.75]
+
+Feature 7 Violated Feature Bounds: 93.1625 Expected min/max: [0, 62.548]
+Feature 10 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 13 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 14 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 23 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 7 Violated Feature Bounds: 82.2876 Expected min/max: [0, 62.548]
+Feature 10 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 13 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 14 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 23 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 1 Violated Feature Bounds: -24 Expected min/max: [-5.25, 57.75]
+Feature 7 Violated Feature Bounds: 84.9779 Expected min/max: [0, 62.548]
+Feature 10 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 13 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 14 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 23 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 1 Violated Feature Bounds: Feature 1 Violated Feature Bounds: -21 Expected min/max: [-5.25, 57.75]
+-24 Expected min/max: [Feature 7 Violated Feature Bounds: 82.2876 Expected min/max: [0, 62.548]
+Feature 10 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 13 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 14 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 23 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+-5.25, Feature 1 Violated Feature Bounds: 57.75]
+-33Feature 7 Violated Feature Bounds:  Expected min/max: [84.9779 Expected min/max: [-5.250, , 62.54857.75]]
+
+Feature Feature 107 Violated Feature Bounds:  Violated Feature Bounds: 93.1625 Expected min/max: [81.8413 Expected min/max: [0, 0, 62.548]62.548]
+
+Feature 13 Violated Feature Bounds: Feature 79.17710 Expected min/max: [ Violated Feature Bounds: 0, 62.548]
+89.9611Feature 14 Violated Feature Bounds:  Expected min/max: [89.9611 Expected min/max: [0, 0, 62.548]
+62.548Feature 23 Violated Feature Bounds: ]
+81.8413 Expected min/max: [0Feature , 13 Violated Feature Bounds: 62.548]
+79.177 Expected min/max: [0, 62.548]
+Feature 14 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 23 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+***** Problems while connecting? None
+******Connected agent 0****
+ ***** Problems while connecting? None
+******Connected agent 2****
+***** Problems while connecting? None
+******Connected agent 1****
+***** 7: Setting up eval log files
+ ***** 8: Setting up eval log files
+***** 11: Setting up eval log files
+***** 8: Start training
+***** 7: Start training
+***** 11: Start training
+Feature 17 Violated Feature Bounds: 63.1609 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.1609 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.1609 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.1609 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.1609 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.1609 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.1609 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.1609 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: Feature 20 Violated Feature Bounds: 62.8543 Expected min/max: [0, 62.8543 Expected min/max: [62.548]0, 
+62.548]
+Feature 20 Violated Feature Bounds: 62.8543 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 62.8543 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 62.8543 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 62.8543 Expected min/max: [0, 62.548]
+Feature 7 Violated Feature Bounds: 62.5746 Expected min/max: [0, 62.548]
+Feature 7 Violated Feature Bounds: 62.5904 Expected min/max: [0, 62.548]
+***** 8: Shutting down agent
+***** 8: Agent --> Agent: 8, Type: Torrey, Training steps: 473798, Q-Table size: 2685
+***** 11: Shutting down agent
+***** 11: Agent --> Agent: 11, Type: Torrey, Training steps: 473798, Q-Table size: 3078
+***** 7: Shutting down agent
+***** 7: Agent --> Agent: 7, Type: Torrey, Training steps: 473798, Q-Table size: 2652
+Namespace(agent1='Torrey', agent10='Dummy', agent11='Dummy', agent2='Torrey', agent3='Torrey', agent4='Dummy', agent5='Dummy', agent6='Dummy', agent7='Dummy', agent8='Dummy', agent9='Dummy', evaluation_duration=100, evaluation_interval=20, learning_trials=5000, log_file='/home/leno/HFO/log/', number_agents=3, number_trial=32, port=14111, seed=12345, server_path='/home/leno/HFO/bin/')
+***** Loading agent implementations
+AgentName: Torrey
+Creating agent
+OK Agent
+AgentName: Torrey
+Creating agent
+OK Agent
+AgentName: Torrey
+Creating agent
+OK Agent
+***** %s: Agents online --> %s
+Agent Classes OK
+******Connecting agent 0****
+***** Connecting to HFO server on port 14111
+******************************************************************
+ librcsc 4.1.0
+ Copyright 2000 - 2007. Hidehisa Akiyama.
+ Copyright 2007 - 2011. Hidehisa Akiyama and Hiroki Shimora
+ All rights reserved.
+******************************************************************
+base_left 7: [0, 5]  see synch.
+******Connecting agent 1****
+***** Connecting to HFO server on port 14111
+******************************************************************
+ librcsc 4.1.0
+ Copyright 2000 - 2007. Hidehisa Akiyama.
+ Copyright 2007 - 2011. Hidehisa Akiyama and Hiroki Shimora
+ All rights reserved.
+******************************************************************
+base_left 8: [0, 7]  see synch.
+******Connecting agent 2****
+***** Connecting to HFO server on port 14111
+******************************************************************
+ librcsc 4.1.0
+ Copyright 2000 - 2007. Hidehisa Akiyama.
+ Copyright 2007 - 2011. Hidehisa Akiyama and Hiroki Shimora
+ All rights reserved.
+******************************************************************
+base_left 11: [0, 7]  see synch.
+Feature Feature 11 Violated Feature Bounds: Feature  Violated Feature Bounds: 1 Violated Feature Bounds: -33-24-21 Expected min/max: [ Expected min/max: [ Expected min/max: [-5.25, -5.25-5.25, , 57.75]57.75
+]57.75
+]
+Feature 7 Violated Feature Bounds: Feature 7 Violated Feature Bounds: 82.2876 Expected min/max: [Feature 7 Violated Feature Bounds: 084.9779 Expected min/max: [0, , 93.162562.548] Expected min/max: [
+62.548Feature 10 Violated Feature Bounds: ]
+81.8413Feature  Expected min/max: [10 Violated Feature Bounds: 0, 062.548, ]79.177
+ Expected min/max: [0Feature 13 Violated Feature Bounds: , 62.54862.54879.177] Expected min/max: [
+]
+0Feature 13 Violated Feature Bounds: , 62.54881.8413Feature  Expected min/max: [0, 62.548]
+Feature 14 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+10Feature 23 Violated Feature Bounds:  Violated Feature Bounds: 79.177 Expected min/max: [0, ]
+Feature 14 Violated Feature Bounds: 62.54889.9611 Expected min/max: []0
+, 62.548]
+Feature 89.961123 Violated Feature Bounds:  Expected min/max: [81.8413 Expected min/max: [0, 0, 62.54862.548]]
+
+Feature 13 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 14 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 23 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 1 Violated Feature Bounds: -21 Expected min/max: [-5.25, 57.75]
+Feature 1 Violated Feature Bounds: -24 Expected min/max: [-5.25, 57.75]
+Feature 7 Violated Feature Bounds: 84.9779 Expected min/max: [0, 62.548]
+Feature 10 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 13 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 14 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 23 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+***** Problems while connecting? None
+******Connected agent 1****
+***** 8: Setting up eval log files
+***** 8: Start training
+Feature 1 Violated Feature Bounds: Feature 7-33 Violated Feature Bounds:  Expected min/max: [-5.25, 57.75]
+Feature 7 Violated Feature Bounds: 82.2876 Expected min/max: [93.1625 Expected min/max: [0, 62.548]
+0, Feature 62.54810]
+ Violated Feature Bounds: 89.9611 Expected min/max: [Feature 10 Violated Feature Bounds: 0, 79.177 Expected min/max: [62.548]0
+, 62.548]
+Feature 13 Violated Feature Bounds: Feature 13 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 14 Violated Feature Bounds: 79.177 Expected min/max: [89.9611 Expected min/max: [0, 0, 62.548]
+Feature 14 Violated Feature Bounds: 62.54881.8413 Expected min/max: []
+Feature 023,  Violated Feature Bounds: 62.548]
+79.177 Expected min/max: [Feature 23 Violated Feature Bounds: 0, 89.961162.548] Expected min/max: [
+0, 62.548]
+***** Problems while connecting? None
+******Connected agent 0****
+***** Problems while connecting? None
+******Connected agent 2****
+***** 7: Setting up eval log files
+***** 11: Setting up eval log files
+***** 7: Start training
+***** 11: Start training
+Feature 20 Violated Feature Bounds: 62.6143 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.6143 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 62.6143 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.6143 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: Feature 20 Violated Feature Bounds: 62.6143 Expected min/max: [0, 62.6143 Expected min/max: [62.548]
+0, 62.548]
+Feature 20 Violated Feature Bounds: 62.6143 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.6143 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 64.452 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 64.452 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 64.452 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 64.452 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 64.452 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 64.452 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 64.452 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 64.452 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.3891 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.3891 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 65.1621 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 65.1621 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 65.1621 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 65.1621 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 65.1621 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 65.1621 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 65.1621 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 65.1621 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: Feature 20 Violated Feature Bounds: 64.1904 Expected min/max: [0, 62.548]
+64.1904 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 62.7986 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 62.7986 Expected min/max: [0, 62.548]
+Feature 1 Violated Feature Bounds: -5.45957 Expected min/max: [-5.25, 57.75]
+Feature 1 Violated Feature Bounds: -5.68343 Expected min/max: [-5.25, 57.75]
+Feature 1 Violated Feature Bounds: -5.7705 Expected min/max: [-5.25, 57.75]
+Feature 1 Violated Feature Bounds: -5.80423 Expected min/max: [-5.25, 57.75]
+Feature 7 Violated Feature Bounds: 62.5744 Expected min/max: [0, 62.548]
+Feature 1 Violated Feature Bounds: -5.81753 Expected min/max: [-5.25, 57.75]
+Feature 7 Violated Feature Bounds: 62.5933 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.7325 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.7325 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.7325 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.7325 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.7325 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.7325 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: Feature 17 Violated Feature Bounds: 62.7325 Expected min/max: [0, 62.548]
+62.7325 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.7625 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.7625 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.7625 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.7625 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.7625 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.7625 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.7625 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.7625 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 62.6564 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.6564 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 62.6564 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.6564 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 62.6564 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.6564 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 62.6564 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.6564 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.2101 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.2101 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.2101 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.2101 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.2101 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.2101 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.2101 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.2101 Expected min/max: [0, 62.548]
+***** 11: Shutting down agent
+***** 11: Agent --> Agent: 11, Type: Torrey, Training steps: 467442, Q-Table size: 3129
+***** 8: Shutting down agent
+***** 8: Agent --> Agent: 8, Type: Torrey, Training steps: 467442, Q-Table size: 2838
+***** 7: Shutting down agent
+***** 7: Agent --> Agent: 7, Type: Torrey, Training steps: 467442, Q-Table size: 2787
+Namespace(agent1='Torrey', agent10='Dummy', agent11='Dummy', agent2='Torrey', agent3='Torrey', agent4='Dummy', agent5='Dummy', agent6='Dummy', agent7='Dummy', agent8='Dummy', agent9='Dummy', evaluation_duration=100, evaluation_interval=20, learning_trials=5000, log_file='/home/leno/HFO/log/', number_agents=3, number_trial=33, port=14111, seed=12345, server_path='/home/leno/HFO/bin/')
+***** Loading agent implementations
+AgentName: Torrey
+Creating agent
+OK Agent
+AgentName: Torrey
+Creating agent
+OK Agent
+AgentName: Torrey
+Creating agent
+OK Agent
+***** %s: Agents online --> %s
+Agent Classes OK
+******Connecting agent 0****
+***** Connecting to HFO server on port 14111
+******************************************************************
+ librcsc 4.1.0
+ Copyright 2000 - 2007. Hidehisa Akiyama.
+ Copyright 2007 - 2011. Hidehisa Akiyama and Hiroki Shimora
+ All rights reserved.
+******************************************************************
+base_left 7: [0, 7]  see synch.
+******Connecting agent 1****
+***** Connecting to HFO server on port 14111
+******************************************************************
+ librcsc 4.1.0
+ Copyright 2000 - 2007. Hidehisa Akiyama.
+ Copyright 2007 - 2011. Hidehisa Akiyama and Hiroki Shimora
+ All rights reserved.
+******************************************************************
+base_left 8: [0, 6]  see synch.
+******Connecting agent 2****
+***** Connecting to HFO server on port 14111
+******************************************************************
+ librcsc 4.1.0
+ Copyright 2000 - 2007. Hidehisa Akiyama.
+ Copyright 2007 - 2011. Hidehisa Akiyama and Hiroki Shimora
+ All rights reserved.
+******************************************************************
+base_left 11: [0, 6]  see synch.
+Feature 1 Violated Feature Bounds: -21 Expected min/max: [-5.25, 57.75]
+Feature 7 Violated Feature Bounds: 82.2876 Expected min/max: [0, 62.548]
+Feature 10 Violated Feature Bounds: Feature 79.177 Expected min/max: [0, 1 Violated Feature Bounds: 62.548]
+-24 Expected min/max: [Feature 13 Violated Feature Bounds: -5.25, 81.841357.75 Expected min/max: []
+0, Feature 762.548 Violated Feature Bounds: ]
+Feature 14 Violated Feature Bounds: Feature 89.9611 Expected min/max: [0, 162.548 Violated Feature Bounds: ]
+-33 Expected min/max: [-5.25, 57.75]
+Feature 7 Violated Feature Bounds: Feature 93.162523 Violated Feature Bounds:  Expected min/max: [0, 62.548]
+Feature 10 Violated Feature Bounds: 79.17789.9611 Expected min/max: [ Expected min/max: [0, 62.548]
+Feature 13 Violated Feature Bounds: 0, 79.177 Expected min/max: [0, 62.548]
+Feature 14 Violated Feature Bounds: 81.8413 Expected min/max: [62.5480, ]
+84.9779 Expected min/max: [62.548]
+Feature 23 Violated Feature Bounds: 0, 89.9611 Expected min/max: [0, 62.548]
+62.548]
+Feature 10 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 13 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 14 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 23 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature Feature 1 Violated Feature Bounds: 1 Violated Feature Bounds: -24-21 Expected min/max: [ Expected min/max: [Feature -5.25, -5.251,  Violated Feature Bounds: 57.75]
+57.75]
+Feature Feature 7 Violated Feature Bounds: -33 Expected min/max: [-5.25, 57.75]
+Feature 7 Violated Feature Bounds: 82.2876 Expected min/max: [93.1625 Expected min/max: [0, 0, 62.548]
+62.548]
+Feature 10 Violated Feature Bounds: Feature 10 Violated Feature Bounds: 789.9611 Expected min/max: [ Violated Feature Bounds: 0, 79.177 Expected min/max: [62.548]
+Feature 13 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 14 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 23 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+***** Problems while connecting? None
+******Connected agent 2****
+0, 84.9779 Expected min/max: [62.548]
+0, 62.548]
+Feature 13 Violated Feature Bounds: Feature 10 Violated Feature Bounds: 81.8413 Expected min/max: [81.84130 Expected min/max: [, 0, 62.548]
+62.548]Feature 
+13Feature 14 Violated Feature Bounds: 89.9611 Expected min/max: [0,  Violated Feature Bounds: 62.548]
+79.177Feature  Expected min/max: [23 Violated Feature Bounds: 0, 79.177 Expected min/max: [62.548]
+0Feature 14 Violated Feature Bounds: , 89.9611 Expected min/max: [0, 62.54862.548]]
+
+Feature 23 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+***** Problems while connecting? None ***** Problems while connecting? None
+***** 11: Setting up eval log files
+******Connected agent 0****
+
+******Connected agent 1****
+***** 8: Setting up eval log files
+ ***** 11: Start training***** 7: Setting up eval log files
+
+***** 7: Start training
+***** 8: Start training
+Feature 17 Violated Feature Bounds: 62.6032 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.6032 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.6032 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.6032 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.6032 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.6032 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.6032 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.6032 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.7195 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.7195 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: Feature 17 Violated Feature Bounds: 62.7195 Expected min/max: [62.7195 Expected min/max: [0, 0, 62.548]62.548
+]
+Feature 17 Violated Feature Bounds: Feature 17 Violated Feature Bounds: 62.7195 Expected min/max: [0, 62.548]
+62.7195 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.7195 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.7195 Expected min/max: [0, 62.548]
+***** 8: Shutting down agent
+***** 8: Agent --> Agent: 8, Type: Torrey, Training steps: 454758, Q-Table size: 2540
+***** 7: Shutting down agent
+***** 7: Agent --> Agent: 7, Type: Torrey, Training steps: 454758, Q-Table size: 2535
+***** 11: Shutting down agent
+***** 11: Agent --> Agent: 11, Type: Torrey, Training steps: 454758, Q-Table size: 2941
+Namespace(agent1='Torrey', agent10='Dummy', agent11='Dummy', agent2='Torrey', agent3='Torrey', agent4='Dummy', agent5='Dummy', agent6='Dummy', agent7='Dummy', agent8='Dummy', agent9='Dummy', evaluation_duration=100, evaluation_interval=20, learning_trials=5000, log_file='/home/leno/HFO/log/', number_agents=3, number_trial=34, port=14111, seed=12345, server_path='/home/leno/HFO/bin/')
+***** Loading agent implementations
+AgentName: Torrey
+Creating agent
+OK Agent
+AgentName: Torrey
+Creating agent
+OK Agent
+AgentName: Torrey
+Creating agent
+OK Agent
+***** %s: Agents online --> %s
+Agent Classes OK
+******Connecting agent 0****
+***** Connecting to HFO server on port 14111
+******************************************************************
+ librcsc 4.1.0
+ Copyright 2000 - 2007. Hidehisa Akiyama.
+ Copyright 2007 - 2011. Hidehisa Akiyama and Hiroki Shimora
+ All rights reserved.
+******************************************************************
+base_left 7: [0, 5]  see synch.
+******Connecting agent 1****
+***** Connecting to HFO server on port 14111
+******************************************************************
+ librcsc 4.1.0
+ Copyright 2000 - 2007. Hidehisa Akiyama.
+ Copyright 2007 - 2011. Hidehisa Akiyama and Hiroki Shimora
+ All rights reserved.
+******************************************************************
+base_left 8: [0, 5]  see synch.
+******Connecting agent 2****
+***** Connecting to HFO server on port 14111
+******************************************************************
+ librcsc 4.1.0
+ Copyright 2000 - 2007. Hidehisa Akiyama.
+ Copyright 2007 - 2011. Hidehisa Akiyama and Hiroki Shimora
+ All rights reserved.
+******************************************************************
+base_left 11: [0, 7]  see synch.
+Feature Feature 11 Violated Feature Bounds:  Violated Feature Bounds: Feature 1 Violated Feature Bounds: -24-21 Expected min/max: [ Expected min/max: [-5.25-5.25, , -33 Expected min/max: [57.75-5.25]
+, Feature 7 Violated Feature Bounds: 84.9779 Expected min/max: [57.75]
+0Feature 7 Violated Feature Bounds: , 93.1625 Expected min/max: [0, 62.548]
+62.548]
+Feature Feature 10 Violated Feature Bounds: 10 Violated Feature Bounds: 57.75]89.9611
+ Expected min/max: [Feature 7 Violated Feature Bounds: 082.2876 Expected min/max: [, 0, 81.8413 Expected min/max: [62.548]
+0Feature 10 Violated Feature Bounds: , 62.54879.17762.548 Expected min/max: []
+]0Feature 13 Violated Feature Bounds: , 79.177 Expected min/max: [062.548], 
+
+Feature 13 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]Feature 
+Feature 14 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 23 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+13 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 14 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+62.548]Feature 
+23Feature 14 Violated Feature Bounds:  Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+89.9611 Expected min/max: [Feature 23 Violated Feature Bounds: 0, 81.8413 Expected min/max: [62.548]
+0, 62.548]
+Feature 1 Violated Feature Bounds: Feature 1 Violated Feature Bounds: -21-24 Expected min/max: [ Expected min/max: [-5.25, -5.25, 57.75]
+57.75]Feature 7 Violated Feature Bounds: 
+82.2876 Expected min/max: [0, 62.548]
+Feature 10 Violated Feature Bounds: Feature 779.177 Violated Feature Bounds:  Expected min/max: [0, 62.548]
+84.9779 Expected min/max: [0Feature 13,  Violated Feature Bounds: 62.548]81.8413
+ Expected min/max: [0, Feature 62.548]
+Feature 14 Violated Feature Bounds: 89.9611 Expected min/max: [0, 1062.548]
+Feature 23 Violated Feature Bounds:  Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+81.8413 Expected min/max: [0, 62.548]
+Feature 13 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 14 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature ***** Problems while connecting? None23 Violated Feature Bounds: 
+81.8413 Expected min/max: [0, 62.548]
+******Connected agent 0****
+***** Problems while connecting? None
+******Connected agent 1****
+Feature 1 Violated Feature Bounds: -33 Expected min/max: [-5.25, 57.75]
+Feature 7 Violated Feature Bounds: 93.1625 Expected min/max: [0, 62.548]
+Feature 10 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+***** 7: Setting up eval log filesFeature 13 Violated Feature Bounds: 79.177 Expected min/max: [***** 8: Setting up eval log files0, 
+62.548]
+Feature 14 Violated Feature Bounds: 81.8413 Expected min/max: [0, 
+62.548]
+Feature 23 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+***** Problems while connecting? None
+ ***** 8: Start training
+***** 7: Start training
+******Connected agent 2****
+***** 11: Setting up eval log files
+***** 11: Start training
+Feature 7 Violated Feature Bounds: 62.5675 Expected min/max: [0, 62.548]
+Feature 1 Violated Feature Bounds: -5.52174 Expected min/max: [-5.25, 57.75]
+Feature 7 Violated Feature Bounds: 62.9588 Expected min/max: [0, 62.548]
+Feature 1 Violated Feature Bounds: -6.25043 Expected min/max: [-5.25, 57.75]
+Feature 7 Violated Feature Bounds: 63.6776 Expected min/max: [0, 62.548]
+Feature 1 Violated Feature Bounds: -6.53923 Expected min/max: [-5.25, 57.75]
+Feature 7 Violated Feature Bounds: 63.9627 Expected min/max: [0, 62.548]
+Feature 1 Violated Feature Bounds: -6.64923 Expected min/max: [-5.25, 57.75]
+Feature 7 Violated Feature Bounds: 64.069 Expected min/max: [0, 62.548]
+Feature 1 Violated Feature Bounds: -6.69274 Expected min/max: [-5.25, 57.75]
+Feature 7 Violated Feature Bounds: 64.1127 Expected min/max: [0, 62.548]
+Feature 1 Violated Feature Bounds: -6.70955 Expected min/max: [-5.25, 57.75]
+Feature 7 Violated Feature Bounds: 64.1293 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.9552 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.9552 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.9552 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.9552 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.9552 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.9552 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.9552 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.9552 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.0222 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.0222 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.0222 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.0222 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.0222 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.0222 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.0222 Expected min/max: [Feature 0, 17 Violated Feature Bounds: 62.548]
+63.0222 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.1275 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.1275 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.1275 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.1275 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.1275 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.1275 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.1275 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.1275 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.2673 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.2673 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.2673 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.2673 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.2673 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.2673 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.8411 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 62.8411 Expected min/max: [0, 62.548]
+***** 11: Shutting down agent
+***** 11: Agent --> Agent: 11, Type: Torrey, Training steps: 467906, Q-Table size: 3004
+***** 8: Shutting down agent
+***** 8: Agent --> Agent: 8, Type: Torrey, Training steps: 467906, Q-Table size: 2594
+***** 7: Shutting down agent
+***** 7: Agent --> Agent: 7, Type: Torrey, Training steps: 467906, Q-Table size: 2612
+Namespace(agent1='Torrey', agent10='Dummy', agent11='Dummy', agent2='Torrey', agent3='Torrey', agent4='Dummy', agent5='Dummy', agent6='Dummy', agent7='Dummy', agent8='Dummy', agent9='Dummy', evaluation_duration=100, evaluation_interval=20, learning_trials=5000, log_file='/home/leno/HFO/log/', number_agents=3, number_trial=35, port=14111, seed=12345, server_path='/home/leno/HFO/bin/')
+***** Loading agent implementations
+AgentName: Torrey
+Creating agent
+OK Agent
+AgentName: Torrey
+Creating agent
+OK Agent
+AgentName: Torrey
+Creating agent
+OK Agent
+***** %s: Agents online --> %s
+Agent Classes OK
+******Connecting agent 0****
+***** Connecting to HFO server on port 14111
+******************************************************************
+ librcsc 4.1.0
+ Copyright 2000 - 2007. Hidehisa Akiyama.
+ Copyright 2007 - 2011. Hidehisa Akiyama and Hiroki Shimora
+ All rights reserved.
+******************************************************************
+base_left 7: [0, 7]  see synch.
+******Connecting agent 1****
+***** Connecting to HFO server on port 14111
+******************************************************************
+ librcsc 4.1.0
+ Copyright 2000 - 2007. Hidehisa Akiyama.
+ Copyright 2007 - 2011. Hidehisa Akiyama and Hiroki Shimora
+ All rights reserved.
+******************************************************************
+base_left 8: [0, 6]  see synch.
+******Connecting agent 2****
+***** Connecting to HFO server on port 14111
+******************************************************************
+ librcsc 4.1.0
+ Copyright 2000 - 2007. Hidehisa Akiyama.
+ Copyright 2007 - 2011. Hidehisa Akiyama and Hiroki Shimora
+ All rights reserved.
+******************************************************************
+base_left 11: [0, 6]  see synch.
+Feature 1 Violated Feature Bounds: -21 Expected min/max: [-5.25, 57.75]
+Feature Feature 7 Violated Feature Bounds: 1 Violated Feature Bounds: 82.2876 Expected min/max: [0, Feature 62.548]
+1Feature 10 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548 Violated Feature Bounds: ]
+-33 Expected min/max: [-24Feature 13 Violated Feature Bounds:  Expected min/max: [-5.25, 81.8413 Expected min/max: [0, 57.75]
+62.548Feature 7 Violated Feature Bounds: -5.2593.1625 Expected min/max: [0, , 62.548]
+]Feature 10 Violated Feature Bounds: 89.9611 Expected min/max: [
+Feature 14 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 23 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+0, 57.75]
+Feature 62.5487 Violated Feature Bounds: ]
+84.9779 Expected min/max: [0, Feature 13 Violated Feature Bounds: 62.548]
+79.177 Expected min/max: [0, Feature 10 Violated Feature Bounds: 62.548]
+Feature 14 Violated Feature Bounds: 81.841381.8413 Expected min/max: [ Expected min/max: [0, 0, 62.548]
+Feature 62.54823 Violated Feature Bounds: ]
+89.9611 Expected min/max: [Feature 013,  Violated Feature Bounds: 62.548]
+79.177 Expected min/max: [0, 62.548]
+Feature 14 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 23 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 1 Violated Feature Bounds: Feature 1 Violated Feature Bounds: -21 Expected min/max: [Feature -241 Expected min/max: [-5.25 Violated Feature Bounds: , -5.25, 57.75]57.75]
+
+Feature 7 Violated Feature Bounds: Feature 7 Violated Feature Bounds: 84.9779 Expected min/max: [0, 62.548]
+Feature 10 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 13 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 14 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 23 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+***** Problems while connecting? None
+82.2876 Expected min/max: [-33 Expected min/max: [0, 62.548]
+-5.25, 57.75Feature 10 Violated Feature Bounds: ]
+Feature 7 Violated Feature Bounds: 79.17793.1625 Expected min/max: [0, 62.548] Expected min/max: [
+******Connected agent 1****
+Feature 10 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 13 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 14 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 23 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+***** Problems while connecting? None
+******Connected agent 2****
+0, 62.548]
+Feature 13 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 14 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 23 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+***** Problems while connecting? None
+ ***** 11: Setting up eval log files
+******Connected agent 0****
+***** 8: Setting up eval log files
+ ***** 11: Start training
+***** 7: Setting up eval log files
+***** 7: Start training
+***** 8: Start training
+Feature 20 Violated Feature Bounds: 62.9757 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 62.9757 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 62.9757 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 62.9757 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 62.9757 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 62.9757 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 62.9757 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 62.9757 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: Feature 63.8815 Expected min/max: [17 Violated Feature Bounds: 0, 62.548]
+63.8815 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.8815 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.8815 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.8815 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.8815 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.8815 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.8815 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.9612 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.9612 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.7788 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 62.7788 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.7788 Expected min/max: [0, Feature 62.548]
+20 Violated Feature Bounds: 62.7788 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.7788 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 62.7788 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 62.7788 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.7788 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.1103 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.1103 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.1103 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.1103 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.1103 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.1103 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.6768 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.6768 Expected min/max: [0, 62.548]
+Feature 1 Violated Feature Bounds: -5.62729 Expected min/max: [-5.25, 57.75]
+Feature 17 Violated Feature Bounds: 62.8045 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 62.8045 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.8045 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 62.8045 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.8045 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 62.8045 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 62.8045 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.8045 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.6912 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.6912 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.6912 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.6912 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.6912 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.6912 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.6912 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.6912 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.6825 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.6825 Expected min/max: [0, 62.548]
+***** 7: Shutting down agent
+***** 7: Agent --> Agent: 7, Type: Torrey, Training steps: 457201, Q-Table size: 2557
+***** 8: Shutting down agent
+***** 8: Agent --> Agent: 8, Type: Torrey, Training steps: 457201, Q-Table size: 2519
+***** 11: Shutting down agent
+***** 11: Agent --> Agent: 11, Type: Torrey, Training steps: 457201, Q-Table size: 2951

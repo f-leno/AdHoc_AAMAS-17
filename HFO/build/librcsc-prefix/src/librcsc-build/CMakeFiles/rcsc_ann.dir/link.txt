@@ -1,0 +1,2 @@
+/usr/bin/ar cq lib/librcsc_ann.a  CMakeFiles/rcsc_ann.dir/rcsc/ann/ngnet.cpp.o CMakeFiles/rcsc_ann.dir/rcsc/ann/rbf.cpp.o
+/usr/bin/ranlib lib/librcsc_ann.a

@@ -1,0 +1,1 @@
+cmd='/usr/bin/cmake;-DCMAKE_BUILD_TYPE=Release;-DLIBRCSC_INCLUDE_DIR=/home/leno/HFO/build/librcsc-prefix/src/librcsc;-DLIBRCSC_LINK_DIR=/home/leno/HFO/build/librcsc-prefix/src/librcsc-build/lib;-GUnix Makefiles;/home/leno/HFO/build/soccerwindow2-prefix/src/soccerwindow2'

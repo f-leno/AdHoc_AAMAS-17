@@ -1,0 +1,330 @@
+Namespace(agent1='AdHocTD', agent10='Dummy', agent11='Dummy', agent2='AdHocTD', agent3='AdHocTD', agent4='Dummy', agent5='Dummy', agent6='Dummy', agent7='Dummy', agent8='Dummy', agent9='Dummy', evaluation_duration=100, evaluation_interval=20, learning_trials=5000, log_file='/home/leno/HFO/log/', number_agents=3, number_trial=44, port=53945, seed=12345, server_path='/home/leno/HFO/bin/')
+***** Loading agent implementations
+AgentName: AdHocTD
+Creating agent
+Param: 0.9 - 0.5
+OK Agent
+AgentName: AdHocTD
+Creating agent
+Param: 0.9 - 0.5
+OK Agent
+AgentName: AdHocTD
+Creating agent
+Param: 0.9 - 0.5
+OK Agent
+***** %s: Agents online --> %s
+Agent Classes OK
+******Connecting agent 0****
+***** Connecting to HFO server on port 53945
+******************************************************************
+ librcsc 4.1.0
+ Copyright 2000 - 2007. Hidehisa Akiyama.
+ Copyright 2007 - 2011. Hidehisa Akiyama and Hiroki Shimora
+ All rights reserved.
+******************************************************************
+base_left 7: [0, 5]  see synch.
+******Connecting agent 1****
+***** Connecting to HFO server on port 53945
+******************************************************************
+ librcsc 4.1.0
+ Copyright 2000 - 2007. Hidehisa Akiyama.
+ Copyright 2007 - 2011. Hidehisa Akiyama and Hiroki Shimora
+ All rights reserved.
+******************************************************************
+base_left 8: [0, 6]  see synch.
+******Connecting agent 2****
+***** Connecting to HFO server on port 53945
+******************************************************************
+ librcsc 4.1.0
+ Copyright 2000 - 2007. Hidehisa Akiyama.
+ Copyright 2007 - 2011. Hidehisa Akiyama and Hiroki Shimora
+ All rights reserved.
+******************************************************************
+base_left 11: [0, 7]  see synch.
+Feature Feature 1 Violated Feature Bounds: 1 Violated Feature Bounds: Feature -21-331 Violated Feature Bounds:  Expected min/max: [ Expected min/max: [-5.25, -5.25, -24 Expected min/max: [57.7557.75]]-5.25
+
+, Feature 7 Violated Feature Bounds: 82.2876 Expected min/max: [0, 62.548]
+Feature 7 Violated Feature Bounds: Feature 10 Violated Feature Bounds: 93.1625 Expected min/max: [79.177 Expected min/max: [0, 0, 62.548]
+62.548]
+Feature 10 Violated Feature Bounds: Feature 13 Violated Feature Bounds: 89.9611 Expected min/max: [0, 81.8413 Expected min/max: [062.548, ]
+62.548]
+Feature 14 Violated Feature Bounds: Feature 13 Violated Feature Bounds: 89.9611 Expected min/max: [57.750, 79.177 Expected min/max: []62.548]
+Feature 23 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+
+Feature 07 Violated Feature Bounds: , 62.548]
+84.9779 Expected min/max: [Feature 14 Violated Feature Bounds: 0, 81.8413 Expected min/max: [0, 62.548]
+62.548]
+Feature 23 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 10 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 13 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 14 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 23 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 1 Violated Feature Bounds: -21 Expected min/max: [Feature -5.25, 1 Violated Feature Bounds: 57.75]Feature 
+1 Violated Feature Bounds: Feature 7 Violated Feature Bounds: -3382.2876 Expected min/max: [0, 62.548 Expected min/max: []
+-24 Expected min/max: [-5.25, 57.75]
+Feature 7 Violated Feature Bounds: 84.9779 Expected min/max: [0, 62.548]
+Feature 10 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 13 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 14 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 23 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+***** Problems while connecting? None
+******Connected agent 1****
+***** 8: Setting up eval log files
+***** 8: Start training
+Feature 10 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+Feature 13 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 14 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 23 Violated Feature Bounds: 79.177 Expected min/max: [0, 62.548]
+***** Problems while connecting? None
+******Connected agent 0****
+***** 7: Setting up eval log files
+***** 7: Start training
+-5.25, 57.75]
+Feature 7 Violated Feature Bounds: 93.1625 Expected min/max: [0, 62.548]
+Feature 10 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 
+******Connected agent 0****
+ ***** Problems while connecting? None
+***** 7: Setting up eval log files
+***** 7: Start training
+******Connected agent 2****
+****** Problems while connecting? None
+******Connected age***** Problems while connecting? None
+******Connected agent 2****
+***** 11: Setting up eval log files
+***** 11: Start training
+FFeature 20 Violated Feature Bounds: 63.5452 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.5452 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.5452 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.5452 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.5452 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.5452 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.5452 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.5452 Expected min/max: [0, 62.548]FFeature 20 Violated Feature Bounds: 62.8494 Expected min/max: [0, 62.548]Feature 20 Violated Feature Bounds: 63.5204 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.5204 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.5204 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.5204 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.5204 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.5204 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.5204 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.5204 Expected min/max: [0, 62.548]
+***** 11: Shutting down agent
+***** 11: Agent --> Agent: 11, Type: AdHoc, Training steps: 441482, Q-Table size: 2784
+***** 7: Shutting down agent
+***** 7: Agent --> Agent: 7, Type: AdHoc, Training steps: 441482, Q-Table size: 2447
+***** 8: Shutting down agent
+***** 8: Agent --> Agent: 8, Type: AdHoc, Training steps: 441482, Q-Table size: 2328
+Namespace(agent1='AdHocTD', agent10='Dummy', agent11='Dummy', agent2='AdHocTD', agent3='AdHocTD', agent4='Dummy', agent5='Dummy', agent6='Dummy', agent7='Dummy', agent8='Dummy', agent9='Dummy', evaluation_duration=100, evaluation_interval=20, learning_trials=5000, log_file='/home/leno/HFO/log/', number_agents=3, number_trial=28, port=12945, seed=12345, server_path='/home/leno/HFO/bin/')
+***** Loading agent implementations
+AgentName: AdHocTD
+Creating agent
+Param: 0.9 - 0.5
+OK Agent
+AgentName: AdHocTD
+Creating agent
+Param: 0.9 - 0.5
+OK Agent
+AgentName: AdHocTD
+Creating agent
+Param: 0.9 - 0.5
+OK Agent
+***** %s: Agents online --> %s
+Agent Classes OK
+******Connecting agent 0****
+***** Connecting to HFO server on port 12945
+******************************************************************
+ librcsc 4.1.0
+ Copyright 2000 - 2007. Hidehisa Akiyama.
+ Copyright 2007 - 2011. Hidehisa Akiyama and Hiroki Shimora
+ All rights reserved.
+******************************************************************
+base_left 7: [0, 7]  see synch.
+******Connecting agent 1****
+***** ***** 8: Shutting down agent
+***** 8: Agent --> Agent: 8, Type: AdHoc, Training steps: 477654, Q-Table size: 2643
+***** 7: Shutting down agent
+***** 7: Agent --> Agent: 7, Type: AdHoc, Training steps: 477654, Q-Table size: 2707
+***** 11: Shutting down agent
+***** 11: Agent --> Agent: 11, Type: AdHoc, Training steps: 477654, Q-Table size: 3048
+Namespace(agent1='AdHocTD', agent10='Dummy', agent11='Dummy', agent2='AdHocTD', agent3='AdHocTD', agent4='Dummy', agent5='Dummy', agent6='Dummy', agent7='Dummy', agent8='Dummy', agent9='Dummy', evaluation_duration=100, evaluation_interval=20, learning_trials=5000, log_file='/home/leno/HFO/log/', number_agents=3, number_trial=16, port=17945, seed=12345, server_path='/home/leno/HFO/bin/')
+***** Loading agent implementations
+AgentName: AdHocTD
+Creating agent
+Param: 0.9 - 0.5
+OK Agent
+AgentName: AdHocTD
+Creating agent
+Param: 0.9 - 0.5
+OK Agent
+AgentName: AdHocTD
+Creating agent
+Param: 0.9 - 0.5
+OK Agent
+***** %s: Agents online --> %s
+Agent Classes OK
+******Connecting agent 0****
+***** Connecting to HFO server on port 17945
+******************************************************************
+ librcsc 4.1.0
+ Copyright 2000 - 2007. Hidehisa Akiyama.
+ Copyright 2007 - 2011. Hidehisa Akiyama and Hiroki Shimora
+ All rights reserved.
+******************************************************************
+base_left 7: [0, 6]  see synch.
+******Connecting agent 1****
+***** Connecting to HFO server on port 17945
+******************************************************************
+ librcsc 4.1.0
+ Copyright 2000 - 2007. Hidehisa Akiyama.
+ Copyright 2007 - 2011. Hidehisa Akiyama and Hiroki Shimora
+ All rights reserved.
+******************************************************************
+base_left 8: [0, 5]  see synch.
+******Connecting agent 2****
+***** Connecting to HFO server on port 17945
+******************************************************************
+ librcsc 4.1.0
+ Copyright 2000 - 2007. Hidehisa Akiyama.
+ Copyright 2007 - 2011. Hidehisa Akiyama and Hiroki Shimora
+ All rights reserved.
+******************************************************************
+base_left 11: [0, 6]  see synch.
+Feature 1 Violated Feature Bounds: Feature 1 Violated Feature Bounds: -21 Expected min/max: [-33 Expected min/max: [-5.25Feature , -5.251,  Violated Feature Bounds: 57.75]57.75]
+
+Feature 7 Violated Feature Bounds: 93.1625 Expected min/max: [Feature 0, 7 Violated Feature Bounds: 62.548]
+82.2876 Expected min/max: [Feature 0, 10 Violated Feature Bounds: 62.548]
+89.9611 Expected min/max: [Feature 10 Violated Feature Bounds: 0, 79.177 Expected min/max: [62.548]
+0, Feature 13 Violated Feature Bounds: 62.548]Feature 20 Violated Feature Bounds: 63.3365 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.3365 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.3365 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.3365 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.3365 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.3365 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.3365 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: 63.3365 Expected min/max: [0, 62.548]
+Feature 1 Violated Feature Bounds: -5.3227 Expected min/max: [-5.25, 57.75]
+Feature 1 Violated Feature Bounds: -5.37509 Expected min/max: [-5.25, 57.75]
+Feature 1 Violated Feature Bounds: -5.39803 Expected min/max: [-5.25, 57.75]
+Feature 1 Violated Feature Bounds: -5.40831 Expected min/max: [-5.25, 57.75]
+Feature 17 Violated Feature Bounds: 63.1953 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.1953 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.1953 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.1953 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.1953 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.1953 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.1953 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 63.1953 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.8111 Expected min/max: [0, 62.548]
+Feature 17 Violated Feature Bounds: 62.8111 Expected min/max: [0, 62.548]
+Feature 1 Violated Feature Bounds: -5.37082 Expected min/max: [-5.25, 57.75]
+Feature 1 Violated Feature Bounds: -5.47555 Expected min/max: [-5.25, 57.75]
+Feature 1 Violated Feature Bounds: -5.51712 Expected min/max: [-5.25, 57.75]
+Feature 1 Violated Feature Bounds: -5.53371 Expected min/max: [-5.25, 57.75]
+***** 7: Shutting down agent
+***** 7: Agent --> Agent: 7, Type: AdHoc, Training steps: 448948, Q-Table size: 2668
+***** 8: Shutting down agent
+***** 8: Agent --> Agent: 8, Type: AdHoc, Training steps: 448948, Q-Table size: 2672
+***** 11: Shutting down agent
+***** 11: Agent --> Agent: 11, Type: AdHoc, Training steps: 448948, Q-Table size: 2974
+ files
+***** Problems while connecting? None
+******Connected agent 2****
+***** 7: Setting up eval log files
+***** 11: Setting up eval log files
+ ***** 8: Start training
+***** 7: Start training
+***** 11: Start training
+***** 8: Shutting down agent
+***** 8: Agent --> Agent: 8, Type: AdHoc, Training steps: 449281, Q-Table size: 2578
+***** 7: Shutting down agent
+***** 7: Agent --> Agent: 7, Type: AdHoc, Training steps: 449281, Q-Table size: 2606
+***** 11: Shutting down agent
+***** 11: Agent --> Agent: 11, Type: AdHoc, Training steps: 449281, Q-Table size: 2878
+Namespace(agent1='AdHocTD', agent10='Dummy', agent11='Dummy', agent2='AdHocTD', agent3='AdHocTD', agent4='Dummy', agent5='Dummy', agent6='Dummy', agent7='Dummy', agent8='Dummy', agent9='Dummy', evaluation_duration=100, evaluation_interval=20, learning_trials=5000, log_file='/home/leno/HFO/log/', number_agents=3, number_trial=17, port=17945, seed=12345, server_path='/home/leno/HFO/bin/')
+***** Loading agent implementations
+AgentName: AdHocTD
+Creating agent
+Param: 0.9 - 0.5
+OK Agent
+AgentName: AdHocTD
+Creating agent
+Param: 0.9 - 0.5
+OK Agent
+AgentName: AdHocTD
+Creating agent
+Param: 0.9 - 0.5
+OK Agent
+***** %s: Agents online --> %s
+Agent Classes OK
+******Connecting agent 0****
+***** Connecting to HFO server on port 17945
+******************************************************************
+ librcsc 4.1.0
+ Copyright 2000 - 2007. Hidehisa Akiyama.
+ Copyright 2007 - 2011. Hidehisa Akiyama and Hiroki Shimora
+ All rights reserved.
+******************************************************************
+base_left 7: [0, 5]  see synch.
+******Connecting agent 1****
+***** Connecting to HFO server on port 17945
+******************************************************************
+ librcsc 4.1.0
+ Copyright 2000 - 2007. Hidehisa Akiyama.
+ Copyright 2007 - 2011. Hidehisa Akiyama and Hiroki Shimora
+ All rights reserved.
+******************************************************************
+base_left 8: [0, 7]  see synch.
+******Connecting agent 2****
+***** Connecting to HFO server on port 17945
+******************************************************************
+ librcsc 4.1.0
+ Copyright 2000 - 2007. Hidehisa Akiyama.
+ Copyright 2007 - 2011. Hidehisa Akiyama and Hiroki Shimora
+ All rights reserved.
+******************************************************************
+base_left 11: [0, 7]  see synch.
+Feature 1 Violated Feature Bounds: Feature -211 Violated Feature Bounds:  Expected min/max: [-5.25, 57.75]-24
+Feature 7 Violated Feature Bounds: 82.2876 Expected min/max: [0, 62.548]
+Feature 10 Violated Feature Bounds: 79.177 Expected min/max: [Feature 0, 62.548]1
+ Violated Feature Bounds: -33 Expected min/max: [ Expected min/max: [Feature 13 Violated Feature Bounds: -5.25, 81.8413 Expected min/max: [0, 57.75]
+62.548Feature 7 Violated Feature Bounds: 93.1625 Expected min/max: [0, 62.548]
+Feature 10 Violated Feature Bounds: -5.2589.9611 Expected min/max: [0, 62.548]
+Feature , 13 Violated Feature Bounds: 79.177 Expected min/max: [0, 57.75]62.548
+]Feature 7 Violated Feature Bounds: 
+Feature 14 Violated Feature Bounds: 84.9779 Expected min/max: [0, 81.8413 Expected min/max: []062.548, ]
+
+Feature 10 Violated Feature Bounds: 81.8413 Expected min/max: [Feature 14 Violated Feature Bounds: 62.548]
+0, 89.9611Feature  Expected min/max: [23 Violated Feature Bounds: 62.5480, ]89.9611
+ Expected min/max: [Feature 13 Violated Feature Bounds: 079.177,  Expected min/max: [0, 62.548]
+62.548]
+Feature 14 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+62.548]
+Feature 23 Violated Feature Bounds: Feature 23 Violated Feature Bounds: 79.177 Expected min/max: [81.8413 Expected min/max: [0, 0, 62.548]62.548
+]
+Feature Feature Feature 111 Violated Feature Bounds:  Violated Feature Bounds:  Violated Feature Bounds: -24-33-21 Expected min/max: [ Expected min/max: [ Expected min/max: [-5.25, -5.25, 57.75]57.75]-5.25
+
+, Feature 7 Violated Feature Bounds: Feature 7 Violated Feature Bounds: 57.75]82.2876
+ Expected min/max: [Feature 84.97797 Violated Feature Bounds:  Expected min/max: [0, 93.1625 Expected min/max: [062.548]
+, 0, 62.548]
+Feature 10 Violated Feature Bounds: 81.8413 Expected min/max: [0, 62.548]
+Feature 10 Violated Feature Bounds: 89.9611 Expected min/max: [0, 62.548]
+Feature 13 Violated Feature Bounds: 62.548]Feature 
+79.17713 Violated Feature Bounds: Feature  Expected min/max: [79.17710 Violated Feature Bounds:  Expected min/max: [0, 0, 62.548]
+Feature 14 Violated Feature Bounds: 62.54889.9611 Expected min/max: []
+Feature 14 Violated Feature Bounds: 081.8413 Expected min/max: [, 0, 62.548]
+62.548Feature 23 Violated Feature Bounds: ]
+79.177 Expected min/max: [81.84130Feature , 62.548]
+23Feature 13 Violated Feature Bounds:  Violated Feature Bounds: 81.8413 Expected min/max: [0,  Expected min/max: [62.548]
+Feature 14 Violated Feature Bounds: 89.9611 Expected min/max: [89.96110,  Expected min/max: [62.548]
+0, Feature 23 Violated Feature Bounds: 79.1770 Expected min/max: [, 62.548]
+62.548]
+0, 62.548]
+5 Expected min/max: [0, 62.548]
+Feature 20 Violated Feature Bounds: Feature 20 Violated Feature Bounds: 62.8645 Expected min/max: [0, 62.8645 Expected min/max: [62.548]0, 
+62.548]
+***** 11: Shutting down agent
+***** 11: Agent --> Agent: 11, Type: AdHoc, Training steps: 462468, Q-Table size: 3025
+ ***** 7: Shutting down agent
+***** 7: Agent --> Agent: 7, Type: AdHoc, Training steps: 462468, Q-Table size: 2638
+***** 8: Shutting down agent
+***** 8: Agent --> Agent: 8, Type: AdHoc, Training steps: 462468, Q-Table size: 2645

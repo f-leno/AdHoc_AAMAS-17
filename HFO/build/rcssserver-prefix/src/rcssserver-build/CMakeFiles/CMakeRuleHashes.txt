@@ -1,0 +1,5 @@
+# Hashes of file build rules.
+e3915d7fd9fc095d7a8609ef6c747e2a /home/leno/HFO/build/rcssserver-prefix/src/rcssserver/src/coach_lang_tok.cpp
+59664c787419992cf6b17be101974b2d /home/leno/HFO/build/rcssserver-prefix/src/rcssserver/src/coach_lang_tok_lex.yy.c
+63e2384e142ae95bfe2d8173169f8c37 /home/leno/HFO/build/rcssserver-prefix/src/rcssserver/src/player_command_tok.cpp
+05b1a55790c37500bd49ea3b3712d280 /home/leno/HFO/build/rcssserver-prefix/src/rcssserver/src/player_command_tok_lex.yy.c

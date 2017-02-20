@@ -1,0 +1,13 @@
+# Target labels
+ librcsc
+# Source files and their labels
+/home/leno/HFO/build/CMakeFiles/librcsc
+/home/leno/HFO/build/CMakeFiles/librcsc.rule
+/home/leno/HFO/build/CMakeFiles/librcsc-complete.rule
+/home/leno/HFO/build/librcsc-prefix/src/librcsc-stamp/librcsc-install.rule
+/home/leno/HFO/build/librcsc-prefix/src/librcsc-stamp/librcsc-mkdir.rule
+/home/leno/HFO/build/librcsc-prefix/src/librcsc-stamp/librcsc-download.rule
+/home/leno/HFO/build/librcsc-prefix/src/librcsc-stamp/librcsc-update.rule
+/home/leno/HFO/build/librcsc-prefix/src/librcsc-stamp/librcsc-patch.rule
+/home/leno/HFO/build/librcsc-prefix/src/librcsc-stamp/librcsc-configure.rule
+/home/leno/HFO/build/librcsc-prefix/src/librcsc-stamp/librcsc-build.rule
