@@ -1,6 +1,9 @@
 #!/usr/bin/env python
 # encoding: utf-8
-
+# Authors: Felipe Leno, Ruben Glatt
+# THis program is the main loop of the experiment, the arguments will specify which type of agent will be executed in the HFO server,
+# all experiments were executed using this code with different parameters.
+#
 # Before running this program, first Start HFO server:
 # $> ./bin/HFO --offense-agents 1
 
@@ -20,7 +23,7 @@ from statespace_util import *
 
 
 
-
+#Arguments
 def get_args():
     parser = argparse.ArgumentParser()
     parser.add_argument('-n','--number_agents',type=int, default=3)
@@ -39,38 +42,12 @@ def get_args():
     parser.add_argument('-i','--evaluation_interval',type=int, default=5)
     parser.add_argument('-d','--evaluation_duration',type=int, default=5)
     parser.add_argument('-s','--seed',type=int, default=12345)
-    parser.add_argument('-l','--log_file',default='/home/leno/HFO/log/')
+    parser.add_argument('-l','--log_file',default='../log/')
     parser.add_argument('-p','--port',type=int, default=12345)
     parser.add_argument('-r','--number_trial',type=int, default=1)
-    parser.add_argument('-e','--server_path',  default='/home/leno/HFO/bin/')
+    parser.add_argument('-e','--server_path',  default='../HFO/bin/')
     return parser.parse_args()
 
-'''
-def get_reward(status):
-    """The Reward Function returns -1 when a defensive agent captures the ball,
-    +1 when the agent's team scores a goal and 0 otherwise"""
-    if(status == CAPTURED_BY_DEFENSE):
-         return -1.0
-    elif(status == GOAL):100
-         return 1.0
-    return 0.0
-
-
-def execute_action(hfo, action):
-    """Executes the action in the HFO server"""
-    #If the action is not one of the default ones, it needs translation
-    if action in range(15):
-        hfo.act(action)
-    else:
-        #In the statespace_util file
-        action, parameter = translate_action(action, hfo.getState())
-        hfo.act(action, parameter)
-
-def get_local_features(features):
-    """Returns a state in which the friendly agents are sorted by their distance"""
-    #In the statespace_util file
-    return get_transformed_features(features)
-'''
 
 def build_agents():
     """Builds and returns the agent objects as specified by the arguments"""
@@ -104,16 +81,15 @@ def main():
     print parameter
     print('***** Loading agent implementations')
     agents = build_agents()
-    #print('***** %s: %s Agent online' % (str(AGENT.unum), str(parameter.agent)))
     print('***** %s: Agents online --> %s')
-   # print('***** %s: Agents online --> %s' % (str(AGENT.unum), str(AGENT)))
-   # print('***** %s: Setting up train log files' % str(AGENT.unum))
-    #train_csv_file = open(parameter.log_file + "_" + str(AGENT.unum) + "_train", "wb")
     print "Agent Classes OK"
     #Initiate agent Threads    
     global okThread
     okThread = True
     
+    
+    #As we need more than one agent in the team, separated threads execute
+    #each needed agent
     agentThreads = []
     
     try:

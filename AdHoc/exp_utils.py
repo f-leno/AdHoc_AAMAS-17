@@ -227,11 +227,14 @@ def draw_graph(source1 = None, name1 = "Algo1", significant1=None,
                source4 = None, name4 = "Algo4",significant4=None,
                source5 = None, name5 = "Algo5",significant5=None,
                source6 = None, name6 = "Algo5",significant6=None,
-               what = "__SUMMARY_goalpercentages", ci = True,
+               what = "__SUMMARY_goalpercentages", ci = True,nCol = 1,
                #Parameters introduced to allow plot control
                xMin = None, xMax = None, yMin=None, yMax=None
                ):
     plt.figure(figsize=(20,6), dpi=300)
+    #Background
+    plt.gca().set_axis_bgcolor('white')
+    plt.grid(True,color='0.8')
     if source1 != None:
         summary1File = os.path.join(source1, what)
         summary1Content = np.loadtxt(open(summary1File, "rb"), skiprows=1, delimiter=",", unpack=True)
@@ -347,7 +350,7 @@ def draw_graph(source1 = None, name1 = "Algo1", significant1=None,
         plt.ylabel('Unknown')
 
     plt.xlabel('Training Episodes', fontsize=20, fontweight='bold')
-    plt.legend(loc='best',prop={'size':20, 'weight':'bold'})#,ncol=6)
+    plt.legend(loc='best',prop={'size':20, 'weight':'bold'},ncol=nCol)
     plt.tick_params(axis='both', which='major', labelsize=18)
     plt.show()
 
