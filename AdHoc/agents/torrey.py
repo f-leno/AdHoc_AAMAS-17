@@ -57,11 +57,7 @@ class Torrey(SARSATile):
             #No need to compute again the intended action
             if self.informAction:
                 return normalAction
-        #else:
-        #    if self.exploring and stateFeatures[self.ABLE_KICK] == 1:
-        #        with open("debugTorrey.log","a") as myfile:
-        #            #if importance>0:
-        #            myfile.write("Exp -  "+str(self.exploring)+",AbleKick = "+str(stateFeatures[self.ABLE_KICK] == 1)+", NoAdvice: "+str(noAdvice) +", Advised?: "+str(not (self.quantize_features(state) in self.advisedState))+"\n")
+    
         return super(Torrey, self).select_action(stateFeatures,state,noAdvice)
         
     def combineAdvice(self,advised):

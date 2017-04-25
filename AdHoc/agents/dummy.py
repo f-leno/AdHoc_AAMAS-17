@@ -4,7 +4,7 @@ import random
 from .agent import Agent
 
 class Dummy(Agent):
-
+    """Random Agent"""
     def __init__(self, seed, port,serverPath = "/home/leno/HFO/bin/"):
         super(Dummy, self).__init__(seed=seed, port=port,serverPath=serverPath)
 

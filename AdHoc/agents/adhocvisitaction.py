@@ -1,3 +1,8 @@
+"""
+AdHocVisit advising with an already trained agent
+@author: Felipe Leno
+"""
+
 from adhocvisit import AdHocVisit
 
 class AdHocVisitAction(AdHocVisit):

@@ -4,7 +4,7 @@ Created on Thu Sep  8 09:21:38 2016
 
 @author: Felipe Leno
 
-This file implements our advisor-advisee proposal.
+This file implements our ad hoc advising proposal.
 
 This agent act as SARSA, and the exploration strategy is changed according to our proposal
 """
@@ -94,24 +94,6 @@ class AdHoc(SARSATile):
         The advised action is also returned in the positive case"""
             
         
-        #importance = self.state_importance(state,self.stateImportanceMetric)
-        #midpoint = self.midpoint(self.ADVISE)
-        
-        #Calculates the probability
-        #prob = self.calc_prob_adv(importance,midpoint,self.ADVISE)
-        ##
-        #processedState = self.quantize_features(state)
-        #numberVisits = self.number_visits(processedState)
-        #if importance>0:        
-            #print str(importance)+"  -  "+str(prob)
-        ##
-        #Check if the agent should advise
-        #if random.random() < prob and prob > 0.1:
-            #advisedAction = self.select_action(stateFeatures,state,True)
-            #return True,advisedAction          
-            
-        #return False,None
-        
     def combineAdvice(self,advised):
         return int(max(set(advised), key=advised.count))
         
@@ -176,25 +158,7 @@ class AdHoc(SARSATile):
     def check_ask(self,state):
         """Returns if the agent should ask for advise in this state"""
         
-        #if self.exploring and not (self.quantize_features(state) in self.advisedState):
-        #    importance = self.state_importance(state,self.VISIT_IMPORTANCE)
-        #    midpoint = self.midpoint(self.ASK)
-            
-            #Calculates the probability
-        #    prob = self.calc_prob_adv(importance,midpoint,self.ASK)
-            
-            ##
-            #processedState = self.quantize_features(state)
-            #numberVisits = self.number_visits(processedState)
-            #print str(numberVisits)+"  -  "+str(prob)
-            ##
-            
-        #    if random.random() < prob and prob > 0.1:
-        #        return True
-        #return False
-        
-        
-        #Call default sarsa method if no action was selected
+ 
         
     def calc_prob_adv(self,importance,midpoint,typeProb):
         """Calculates the probability of giving/receiving advice

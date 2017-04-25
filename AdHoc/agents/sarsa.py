@@ -19,7 +19,7 @@ class SARSA(Agent):
                "Q-Table size: " + str(len(self.qTable))
 
     def __init__(self, epsilon=0.1, alpha=0.1, gamma=0.9, decayRate=0.9, seed=12345,
-                 cmac_level=20, cmac_quantization=0.3, cmac_beta=0.1, port=12345,serverPath = "/home/leno/HFO/bin/"):
+                 cmac_level=20, cmac_quantization=0.3, cmac_beta=0.1, port=12345,serverPath = "../HFO/bin/"):
         super(SARSA, self).__init__(seed, port,serverPath=serverPath)
         self.name = "SARSA"
         self.qTable = {}
@@ -55,19 +55,7 @@ class SARSA(Agent):
     def observe_reward(self,state,action,reward,statePrime):
         """ After executing an action, the agent is informed about the state-reward-state tuple """
         pass
-    '''
-    def observe_reward(self,state,action,reward,statePrime):
-        """ After executing an action, the agent is informed about the state-action-reward-state tuple """
-        if self.exploring:
-            #Selects the action for the next state without exploration
-            lastState = self.lastState
-            self.exploring = False
-            nextAction = self.select_action(statePrime)
-            #Hereafter the self.lastState refers to statePrime
-            #Executes Q-update
-            self.learn(lastState,action,reward,self.lastState,nextAction)
-            #turns on the exploration again
-    '''
+
 
     def select_action(self, stateFeatures, state, noAdvice=False):
         """Executes the epsilon-greedy exploration strategy"""

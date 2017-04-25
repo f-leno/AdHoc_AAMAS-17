@@ -1,3 +1,10 @@
+
+# Author: Ruben Glatt
+# Modified by Felipe Leno
+# This code countains functions to open .csv files and print graphs. 
+
+#This is an auxiliary source to be used together with the jupyter notebook file as explained in the README file.
+#
 import argparse
 import csv
 import os
@@ -19,12 +26,7 @@ def collect_experiment_data(source='/', runs=1, servers=1, agents=3,hfo=True,com
     evalReward = defaultdict(list)
     evalSteps = defaultdict(list)
     evalTrials = np.array([])
-    '''
-    trainTrials = np.array([])
-    trainFrames = defaultdict(list)
-    trainScores = defaultdict(list)
-    trainUsedBudgets = defaultdict(list)
-    '''
+
 
     goodRuns = 0
     for server in range(servers):
@@ -71,30 +73,7 @@ def collect_experiment_data(source='/', runs=1, servers=1, agents=3,hfo=True,com
                             print("Error " + str(run+1) + " - "+ str(sum(_eub.shape))+" , "+str(sum(evalTrials.shape)))
     goodRuns = int(goodRuns / agents)
     print('Could use %d runs from expected %d' % (goodRuns, runs)) 
-    '''
-                trainFile = os.path.join(source, "_"+ str(run) +"_"+ str(server) +"_AGENT_"+ str(agent) +"_RESULTS_train")
-                print trainFile
-                _tt, _tf, _ts, _tub = np.loadtxt(open(trainFile, "rb"), skiprows=1, delimiter=",", unpack=True)
-                if sum(trainTrials)==0:
-                    trainTrials = _tt
-                for trial in _tt:
-                    trainFrames[(agent,trial)].append(_tf)
-                    trainScores[(agent,trial)].append(_ts)
-                    trainUsedBudgets[(agent,trial)].append(_tub)
-
-    for agent in range(1, agents+1):
-        for trial in evalTrials:
-            # build summaries
-            evalGoalPercentages[(agent,trial)] = [summarize_data(evalGoalPercentages[(agent,trial)])]
-            evalGoalTimes[(agent,trial)] = [summarize_data(evalGoalTimes[(agent,trial)])]
-            evalUsedBudgets[(agent,trial)] = [summarize_data(evalUsedBudgets[(agent,trial)])]
-        for trial in trainTrials:
-            # build summaries
-            trainFrames[(agent,trial)] = [summarize_data(trainFrames[(agent,trial)])]
-            trainScores[(agent,trial)] = [summarize_data(trainScores[(agent,trial)])]
-            trainUsedBudgets[(agent,trial)] = [summarize_data(trainUsedBudgets[(agent,trial)])]
-        '''
-
+ 
     #print('len(evalGoalPercentages) %d --> %s %s' % (len(evalGoalPercentages), str(type(evalGoalPercentages[(1,20)])), str(evalGoalPercentages[(1,20)]) ))
     #print('len(evalGoalTimes) %d --> %s %s' % (len(evalGoalTimes), str(type(evalGoalTimes[(1,20)])), str(evalGoalTimes[(1,20)]) ))
     print('len(evalUsedBudgets) %d --> %s %s' % (len(evalUsedBudgets), str(type(evalUsedBudgets[(1,20)])), str(len(evalUsedBudgets[(1,10)])) ))
@@ -219,6 +198,52 @@ def summarize_experiment_data(source,hfo=True,compact=False):
                     newrow.append("{:.2f}".format(j))
                 csvwriter.writerow((newrow))
                 csvfile.flush()
+                
+def cummulative_experiment_data(source,hfo=True,compact=False):
+    if hfo:    
+        if compact:
+            values = ["__EVAL_goalpercentages", "__EVAL_goaltimes", "__EVAL_budgets"]
+        else:
+            values = ["__EVAL_goalpercentages", "__EVAL_goaltimes", "__EVAL_budgets","__EVAL_reward"]
+    else:
+        values = ["__EVAL_stepscaptured", "__EVAL_budgets"]
+    #values = ["__EVAL_goalpercentages", "__EVAL_goaltimes"]
+    for value in values:
+        evalFile = os.path.join(source, value)
+        #print(evalFile)
+        evalFileContent = np.loadtxt(open(evalFile, "rb"), skiprows=1, delimiter=",", unpack=True)
+        trials = evalFileContent[0]
+        data = evalFileContent[1:]
+                        
+        
+        
+        
+        
+        for rep in range(data.shape[0]):
+            for index in range(1,data.shape[1]):
+                data[rep][index] = data[rep][index-1] + data[rep][index]
+        
+        
+        update = summarize_data(data)
+        headerLine = []
+        headerLine.append("trial")
+        headerLine.append("mean")
+        headerLine.append("ci_down")
+        headerLine.append("ci_up")
+
+        value = value.replace("EVAL","CUMMULATIVE")
+        with open(os.path.join(source, value), 'wb') as csvfile:
+            csvwriter = csv.writer(csvfile)
+
+            csvwriter.writerow((headerLine))
+            csvfile.flush()
+
+            for i in range(sum(trials.shape)):
+                newrow = [trials[i]]
+                for j in update.T[i]:
+                    newrow.append("{:.2f}".format(j))
+                csvwriter.writerow((newrow))
+                csvfile.flush()
 
 
 def draw_graph(source1 = None, name1 = "Algo1", significant1=None,
@@ -229,12 +254,15 @@ def draw_graph(source1 = None, name1 = "Algo1", significant1=None,
                source6 = None, name6 = "Algo5",significant6=None,
                what = "__SUMMARY_goalpercentages", ci = True,nCol = 1,
                #Parameters introduced to allow plot control
-               xMin = None, xMax = None, yMin=None, yMax=None
+               xMin = None, xMax = None, yMin=None, yMax=None,bigFont=False
                ):
     plt.figure(figsize=(20,6), dpi=300)
     #Background
     plt.gca().set_axis_bgcolor('white')
     plt.grid(True,color='0.8')
+    
+    lineWidth = 8.0 if bigFont else 4.0    
+    
     if source1 != None:
         summary1File = os.path.join(source1, what)
         summary1Content = np.loadtxt(open(summary1File, "rb"), skiprows=1, delimiter=",", unpack=True)
@@ -244,9 +272,9 @@ def draw_graph(source1 = None, name1 = "Algo1", significant1=None,
             plt.fill_between(X1, Y11, Y12, facecolor='#7570b3', alpha=0.2)
             plt.fill_between(X1, Y11, Y13, facecolor='#7570b3', alpha=0.2)
         if(not significant1 is None):
-           plt.plot(X1,Y11,label=name1, color='#7570b3', linewidth=4.0,markevery=significant1,marker="d",markersize=8)
+           plt.plot(X1,Y11,label=name1, color='#7570b3', linewidth=lineWidth,markevery=significant1,marker="d",markersize=8)
         else:
-            plt.plot(X1,Y11,label=name1, color='#7570b3', linewidth=4.0)
+            plt.plot(X1,Y11,label=name1, color='#7570b3', linewidth=lineWidth)
         if not yMin is None:
             plt.ylim([yMin,yMax])
         if not xMin is None:
@@ -260,9 +288,9 @@ def draw_graph(source1 = None, name1 = "Algo1", significant1=None,
             plt.fill_between(X2, Y21, Y22, facecolor='#e7298a', alpha=0.2)
             plt.fill_between(X2, Y21, Y23, facecolor='#e7298a', alpha=0.2)
         if(not significant2 is None):
-            plt.plot(X2,Y21,label=name2, color='#e7298a', linewidth=4.0,markevery=significant2,marker="+",markersize=8)
+            plt.plot(X2,Y21,label=name2, color='#e7298a', linewidth=lineWidth,markevery=significant2,marker="+",markersize=8)
         else:
-            plt.plot(X2,Y21,label=name2, color='#e7298a', linewidth=4.0)
+            plt.plot(X2,Y21,label=name2, color='#e7298a', linewidth=lineWidth)
         if not yMin is None:
             plt.ylim([yMin,yMax])
         if not xMin is None:
@@ -276,9 +304,9 @@ def draw_graph(source1 = None, name1 = "Algo1", significant1=None,
             plt.fill_between(X3, Y31, Y32, facecolor='#66a61e', alpha=0.2)
             plt.fill_between(X3, Y31, Y33, facecolor='#66a61e', alpha=0.2)
         if(not significant3 is None):
-            plt.plot(X3,Y31,label=name3, color='#66a61e', linewidth=4.0,marker="o",markevery=significant3,markersize=8)
+            plt.plot(X3,Y31,label=name3, color='#66a61e', linewidth=lineWidth,marker="o",markevery=significant3,markersize=8)
         else:
-            plt.plot(X3,Y31,label=name3, color='#66a61e', linewidth=4.0)
+            plt.plot(X3,Y31,label=name3, color='#66a61e', linewidth=lineWidth)
         if not yMin is None:
             plt.ylim([yMin,yMax])
         if not xMin is None:
@@ -292,9 +320,9 @@ def draw_graph(source1 = None, name1 = "Algo1", significant1=None,
             plt.fill_between(X4, Y41, Y42, facecolor='#e6ab02', alpha=0.2)
             plt.fill_between(X4, Y41, Y43, facecolor='#e6ab02', alpha=0.2)
         if(not significant4 is None):
-            plt.plot(X4,Y41,label=name4, color='#e6ab02', linewidth=4.0,markevery=significant4,marker="H",markersize=8)
+            plt.plot(X4,Y41,label=name4, color='#e6ab02', linewidth=lineWidth,markevery=significant4,marker="H",markersize=8)
         else:
-            plt.plot(X4,Y41,label=name4, color='#e6ab02', linewidth=4.0)
+            plt.plot(X4,Y41,label=name4, color='#e6ab02', linewidth=lineWidth)
         if not yMin is None:
             plt.ylim([yMin,yMax])
         if not xMin is None:
@@ -308,9 +336,9 @@ def draw_graph(source1 = None, name1 = "Algo1", significant1=None,
             plt.fill_between(X5, Y51, Y52, facecolor='black', alpha=0.2)
             plt.fill_between(X5, Y51, Y53, facecolor='black', alpha=0.2)
         if(not significant5 is None):
-            plt.plot(X5,Y51,label=name5, color='black', linewidth=4.0,markevery=significant5,marker="x",markersize=8)
+            plt.plot(X5,Y51,label=name5, color='black', linewidth=lineWidth,markevery=significant5,marker="x",markersize=8)
         else:
-            plt.plot(X5,Y51,label=name5, color='black', linewidth=4.0)
+            plt.plot(X5,Y51,label=name5, color='black', linewidth=lineWidth)
         if not yMin is None:
             plt.ylim([yMin,yMax])
         if not xMin is None:
@@ -325,33 +353,40 @@ def draw_graph(source1 = None, name1 = "Algo1", significant1=None,
             plt.fill_between(X6, Y61, Y62, facecolor='black', alpha=0.2)
             plt.fill_between(X6, Y61, Y63, facecolor='black', alpha=0.2)
         if(not significant6 is None):
-            plt.plot(X6,Y61,label=name6, color='#999999', linewidth=4.0,markevery=significant6,marker="^",markersize=8)
+            plt.plot(X6,Y61,label=name6, color='#999999', linewidth=lineWidth,markevery=significant6,marker="^",markersize=8)
         else:
-            plt.plot(X6,Y61,label=name6, color='#999999', linewidth=4.0)
+            plt.plot(X6,Y61,label=name6, color='#999999', linewidth=lineWidth)
         if not yMin is None:
             plt.ylim([yMin,yMax])
         if not xMin is None:
             plt.xlim([xMin,xMax])
+            
+    axisSize = 26 if bigFont else 18
+    fontSize = 32 if bigFont else 20
+    
 
     if what == "__SUMMARY_goalpercentages":
         #plt.title('Goal Percentage per Trial')
-        plt.ylabel('Goal %', fontsize=20, fontweight='bold')
+        plt.ylabel('Goal %', fontsize=fontSize, fontweight='bold')
+    elif what == "__CUMMULATIVE_goalpercentages":
+        #plt.title('Goal Percentage per Trial')
+        plt.ylabel('Cummulative number of goals', fontsize=fontSize, fontweight='bold')
     elif what == "__SUMMARY_goaltimes":
         #plt.title('Average Frames to Goal per Trial')
-        plt.ylabel('Time to Goal', fontsize=20, fontweight='bold')
+        plt.ylabel('Time to Goal', fontsize=fontSize, fontweight='bold')
     elif what == "__SUMMARY_budgets":
         #plt.title('Used Budget per Trial')
-        plt.ylabel('Budget', fontsize=20, fontweight='bold')
+        plt.ylabel('Budget', fontsize=fontSize, fontweight='bold')
     elif what == "__SUMMARY_stepscaptured":
         #plt.title('Used Budget per Trial')
-        plt.ylabel('Steps until captured', fontsize=20, fontweight='bold')
+        plt.ylabel('Steps until captured', fontsize=fontSize, fontweight='bold')
     else:
         #plt.title('Unknown')
         plt.ylabel('Unknown')
 
-    plt.xlabel('Training Episodes', fontsize=20, fontweight='bold')
-    plt.legend(loc='best',prop={'size':20, 'weight':'bold'},ncol=nCol)
-    plt.tick_params(axis='both', which='major', labelsize=18)
+    plt.xlabel('Training Episodes', fontsize=fontSize, fontweight='bold')
+    plt.legend(loc='best',prop={'size':fontSize, 'weight':'bold'},ncol=nCol)
+    plt.tick_params(axis='both', which='major', labelsize=axisSize)
     plt.show()
 
 
@@ -363,11 +398,11 @@ def get_args():
 
 def main():
     parameter = get_args()
-    collect_experiment_data(parameter.source, runs = parameter.runs)
-    summarize_experiment_data(parameter.source)
-    #draw_graph(source1=parameter.source)
-    #draw_graph(source1=parameter.source, what="__SUMMARY_goaltimes")
-    #draw_graph(source1=parameter.source, what="__SUMMARY_budgets")
+    #collect_experiment_data('/home/leno/gitProjects/AdHoc_AAMAS-17/ProcessedFiles/AdHocTD', 100,compact=True)
+    #cummulative_experiment_data('/home/leno/gitProjects/AdHoc_AAMAS-17/ProcessedFiles/AdHocTD',compact=True)
+    draw_graph(source1=parameter.source)
+    draw_graph(source1=parameter.source, what="__SUMMARY_goaltimes")
+    draw_graph(source1=parameter.source, what="__SUMMARY_budgets")
 
 if __name__ == '__main__':
     main()

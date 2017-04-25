@@ -2,7 +2,7 @@
 """
 Created on Mon Oct 31 10:26:56 2016
 
-Implementation of Episode Sharing
+Implementation of Episode Sharing (Tan, 1993)
 @author: Felipe Leno
 """
 
@@ -15,7 +15,7 @@ class EpisodeSharing(SARSATile):
     budget = None
     episodeUpdateTrace = None
     def __init__(self, budget=1000, epsilon=0.1, alpha=0.1, gamma=0.9, decayRate=0.9, seed=12345, port=12345, 
-                lowerBoundVariables=-1, upperBoundVariables=+1, tilesNumber=10,tileWidth=0.5,serverPath = "/home/leno/HFO/bin/"):
+                lowerBoundVariables=-1, upperBoundVariables=+1, tilesNumber=10,tileWidth=0.5,serverPath = "../HFO/bin/"):
          super(EpisodeSharing, self).__init__(epsilon=epsilon, alpha=alpha, gamma=gamma, 
             decayRate=decayRate,seed=seed, port=port, serverPath=serverPath)           
          self.budget = budget

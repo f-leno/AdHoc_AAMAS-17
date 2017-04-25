@@ -1,3 +1,10 @@
+"""
+@author: Felipe Leno
+
+Specialized implementation of ad hoc advising using confidence function based on both
+number of visits and differences in Q-values.
+"""
+
 from adhoc import AdHoc
 import math
 import random

@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-File that stores the learning results
+Class that stores the learning results
 
 @author: Felipe Leno
 """

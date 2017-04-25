@@ -66,7 +66,7 @@ class Agent(object):
       OPP_ANGLE, OPP_NUMBER = range(25)
 
     #def __init__(self, friends=3, opps=1):
-    def __init__(self, seed=12345, port=12345, serverPath = "/home/leno/HFO/bin/"):
+    def __init__(self, seed=12345, port=12345, serverPath = "../HFO/bin/"):
         """ Initializes an agent for a given environment. """
         '''
         if friends == 0:
@@ -255,23 +255,6 @@ class Agent(object):
 
         return tuple(stateFeatures.tolist())
 
-    '''
-    def get_transformed_features(self, stateFeatures):
-        """Erases the irrelevant features (such as agent Unums) and sort agents by
-        their distance"""
-        transformedFeatures = []
-        transformedFeatures[self.CENTER_PROXIMITY] = stateFeatures[self.CENTER_PROXIMITY]
-        transformedFeatures[self.GOAL_ANGLE] = stateFeatures[self.GOAL_ANGLE]
-        transformedFeatures[self.GOAL_OPENING] = stateFeatures[self.GOAL_OPENING]
-        transformedFeatures[self.OPPONENT_PROXIMITY] = stateFeatures[self.OPPONENT_PROXIMITY]
-        if(stateFeatures[self.FRIEND1_PROXIMITY] > stateFeatures[self.FRIEND2_PROXIMITY]):
-            transformedFeatures[self.FRIEND1_GOAL_OPPENING] = stateFeatures[self.FRIEND1_GOAL_OPPENING]
-            transformedFeatures[self.FRIEND2_GOAL_OPPENING] = stateFeatures[self.FRIEND2_GOAL_OPPENING]
-        else:
-            transformedFeatures[self.FRIEND1_GOAL_OPPENING] = stateFeatures[self.FRIEND2_GOAL_OPPENING]
-            transformedFeatures[self.FRIEND2_GOAL_OPPENING] = stateFeatures[self.FRIEND1_GOAL_OPPENING]
-        return tuple(transformedFeatures.tolist())
-    '''
 
     def get_Unum(self):
         return self.hfo.getUnum()

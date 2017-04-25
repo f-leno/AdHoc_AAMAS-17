@@ -1,137 +1,55 @@
 pkill -f  sh\ ru* 
 pkill -f python\ exp*
-pkill -f python\ /home/leno/HFO*
+#pkill -f python\ /home/leno/HFO*
 killall -9 rcssserver
 
+#Script to run experiments. In its current form, the script is ready to run all the paper experiments.
+# It will take very long to complete the experiments, though. If you want the execute some of the experiments, comment out the ones you don't want to execute.
+# This script first initiates an instance of the HFO server and then the experiment.py source code is executed with the correct parameters.
 
 
+#Experiment 1
 
-#sh runSimpleExpServer.sh 37945 12 > serverAdHocVisit.log &
-#sleep 5
-#sh runSimpleExpAgent.sh 37945 AdHocVisit 6 12 > logAdHocVisit.log &
-
-#sh runSimpleExpServer.sh 31945 12 > serverAdHocVisit.log &
-#sleep 5
-#sh runSimpleExpAgent.sh 31945 AdHocVisit 16 24 > logAdHocVisit.log &
-
-#sh runSimpleExpServer.sh 32945 12 > serverAdHocVisit.log &
-#sleep 5
-#sh runSimpleExpAgent.sh 32945 AdHocVisit 27 36 > logAdHocVisit.log &
-
-#sh runSimpleExpServer.sh 33945 12 > serverAdHocVisit.log &
-#sleep 5
-#sh runSimpleExpAgent.sh 33945 AdHocVisit 42 48 > logAdHocVisit.log &
-
-
-sh runSimpleExpServer.sh 17945 5 > serverAdHocTD.log &
+sh runSimpleExpServer.sh 10000 3 > serverAdHocTD.log &
 sleep 5
-sh runSimpleExpAgent.sh 17945 AdHocTD 3 7 > logAdHocTD.log &
+sh runSimpleExpAgent.sh 11000 AdHocTD 1 50 > logAdHocTD.log 
 
-sh runSimpleExpServer.sh 11945 5 > serverAdHocTD.log &
+sh runSimpleExpServer.sh 10100 3 > serverAdHocVisit.log &
 sleep 5
-sh runSimpleExpAgent.sh 11945 AdHocTD 15 19 > logAdHocTD.log &
+sh runSimpleExpAgent.sh 11100 AdHocVisit 1 50 > logAdHocVisit.log 
 
-sh runSimpleExpServer.sh 12945 4 > serverAdHocTD.log &
+sh runSimpleExpServer.sh 10200 3 > serverTorrey.log &
 sleep 5
-sh runSimpleExpAgent.sh 12945 AdHocTD 20 23 > logAdHocTD.log &
+sh runSimpleExpAgent.sh 11200 Torrey 1 50 > logTorrey.log 
 
-sh runSimpleExpServer.sh 13945 8 > serverAdHocTD.log &
+sh runSimpleExpServer.sh 10300 3 > serverEpisodeSharing.log &
 sleep 5
-sh runSimpleExpAgent.sh 13945 AdHocTD 26 33 > logAdHocTD.log &
+sh runSimpleExpAgent.sh 11300 EpisodeSharing 1 50 > logEpisodeSharing.log 
 
-sh runSimpleExpServer.sh 23945 2 > serverAdHocTD.log &
+sh runSimpleExpServer.sh 10400 3 > serverSARSATile.log &
 sleep 5
-sh runSimpleExpAgent.sh 23945 AdHocTD 35 36 > logAdHocTD.log &
+sh runSimpleExpAgent.sh 11400 SARSATile 1 50 > logSARSATile.log 
 
-sh runSimpleExpServer.sh 53945 7 > serverAdHocTD.log &
+sh runSimpleExpServer.sh 10000 3 > serverRandom.log &
 sleep 5
-sh runSimpleExpAgent.sh 53945 AdHocTD 42 48 > logAdHocTD.log &
+sh runSimpleExpAgent.sh 11000 Dummy 1 50 > logRandom.log 
 
-#sh runSimpleExpServer.sh 25945 1 > serverAdHocTD.log &
-#sleep 5
-#sh runSimpleExpAgent.sh 25945 AdHocTD 41 41 > logAdHocTD.log &
+#Experiment 2
 
-#sh runSimpleExpServer.sh 35945 4 > serverAdHocTD.log &
-#sleep 5
-#sh runSimpleExpAgent.sh 35945 AdHocTD 47 50 > logAdHocTD.log &
+sh runSimpleExpServer.sh 12000 3 > serverAdHocTDAction.log &
+sleep 5
+sh runSimpleExpAgent.sh 13000 AdHocTDAction 1 50 > logAdHocTDAction.log 
 
-#sh runSimpleExpServer.sh 37945 10 > serverAdHocVisit.log &
-#sleep 5
-#sh runSimpleExpAgent.sh 37945 AdHocVisit 1 10 > logAdHocVisit.log &
+sh runSimpleExpServer.sh 12100 3 > serverAdHocVisitAction.log &
+sleep 5
+sh runSimpleExpAgent.sh 13100 AdHocVisitAction 1 50 > logAdHocVisitAction.log 
 
-#sh runSimpleExpServer.sh 31945 10 > serverAdHocVisit.log &
-#sleep 5
-#sh runSimpleExpAgent.sh 31945 AdHocVisit 11 20 > logAdHocVisit.log &
+sh runSimpleExpServer.sh 12200 3 > serverTorreyAction.log &
+sleep 5
+sh runSimpleExpAgent.sh 13200 TorreyAction 1 50 > logTorreyAction.log 
 
-#sh runSimpleExpServer.sh 32945 10 > serverAdHocVisit.log &
-#sleep 5
-#sh runSimpleExpAgent.sh 32945 AdHocVisit 21 30 > logAdHocVisit.log &
-
-#sh runSimpleExpServer.sh 33945 10 > serverAdHocVisit.log &
-#sleep 5
-#sh runSimpleExpAgent.sh 33945 AdHocVisit 31 40 > logAdHocVisit.log &
-
-#sh runSimpleExpServer.sh 34945 10 > serverAdHocVisit.log &
-#sleep 5
-#sh runSimpleExpAgent.sh 34945 AdHocVisit 41 50 > logAdHocVisit.log &
+sh runSimpleExpServer.sh 12300 3 > serverEpisodeSharingAction.log &
+sleep 5
+sh runSimpleExpAgent.sh 13300 EpisodeSharingAction 1 50 > logEpisodeSharingAction.log 
 
 
-
-#sh runSimpleExpServer.sh 43945 10 > serverSARSA.log &
-#sleep 5
-#sh runSimpleExpAgent.sh 43945 SARSATile 1 10 > logSARSA.log &
-
-
-#sh runSimpleExpServer.sh 44945 10 > serverSARSA.log &
-#sleep 5
-#sh runSimpleExpAgent.sh 44945 SARSATile 11 20 > logSARSA.log &
-
-#sh runSimpleExpServer.sh 45945 10 > serverSARSA.log &
-#sleep 5
-#sh runSimpleExpAgent.sh 45945 SARSATile 21 30 > logASARSA.log &
-
-#sh runSimpleExpServer.sh 46945 10 > serverSARSA.log &
-#sleep 5
-#sh runSimpleExpAgent.sh 46945 SARSATile 31 40 > logSARSA.log &
-
-
-#sh runSimpleExpServer.sh 47945 10 > serverSARSA.log &
-#sleep 5
-#sh runSimpleExpAgent.sh 47945 SARSATile 41 50 > logSARSA.log &
-
-
-
-#sh runSimpleExpServer.sh 55945 2 > serverAdHocTD.log &
-#sleep 5
-#sh runSimpleExpAgent.sh 55945 AdHocTD 37 38 > logAdHocTD.log &
-
-#sh runSimpleExpServer.sh 56945 2 > serverAdHocTD.log &
-#sleep 5
-#sh runSimpleExpAgent.sh 56945 AdHocTD 39 40 > logAdHocTD.log &
-
-
-#sh runSimpleExpServer.sh 57945 10 > serverAdHocTD.log &
-#sleep 5
-#sh runSimpleExpAgent.sh 57945 AdHocTD 21 30 > logAdHocTD.log &
-
-#sh runSimpleExpServer.sh 50945 10 > serverAdHocTD.log &
-#sleep 5
-#sh runSimpleExpAgent.sh 50945 AdHocTD 31 40 > logAdHocTD.log &
-
-#sh runSimpleExpServer.sh 51945 10 > serverAdHocTD.log &
-#sleep 5
-#sh runSimpleExpAgent.sh 51945 AdHocTD 41 50 > logSAdHocTD.log &
-
-
-#sh runSimpleExpServer.sh 52945 5 > serverAdHocTD.log &
-#sleep 5
-#sh runSimpleExpAgent.sh 52945 AdHocTD 26 30 > logAdHocTD.log &
-
-#sh runSimpleExpServer.sh 53945 5 > serverAdHocTD.log &
-#sleep 5
-#sh runSimpleExpAgent.sh 53945 AdHocTD 31 35 > logAdHocTD.log &
-
-
-#sh runSimpleExpServer.sh 54945 5 > serverAdHocTD.log &
-#sleep 5
-#sh runSimpleExpAgent.sh 54945 AdHocTD 36 40 > logAdHocTD.log &

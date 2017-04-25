@@ -1,3 +1,8 @@
+"""
+@author: Felipe Leno
+
+Here, the agent communicates his action when asking for advice.
+"""
 from adhoctd import AdHocTD
 
 class AdHocTDAction(AdHocTD):

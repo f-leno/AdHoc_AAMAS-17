@@ -1,3 +1,8 @@
+"""
+@author: Felipe Leno
+
+Specialized implementation of ad hoc advising using confidence function based on number of visits
+"""
 from adhoc import AdHoc
 import math
 import random
@@ -31,9 +36,9 @@ class AdHocVisit(AdHoc):
         if numberVisits == 0:
             return False,None
         
-        #param = 0.2  #-> Experiments Action and NoAction
+        
         param = 0.4
-        #param = 1.5
+        
         #Calculates the probability
         prob = 1 - math.pow((1 + param),-math.log(numberVisits,2))#math.log(numberVisits,2))#
         ##
@@ -62,13 +67,7 @@ class AdHocVisit(AdHoc):
             param = 0.5
             #Calculates the probability
             prob =  math.pow((1 + param),-math.sqrt(numberVisits))
-            
-            ##
-            #processedState = self.quantize_features(state)
-            #numberVisits = self.number_visits(processedState)
-            #print str(numberVisits)+"  -  "+str(prob)
-            ##
-            
+             
             if random.random() < prob: #and prob > 0.1:
                 #print "Asked: prob:"+str(prob)+" visits: "+str(numberVisits)
                 return True

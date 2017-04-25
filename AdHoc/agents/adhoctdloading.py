@@ -37,7 +37,3 @@ class AdHocTDLoading(AdHocTD):
          with open(fileToWrite, "rb") as myFile:
              self.visitTable = cPickle.load(myFile)
              
-   #Erase Here          
-  # def check_advise(self,stateFeatures,state): 
-  #      advisedAction = self.select_action(stateFeatures,state,True)
-  #      return True,advisedAction 
