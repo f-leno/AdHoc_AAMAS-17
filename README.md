@@ -12,7 +12,6 @@ Paper bib entry: <br><br>
   booktitle = {Proceedings of the 16th International Conference on Autonomous Agents and Multiagent Systems (AAMAS)},<br>
     year      = {2017},<br>
     pages = {1100--1108} <br>
-    
  }
  </i>
  <br><br>
