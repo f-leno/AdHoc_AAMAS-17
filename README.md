@@ -10,7 +10,9 @@ Paper bib entry: <br><br>
   			       Anna Helena Reali Costa},<br>
   title     = {{Simultaneously Learning and Advising in Multiagent Reinforcement Learning}},<br>
   booktitle = {Proceedings of the 16th International Conference on Autonomous Agents and Multiagent Systems (AAMAS)},<br>
-    year      = {2017}<br>
+    year      = {2017},<br>
+    pages = {1100--1108} <br>
+    
  }
  </i>
  <br><br>
