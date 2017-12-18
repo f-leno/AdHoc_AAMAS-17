@@ -3,7 +3,7 @@ import random
 
 from .agent import Agent
 
-from cmac import CMAC
+#from cmac import CMAC
 
 class SARSA(Agent):
 
@@ -28,7 +28,7 @@ class SARSA(Agent):
         self.alpha = alpha
         self.gamma = gamma
         self.decayRate = decayRate
-        self.cmac = CMAC(cmac_level,cmac_quantization,cmac_beta)
+        #self.cmac = CMAC(cmac_level,cmac_quantization,cmac_beta) the cmac attribute is assigned at SARSATile
         #print('***** %s: Agent uses CMAC(%s,%s,%s)' % (str(self.unum),str(cmac_level), str(cmac_quantization), str(cmac_beta)))
 
     def quantize_features(self, features):

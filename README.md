@@ -6,7 +6,7 @@ Paper bib entry: <br><br>
 <i>
  @inproceedings{SilvaAndCosta2017,<br>
   author    = {Silva, Felipe Leno da and <br>
-                Ruben Glatt, <br>
+                Ruben Glatt and <br>
   			       Anna Helena Reali Costa},<br>
   title     = {{Simultaneously Learning and Advising in Multiagent Reinforcement Learning}},<br>
   booktitle = {Proceedings of the 16th International Conference on Autonomous Agents and Multiagent Systems (AAMAS)},<br>
